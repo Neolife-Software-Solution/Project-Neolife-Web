@@ -1,0 +1,39 @@
+/* font start (don't change) */
+
+@font-face {
+    font-family: "Audiowide";
+    src: url("resources/fonts/Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("resources/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("resources/fonts/Lato-Regular.ttf");
+}
+
+*{
+
+    font-family: "Lato";
+    font-size: 16px;
+
+}
+
+.headertext{
+
+    font-family: "Montserrat";
+    font-size: 14px;
+
+}
+
+.logotext{
+
+    font-family: "Audiowide";
+    font-size: 17px;
+
+}
+
+/* font end (don't change) */
