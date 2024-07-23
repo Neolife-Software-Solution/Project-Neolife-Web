@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: "Montserrat-SemiBold";
-    src: url("resources/fonts/Montserrat-SemiBold.ttf");
+    font-family: "Montserrat-ExtraBold";
+    src: url("resources/fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
@@ -36,7 +36,7 @@
 
 .headertext-aboutus {
 
-    font-family: "Montserrat-SemiBold";
+    font-family: "Montserrat-ExtraBold";
     font-size: 14px;
 
 }
