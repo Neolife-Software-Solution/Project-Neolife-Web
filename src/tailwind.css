@@ -722,6 +722,10 @@ video {
   margin: 0.25rem;
 }
 
+.m-10 {
+  margin: 2.5rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -1045,13 +1049,26 @@ video {
   margin-top: 8rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
 }
+
 
 .mt-7 {
   margin-top: 1.75rem;
@@ -1059,6 +1076,18 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+
+.mt-56 {
+  margin-top: 14rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+
 }
 
 .mt-auto {
@@ -1113,8 +1142,20 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
 .h-5 {
   height: 1.25rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-\[48px\] {
@@ -1145,12 +1186,20 @@ video {
   width: 14rem;
 }
 
+.w-8 {
+  width: 2rem;
+}
+
 .w-auto {
   width: auto;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-full {
@@ -1220,6 +1269,7 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -1239,6 +1289,7 @@ video {
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
+
 
 .flex-row {
   flex-direction: row;
@@ -1262,6 +1313,10 @@ video {
 
 .flex-nowrap {
   flex-wrap: nowrap;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-start {
@@ -1507,6 +1562,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-fuchsia-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 70 239 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1728,6 +1788,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -1915,6 +1980,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-base {
