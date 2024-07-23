@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("resources/fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("resources/fonts/Lato-Regular.ttf");
 }
@@ -25,6 +30,13 @@
 .headertext{
 
     font-family: "Montserrat";
+    font-size: 14px;
+
+}
+
+.headertext-aboutus {
+
+    font-family: "Montserrat-SemiBold";
     font-size: 14px;
 
 }
