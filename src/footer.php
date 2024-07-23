@@ -20,132 +20,80 @@
 
     <body>    
 
-        <footer>
+        <footer class="bg-[#645FCE] p-3 bottom-0 max-w-full mx-auto left-0 right-0 mt-9">
 
-            <!-- content -->
+            <!-- content -->            
 
-            <div class="bg-[#645FCE] p-3 bottom-0 max-w-full mx-auto left-0 right-0 mt-9">
+            <div class="flex flex-row justify-center">
 
-                <!-- links -->
-            
-                <div class="flex flex-col">
-                    
-                    <div class="flex flex-row">
+                <div class="flex justify-center">
 
-                        <div class="grid lg:grid-cols-4 sm:grid-cols-1">
+                    <div class="flex flex-row justify-between gap-40">
 
-                            <!-- <div>
-        
-                                <div>
-        
-                                    <span class="flex flex-row justify-center text-xl font-bold">Our Vission</span>
-        
-                                    <div class="flex flex-row justify-center">
+                        <div class="">
 
-                                        <p class="font-semibold text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic unde quibusdam soluta iusto aut natus doloremque dicta temporibus recusandae voluptate quod, rem beatae amet accusantium deserunt a fugiat nobis excepturi.</p>                                        
+                            <span>Languages</span>
 
-                                    </div>
-        
-                                </div>
-        
-                            </div> -->
-                            
-                            <div>
-        
-                                <div>
-        
-                                    <span class="flex flex-row justify-center text-xl font-bold">Quick Links</span>
-        
-                                    <div class="flex flex-col justify-center gap-5 mt-2">
+                            <div class="flex flex-col">
 
-                                        <p class="font-semibold text-center text-white">Home <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i> </p>
-                                        <p class="font-semibold text-center text-white">Our Services <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i></p>
-                                        <p class="font-semibold text-center text-white">Our Project <i class="fa-solid fa-arrow-right-long fa-beat-fade"></i></p>
-        
-                                    </div>
+                                <span>HTML</span>
+                                <span>CSS & SCSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
 
-                                </div>
-        
                             </div>
-                                                    
-                            <div>
-                                
-                                <div>
-                                
-                                    <div class="">
-
-                                        <span class="flex flex-row justify-center text-xl font-bold">Sociel Media</span>                                    
-                                    
-                                    </div>
-                                    
-                                    <div class="flex flex-row justify-center gap-5 mt-2">
-                                        
-                                        <span class="font-semibold text-center text-white"><i class="fill-current fa-brands fa-facebook hover:text-black"></i></span>
-                                        <span class="font-semibold text-center text-white"><i class="fa-brands fa-youtube hover:text-black"></i></span>
-                                        <span class="font-semibold text-center text-white"><i class="fa-brands fa-instagram hover:text-black"></i></span>
-                                        <span class="font-semibold text-center text-white"><i class="fa-brands fa-x-twitter hover:text-black"></i></span>
-                                        <span class="font-semibold text-center text-white"><i class="fa-brands fa-linkedin hover:text-black"></i></span>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                
-                            </div>                        
-                            
-                            <div>
-        
-                                <div>
-                                    
-                                    <div>
-
-                                        <span class="flex flex-row justify-center text-xl font-bold">Contact Us</span>
-
-                                    </div>
-        
-                                    <div class="flex flex-col gap-5 mt-2">
-
-                                        <p class="font-semibold text-center text-white"> +94 011401506</p>
-                                        <p class="font-semibold text-center text-white"> +94 011401506</p>                                    
-
-                                    </div>
-
-                                    <div class="flex flex-row justify-center mt-5">
-
-                                        <button class="px-5 py-2 font-bold text-black bg-white rounded-full"> Build Your Dream <i class="fa-solid fa-arrow-right-long"></i></button>
-
-                                    </div>
-                
-                                </div>
-        
-                            </div>                            
 
                         </div>
-                                            
-                    </div>
-
-                </div>
-
-                <!-- links -->
-
-                <!-- copyrightstatement -->
-
-                <div>
-
-                    <div>
 
                         <div>
 
-                            <span></span>
+                            <span>Services</span>
+
+                            <div class="flex flex-col">
+
+                                <span>Web Development</span>
+                                <span>System Development</span>
+                                <span>Application Development</span>
+                                <span>Video Editing</span>
+                                <span>Graphic Design</span>
+                                <span>Hardware & Networking</span>
+
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <span>Quick Links</span>
+
+                            <div class="flex flex-col">
+
+                                <span>Home</span>
+                                <span>About Us</span>
+                                <span>Our Project Pages</span>
+                                <span>Estimate Page</span>
+                                <span>Contact Us</span>
+
+                            </div>
+
+                        </div>
+
+                        <div>
+
+                            <a href="#" class="px-5 py-2 bg-white rounded-md">Build Your Dream</a>
+
+                            <div class="flex flex-col mt-6">
+
+                                <span>Privacy & Policy</span>                            
+                                <span>Terms & Condition</span>                            
+                                
+                            </div>
 
                         </div>
 
                     </div>
 
                 </div>
-
-                <!-- copyrightstatement -->
-
-            </div>
 
             <!-- content -->
 

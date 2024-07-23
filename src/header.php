@@ -84,7 +84,7 @@
 
             <!-- dropdown -->
 
-            <a href="#">
+            <a>
     
               <div class="relative sm:block lg:hidden" id="dropdownButton">
 
