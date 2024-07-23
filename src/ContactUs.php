@@ -166,8 +166,8 @@
 
                                 <div class="">
 
-                                    <span><i class="ml-2 mr-2 fa-solid fa-envelope"></i>&nbsp;softwareneolife@gmail.com</span>
-                                    <span><i class="ml-2 mr-2 fa-brands fa-facebook"></i>&nbsp;NeoLife Software Solutions</span>
+                                    <span><i class="ml-2 mr-2 fa-solid fa-envelope"></i>&nbsp;<a href="mailto:softwareneolife@gmail.com"> softwareneolife@gmail.com</a></span>
+                                    <span><i class="ml-2 mr-2 fa-brands fa-facebook"></i>&nbsp;<a href="https://www.facebook.com/profile.php?id=61552215121507">NeoLife Software Solutions</a></span>
                                     <span><i class="ml-2 mr-2 fa-solid fa-mobile"></i>&nbsp;+94 711401506 (Main)</span>
                                     <span><i class="ml-2 mr-2 fa-solid fa-mobile"></i>&nbsp;+94 711401506 (Local)</span>
 
