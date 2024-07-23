@@ -76,7 +76,7 @@
 
             </a>
 
-            <a href="#" class="hidden lg:block">
+            <a href="ContactUs.php" target="_blank" class="hidden lg:block">
 
               <span class="px-4 py-3 font-medium duration-700 ease-out rounded-md headertext hover:bg-zinc-700 hover:ease-in hover:transition hover:duration-300 hover:text-white">Contact Us</span>
 
@@ -109,7 +109,7 @@
                     <a href="#" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Our Services</a>
                     <a href="#" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Our Projects</a>
                     <a href="#" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">About Us</a>
-                    <a href="#" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Contact Us</a>
+                    <a href="ContactUs.php" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Contact Us</a>
 
                   </div>
 
