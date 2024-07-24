@@ -50,7 +50,7 @@
 
                 <!-- introsection -->
 
-                <div class="flex flex-row pt-12 sm:px-3">
+                <div class="flex flex-row justify-center pt-12 sm:px-3">
 
                     <div class="flex flex-col">
 
@@ -60,10 +60,10 @@
 
                         </div>
 
-                        <div class="mt-5 text-lg text-center lg:text-balance sm:text-wrap">
+                        <div class="p-1 mt-5 text-lg text-center">
 
-                            <p>We're here to help you with any questions, concerns, or inquiries you may have. Whether you're interested in our services, need support, or just want to give us feedback,
-                                we'd love to hear from you. Please use any of the methods below to get in touch with us.
+                            <p>Ready to transform your business with cutting-edge technology? 
+                                Contact us today to learn more about our services and how we can help you achieve your goals.
                             </p>
 
                         </div>
@@ -144,7 +144,7 @@
 
                                 <div class="flex flex-row lg:justify-end sm:justify-center">
 
-                                    <button class="rounded-md bg-[#645FCE] px-8 hover:text-white py-3">Send</button>
+                                    <button class="rounded-md bg-[#645FCE] px-8 hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white py-3">Send</button>
 
                                 </div>
 
@@ -262,13 +262,16 @@
 
                     <div class="">
 
-                        <div class="flex flex-row justify-center text-center lg:block sm:text-sm sm:hidden">
+                        <div class="flex flex-row justify-center hidden text-sm text-center lg:block">
 
                             <div class="">
 
                                 <span><i class="ml-2 mr-2 fa-solid fa-envelope"></i>&nbsp;<a target="_blank" href="mailto:softwareneolife@gmail.com"> softwareneolife@gmail.com</a></span>
+
                                 <span><i class="ml-2 mr-2 fa-brands fa-facebook"></i>&nbsp;<a target="_blank" href="https://www.facebook.com/profile.php?id=61552215121507">NeoLife Software Solutions</a></span>
+
                                 <span><i class="ml-2 mr-2 fa-solid fa-mobile"></i>&nbsp;+94 711401506 (Main)</span>
+                                
                                 <span><i class="ml-2 mr-2 fa-solid fa-mobile"></i>&nbsp;+94 711401506 (Local)</span>
 
                             </div>
