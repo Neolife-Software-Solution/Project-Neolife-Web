@@ -129,25 +129,25 @@
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
+                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
+                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
+                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
+                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 
                             </div>
 
@@ -167,9 +167,9 @@
 
         <!-- footer_copyrightsection -->
 
-        <div class="p-3 bg-white">
+        <div class="flex flex-row justify-center p-4 bg-white">
 
-            <div class="flex flex-col items-center justify-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
+            <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
 
                 <!-- logo -->
 
