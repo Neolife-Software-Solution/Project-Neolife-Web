@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat-ExtraBold";
+    src: url("resources/fonts/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("resources/fonts/Lato-Regular.ttf");
 }
@@ -29,12 +34,20 @@
 
 }
 
+.headertext-aboutus {
+
+    font-family: "Montserrat-ExtraBold";
+    font-size: 14px;
+
+}
+
 .logotext{
 
     font-family: "Audiowide";
     font-size: 17px;
 
 }
+
 
 /* font end (don't change) */
 canvas{
@@ -293,4 +306,4 @@ canvas{
 
 }
 
-/* language Slider */
+
