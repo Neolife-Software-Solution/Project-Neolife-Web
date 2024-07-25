@@ -42,11 +42,11 @@
 
             <!-- backgroundvideo -->
 
-            <div class="mt-16">
+            <div class="">
 
-                <div class="absolute flex flex-row justify-center bg-cover">
+                <div class="flex bg-cover background_vedio">
 
-                    <video width="50%" height="50%"  autoplay="{true}" loop muted>
+                    <video autoplay="{true}" loop muted>
                     
                         <source src="resources/background_video_animation/background.mp4" type="video/mp4">
                     
@@ -56,11 +56,11 @@
 
                 <!-- Vedio Content -->
 
-                <div class="relative flex flex-row">
+                <div class="flex flex-row background_content">
 
-                    <div class="flex flex-row mt-60">
+                    <div class="flex flex-row">
 
-                        <div class="flex flex-col mt-32">
+                        <div class="flex flex-col">
 
                             <div class="flex flex-col px-5">
 
@@ -104,11 +104,11 @@
 
             <!-- Our Services Section-->
 
-            <div class="mt-80">
+            <div class="">
 
                 <div>
 
-                    <div class="bg-[#645FCE] py-5 ">
+                    <div class="bg-[#645FCE] py-5 mt-96">
 
                         <div>
 
@@ -141,8 +141,7 @@
                             <!-- images -->                             
                             <div class="slide">
 
-                                <div class="item"
-                                    style="background-image: url(resources/Services_img_slider/Application\ Development\(2\).jpeg);">
+                                <div class="item" style="background-image: url(resources/Services_img_slider/Application\ Development\(2\).jpeg);">
 
                                     <div class="content">
 
@@ -339,7 +338,673 @@
 
             </div>
 
-            <!-- Our Language Image Slider -->            
+            <!-- Our Language Image Slider --> 
+             
+            <!-- Our Project Section-->
+
+            <div>
+
+                <div>
+
+                    <div class="bg-[#645FCE] py-5">
+
+                        <div>
+
+                            <span class="flex flex-row justify-center text-2xl font-bold text-white headertext">
+                                
+                                Our Project
+                                
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Our Project Section-->
+
+            <!-- Project Image Slider -->
+
+            <div>
+            
+                <div>
+                
+                    <div class="py-5 bg-slate-300 ">
+                    
+                        <div>
+                        
+                            <div class="flex justify-center gap-10">
+                            
+                                <!-- project Card -->
+                                <div class="flex flex-col ">
+                                    
+                                    <div class="bg-cover w-[400px] item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
+                                          
+                                    <div>
+
+                                        <div class="bg-white w-[400px] h-80 rounded-b-2xl">
+
+                                            <div>
+                                            
+                                                <div class="flex flex-row justify-center ">
+
+                                                    <div class="mt-10 border-black rounded-lg shadow-lg shadow-slate-800">
+                                                    
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
+                                                        
+                                                        </div>
+                                                        
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
+                                                        
+                                                        </div>
+                                                        
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
+                                                        
+                                                        </div>
+
+                                                    </div>
+
+                                               </div> 
+
+                                            </div>
+                                        
+                                            <div>
+                                        
+                                                <div class="flex flex-row justify-center mt-6">
+
+                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
+
+                                                        <button class="font-bold shadow-2xl">See More</button>
+
+                                                    </div> 
+                                                
+                                                </div>                                                
+
+                                            </div>
+                                            
+                                        </div>                                        
+                                
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="flex flex-col">
+                                    
+                                    <div class="bg-cover w-[400px] item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
+                                          
+                                    <div>
+
+                                    <div class="bg-white w-[400px] h-80 rounded-b-2xl">
+
+                                        <div>
+
+                                            <div class="flex flex-row justify-center ">
+
+                                                <div class="mt-10 border-black shadow-lg shadow-slate-800 rounded-xl">
+                                                
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
+                                                    
+                                                    </div>
+
+                                                </div>
+
+                                            </div> 
+
+                                        </div>
+
+                                        <div>
+
+                                            <div class="flex flex-row justify-center mt-6">
+
+                                                <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
+
+                                                    <button class="font-bold shadow-2xl">See More</button>
+
+                                                </div> 
+                                            
+                                            </div>                                                
+
+                                        </div>
+
+                                        </div>
+                                
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="flex flex-col">
+                                    
+                                    <div class="bg-cover w-[400px] item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
+                                          
+                                    <div>
+
+                                        <div class="bg-white w-[400px] h-80 rounded-b-2xl">
+
+                                            <div>
+
+                                                <div class="flex flex-row justify-center ">
+
+                                                    <div class="mt-10 border-black shadow-lg shadow-slate-800 rounded-2xl">
+                                                    
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
+                                                        
+                                                        </div>
+                                                        
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
+                                                        
+                                                        </div>
+                                                        
+                                                        <div class="flex flex-row justify-center p-3">
+
+                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
+                                                        
+                                                        </div>
+
+                                                    </div>
+
+                                                </div> 
+
+                                            </div>
+
+                                            <div>
+
+                                                <div class="flex flex-row justify-center mt-6">
+
+                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
+
+                                                        <button class="font-bold shadow-2xl">See More</button>
+
+                                                    </div> 
+                                                
+                                                </div>                                                
+
+                                            </div>
+
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="flex flex-col">
+                                    
+                                    <div class="bg-cover w-[400px] item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
+                                          
+                                    <div>
+
+                                    <div class="bg-white w-[400px] h-80 rounded-b-2xl">
+
+                                        <div>
+
+                                            <div class="flex flex-row justify-center ">
+
+                                                <div class="mt-10 border-black shadow-lg shadow-slate-800 rounded-2xl">
+                                                
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
+                                                    
+                                                    </div>
+                                                    
+                                                    <div class="flex flex-row justify-center p-3">
+
+                                                        <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
+                                                    
+                                                    </div>
+
+                                                </div>
+
+                                            </div> 
+
+                                        </div>
+
+                                        <div>
+
+                                            <div class="flex flex-row justify-center mt-6">
+
+                                                <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
+
+                                                    <button class="font-bold shadow-2xl">See More</button>
+
+                                                </div> 
+                                            
+                                            </div>                                                
+
+                                        </div>
+
+                                        </div>
+                                
+                                    </div>
+                                    
+                                </div>
+                                
+                                <!-- project Card -->
+                                
+                            </div>                             
+
+                        </div>
+
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <!-- Project Image Slider -->
+
+            <!-- Our Staff Section -->
+
+            <div>
+
+                <div>
+
+                    <div class="bg-[#645FCE] py-5">
+
+                        <div>
+
+                            <span class="flex flex-row justify-center text-2xl font-bold text-white headertext">
+                                
+                                Our Staff
+                                
+                            </span>
+
+                        </div>
+
+                    </div>                    
+
+                    <!-- Staff Card -->
+
+                    <div class="flex flex-row justify-center gap-8">
+
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                        
+                        <div class="flex flex-row justify-center mt-10">
+    
+                            <div class="flex flex-row p-10 shadow-2xl rounded-3xl">
+                                
+                                <div class="flex flex-col">
+                                
+                                    <div>
+                                        
+                                        <div class="">
+            
+                                            <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+            
+                                        </div>
+            
+                                        <div class="py-2 text-center">
+            
+                                            <span class="text-2xl font-bold">Sanjana Kumara</span>
+            
+                                        </div>
+            
+                                        <div class="text-center">
+            
+                                            <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+            
+                                        </div>
+                                        
+                                        <div class="flex flex-row justify-center gap-3 mt-4">
+            
+                                            <div class="rounded-full">
+                                                
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+            
+                                            </div>
+            
+                                            <div class="rounded-full">
+            
+                                                <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                
+                                            </div>
+            
+                                        </div>
+                                                                        
+                                    </div>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+                                            
+                    </div>
+                    
+                    <!-- Staff Card -->
+                    
+                </div>
+
+            </div>
+
+            <!-- Our Staff Section -->
+            
+            
+            <div>
+
+                <?php
+                    
+                    require "footer.php";
+
+                ?>
+
+            </div>
 
         </div>
 

@@ -1,53 +1,158 @@
-<!-- Language Slider -->
-<div class="mt-80 Logo_body">
+<div class="flex items-center gap-8 px-20 sm:py-28 ">
 
-    <div class="logos mt-80">
+    <div class="w-96">
 
-        <!-- Language Images  -->
+        <div class="px-10 py-10 text-center transition duration-300 ease-in-out bg-white rounded-3xl w-80 h-96">
 
-        <div class="logos-items">
+            <img class="object-cover w-40 h-40 mx-auto rounded-full xl:h-44 xl:w-44"
+                src="resources/staff images/DSC02165.jpg">
 
-            <img class=" item1" src="resources/logo image slider/css3-original-wordmark.svg" />
+            <div class="mt-1 leading-6">
 
-            <img class=" item2" src="resources/logo image slider/git-original-wordmark.svg" />
+                <h1 class="text-xl font-extrabold dark:text-black">
 
-            <img class=" item3" src="resources/logo image slider/html5-original-wordmark.svg" />
+                    <a href="">
 
-            <img class=" item4" src="resources/logo image slider/javascript-original.svg" />
+                        AVISHKA JAYALATH
 
-            <img class=" item5" src="resources/logo image slider/mysql-original-wordmark.svg" />
+                    </a>
 
-            <img class=" item6" src="resources/logo image slider/php-original.svg" />
+                </h1>
 
-            <img class=" item7" src="resources/logo image slider/illustrator-line.svg" />
+                <p class="mt-1 text-base font-semibold text-red-500">
 
-            <img class=" item8" src="resources/logo image slider/photoshop-original.svg" />
+                    Software Engineer
 
-            <img class=" item9" src="resources/logo image slider/wordpress-plain-wordmark.svg" />
+                </p>
 
-            <img src="resources/logo image slider/css3-original-wordmark.svg" />
+                <!-- Social Media -->
+                <ul class="flex flex-row items-center justify-center mt-6 space-x-3">
 
-            <img src="resources/logo image slider/git-original-wordmark.svg" />
+                    <li>
 
-            <img src="resources/logo image slider/html5-original-wordmark.svg" />
+                        <a href="#" class=" group">
 
-            <img src="resources/logo image slider/javascript-original.svg" />
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="w-20 h-20">
 
-            <img src="resources/logo image slider/mysql-original-wordmark.svg" />
+                                <path
+                                    d="M40.227,12C51.145,12,52,12.854,52,23.773v16.453C52,51.145,51.145,52,40.227,52H23.773C12.855,52,12,51.145,12,40.227	V23.773C12,12.854,12.855,12,23.773,12H40.227z M25.029,43V26.728h-5.057V43H25.029z M22.501,24.401	c1.625,0,2.947-1.322,2.947-2.949c0-1.625-1.322-2.947-2.947-2.947c-1.629,0-2.949,1.32-2.949,2.947S20.87,24.401,22.501,24.401z M44,43v-8.925c0-4.382-0.946-7.752-6.067-7.752c-2.46,0-4.109,1.349-4.785,2.628H33.08v-2.223h-4.851V43h5.054v-8.05	c0-2.122,0.405-4.178,3.036-4.178c2.594,0,2.628,2.427,2.628,4.315V43H44z" />
 
-            <img src="resources/logo image slider/php-original.svg" />
+                            </svg>
 
-            <img src="resources/logo image slider/illustrator-line.svg" />
+                        </a>
 
-            <img src="resources/logo image slider/photoshop-original.svg" />
+                    </li>
 
-            <img src="resources/logo image slider/wordpress-plain-wordmark.svg" />
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="w-16 h-16">
+
+                            <path
+                                d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z" />
+
+                        </svg>
+
+                    </a>
+
+                    <li>
+
+                        <a href="#">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 50" class="w-20 h-20">
+
+                                <path
+                                    d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z" />
+
+                            </svg>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
 
         </div>
 
-        <!-- Language Image Slider -->
+    </div>
+
+    <div class="w-96">
+
+        <div class="px-10 py-10 text-center transition duration-300 ease-in-out bg-white rounded-3xl w-80 h-96">
+
+            <img class="object-cover w-40 h-40 mx-auto rounded-full xl:h-44 xl:w-44"
+                src="resources/staff_images/DSC02165.jpg">
+
+            <div class="mt-1 leading-6">
+
+                <h1 class="text-xl font-extrabold dark:text-black">
+
+                    <a href="#">
+
+                        SANJANA NISAL
+
+                    </a>
+
+
+                </h1>
+
+                <p class="mt-1 text-base font-semibold text-red-500">
+
+                    Software Engineer
+
+                </p>
+
+                <!-- Social Media -->
+                <ul class="flex flex-row items-center justify-center mt-6 space-x-3">
+
+                    <li>
+
+                        <a href="#" class=" group">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="w-20 h-20">
+
+                                <path
+                                    d="M40.227,12C51.145,12,52,12.854,52,23.773v16.453C52,51.145,51.145,52,40.227,52H23.773C12.855,52,12,51.145,12,40.227	V23.773C12,12.854,12.855,12,23.773,12H40.227z M25.029,43V26.728h-5.057V43H25.029z M22.501,24.401	c1.625,0,2.947-1.322,2.947-2.949c0-1.625-1.322-2.947-2.947-2.947c-1.629,0-2.949,1.32-2.949,2.947S20.87,24.401,22.501,24.401z M44,43v-8.925c0-4.382-0.946-7.752-6.067-7.752c-2.46,0-4.109,1.349-4.785,2.628H33.08v-2.223h-4.851V43h5.054v-8.05	c0-2.122,0.405-4.178,3.036-4.178c2.594,0,2.628,2.427,2.628,4.315V43H44z" />
+
+                            </svg>
+
+                        </a>
+
+                    </li>
+
+                    <a href="#">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="w-16 h-16">
+
+                            <path
+                                d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z" />
+
+                        </svg>
+
+                    </a>
+
+                    <li>
+
+                        <a href="#">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 50" class="w-20 h-20">
+
+                                <path
+                                    d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z" />
+
+                            </svg>
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
 
     </div>
 
 </div>
-<!-- Language Slider -->
