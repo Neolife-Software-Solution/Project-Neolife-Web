@@ -173,7 +173,7 @@
 
             <!-- des3 -->
 
-            <div class="grid grid-cols-1 pb-0 mt-10 md:grid-cols-2 p-11 sm:px-24 md:p-28 sm:mt-0">
+            <div class="grid grid-cols-1 pb-0 md:grid-cols-2 p-11 sm:px-24 md:p-28 sm:mt-0">
 
                 <div class="rounded-3xl">
 
