@@ -52,7 +52,7 @@
                 <div class="sm:p-9 md:p-10">
 
                     <!-- font is Montserrat-ExtraBold -->
-                    <h1 class="text-3xl font-bold headertext-aboutus text-center lg:text-balance sm:text-wrap">Neolife Software Solution</h1>
+                    <h1 class="text-3xl font-bold text-center headertext-aboutus lg:text-balance sm:text-wrap">Neolife Software Solution</h1>
                     <!-- font is Montserrat-ExtraBold -->
 
                 </div>
@@ -69,7 +69,7 @@
                 <div class="w-full h-38 rounded-3xl text-center p-10 bg-[#645FCE] hover:bg-[#655fceeb] shadow-[0_35px_60px_-15px_rgb(2,2,2,0.9)] mt-10">
 
                     <!-- font is Montserrat-ExtraBold -->
-                    <h1 class="headertext-aboutus text-center text-4xl font-black">Vision</h1>
+                    <h1 class="text-4xl font-black text-center headertext-aboutus">Vision</h1>
                     <!-- font is Montserrat-ExtraBold -->
 
                     <p class="mt-3">To be a leading provider of innovative software solutions that empower businesses to
@@ -80,7 +80,7 @@
                 <div class="w-full h-38 rounded-3xl text-center p-10 bg-[#645FCE] hover:bg-[#655fceeb] shadow-[0_35px_60px_-15px_rgb(2,2,2,0.9)] mt-[72px]">
 
                     <!-- font is Montserrat-ExtraBold -->
-                    <h1 class="headertext-aboutus text-center text-4xl font-black">Mission</h1>
+                    <h1 class="text-4xl font-black text-center headertext-aboutus">Mission</h1>
                     <!-- font is Montserrat-ExtraBold -->
 
                     <p class="mt-3">To deliver exceptional software solutions that exceed our clients' expectations,
@@ -93,100 +93,118 @@
             <!-- vision & mission -->
 
 
-            <!-- desicription -->
+            <!-- description -->
 
             <!-- des1 -->
 
-            <div class="grid grid-cols-1 md:grid-cols-2 p-11 sm:px-24 md:p-28 mt-10 sm:mt-16 md:mt-0 pb-0">
+            <div class="m-11 mt-20 sm:m-28 rounded-3xl bg-slate-300">
 
-                <div class="rounded-3xl">
+                <div class="grid grid-cols-1 md:grid-cols-2 pb-0 p-11 md:p-16 place-items-center">
 
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des1.webp" alt="Description Image 1" />
+                    <div class="rounded-3xl">
 
-                </div>
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des1.png" alt="Description Image 1" />
 
-                <div class="align-middle">
+                    </div>
 
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
+                    <div class="align-middle">
 
-                        <p><b>Client-Centric Approach:</b> We prioritize our clients' needs and work closely with
-                            them to ensure that our solutions align with their business goals.</p>
+                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Client-Centric Approach</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>We prioritize our clients' needs and work closely with
+                                    them to ensure that our solutions align with their business goals.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+
+                        </div>
 
                     </div>
 
                 </div>
 
             </div>
+
 
             <!-- des1 -->
 
             <!-- des2-small&medium -->
 
-            <div class="grid grid-cols-1 p-11 sm:px-24 md:hidden pb-0 md:pt-0">
+            <div class="m-11 md:m-0 sm:m-28 rounded-3xl bg-slate-300">
 
-                <div class="rounded-3xl">
+                <div class="grid grid-cols-1 pb-0 p-11 md:hidden">
 
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des2.jpg" alt="Description Image 1" />
+                    <div class="rounded-3xl">
 
-                </div>
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
 
-                <div class="align-middle">
+                    </div>
 
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
+                    <div class="align-middle">
 
-                        <p><b>Quality Assurance:</b> Our rigorous quality assurance processes guarantee
-                            that every product we deliver meets the highest standards of performance and reliability.</p>
+                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Quality Assurance</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>Our rigorous quality assurance processes guarantee
+                                    that every product we deliver meets the highest standards of performance and reliability.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+                        </div>
 
                     </div>
 
                 </div>
-
             </div>
+
 
             <!-- des2-small&medium -->
 
             <!-- des2-large -->
 
-            <div class="hidden md:grid grid-cols-2 p-24 py-0">
+            <div class="md:m-28 rounded-3xl bg-slate-300">
 
-                <div class="align-middle">
+                <div class="hidden grid-cols-2 p-16 md:grid place-items-center">
 
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
+                    <div class="align-middle">
 
-                        <p><b>Quality Assurance:</b> Our rigorous quality assurance processes guarantee
-                            that every product we deliver meets the highest standards of performance and reliability.</p>
+                        <div class="text-lg leading-8 px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Quality Assurance</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>Our rigorous quality assurance processes guarantee
+                                    that every product we deliver meets the highest standards of performance and reliability.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+                        </div>
 
                     </div>
 
-                </div>
+                    <div class="rounded-3xl">
 
-                <div class="rounded-3xl">
-
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des2.jpg" alt="Description Image 1" />
-
-                </div>
-
-            </div>
-
-            <!-- des2-large -->ෆ
-
-
-            <!-- des3 -->
-
-            <div class="grid grid-cols-1 md:grid-cols-2 p-11 sm:px-24 md:p-28 mt-10 sm:mt-0 pb-0">
-
-                <div class="rounded-3xl">
-
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des3.png" alt="Description Image 1" />
-
-                </div>
-
-                <div class="align-middle">
-
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
-
-                        <p><b>Dedicated Support:</b> Our commitment to excellent customer service means that we are
-                            always available to provide support and assistance whenever you need it.</p>
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
 
                     </div>
 
@@ -194,24 +212,78 @@
 
             </div>
 
+            <!-- des2-large -->
+
+
             <!-- des3 -->
 
-            <!-- des4-small -->
+            <div class="m-11 sm:m-28 rounded-3xl bg-slate-300">
 
-            <div class="grid grid-cols-1 p-11 sm:px-24 md:hidden pb-0">
+                <div class="grid grid-cols-1 md:grid-cols-2 pb-0 p-11 md:p-16 place-items-center">
 
-                <div class="rounded-3xl">
+                    <div class="rounded-3xl">
 
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des4.jpg" alt="Description Image 4" />
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des3.png" alt="Description Image 1" />
+
+                    </div>
+
+                    <div class="align-middle">
+
+                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Dedicated Support</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>Our commitment to excellent customer service means that we are
+                                    always available to provide support and assistance whenever you need it.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+                        </div>
+
+                    </div>
 
                 </div>
 
-                <div class="align-middle">
+            </div>
 
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
+            <!-- des3 -->
 
-                        <p><b>Innovative Solutions:</b> We leverage the latest technologies and industry best practices
-                            to deliver innovative solutions that drive business growth.</p>
+            <!-- des4-small&medium -->
+
+            <div class="m-11 md:m-0 sm:m-28 rounded-3xl bg-slate-300">
+
+                <div class="grid grid-cols-1 pb-0 p-11 md:hidden">
+
+                    <div class="rounded-3xl">
+
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 4" />
+
+                    </div>
+
+                    <div class="align-middle">
+
+                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Innovative Solutions</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>We leverage the latest technologies and industry best practices
+                                    to deliver innovative solutions that drive business growth.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+                        </div>
 
                     </div>
 
@@ -224,22 +296,36 @@
 
             <!-- des4-large -->
 
-            <div class="hidden md:grid grid-cols-2 p-24 pt-0">
+            <div class="md:m-28 rounded-3xl bg-slate-300">
 
-                <div class="align-middle">
+                <div class="hidden grid-cols-2 p-16 md:grid place-items-center">
 
-                    <div class="p-11 sm:p-16 text-lg leading-8 text-center lg:text-balance sm:text-wrap">
+                    <div class="align-middle">
 
-                        <p><b>Innovative Solutions:</b> We leverage the latest technologies and industry best practices
-                            to deliver innovative solutions that drive business growth.</p>
+                        <div class="text-lg leading-8 px-11">
+
+                            <!-- font is Arvo-Regular -->
+                            <p class="text-2xl font-black text-center deshead">Innovative Solutions</p>
+                            <!-- font is Arvo-Regular -->
+
+                            <br />
+
+                            <!-- font is Marvel-Regular -->
+                            <div class="text-wrap destext">
+                                <p>We leverage the latest technologies and industry best practices
+                                    to deliver innovative solutions that drive business growth.</p>
+                            </div>
+                            <!-- font is Marvel-Regular -->
+
+                        </div>
 
                     </div>
 
-                </div>
+                    <div class="rounded-3xl">
 
-                <div class="rounded-3xl">
+                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 1" />
 
-                    <img class="rounded-3xl" src="./resources/aboutus_imgs/Des4.jpg" alt="Description Image 1" />
+                    </div>
 
                 </div>
 
