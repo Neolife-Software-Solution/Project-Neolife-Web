@@ -32,6 +32,8 @@
 
                 <div class="flex flex-col justify-between gap-3 p-3 leading-10 text-center lg:p-0 md:flex-row md:text-start lg:text-start lg:gap-40 md:gap-20 lg:flex-row">
 
+                    <!-- languages -->
+
                     <div>
 
                         <span class="text-xl font-bold tracking-wider text-white lg:text-2xl">Languages</span>
@@ -39,13 +41,20 @@
                         <div class="flex flex-col text-xl font-bold">
 
                             <span>HTML</span>
+
                             <span>CSS & SCSS</span>
+
                             <span>JavaScript</span>
+                            
                             <span>PHP</span>
 
                         </div>
 
                     </div>
+
+                    <!-- languages -->
+
+                    <!-- services -->
 
                     <div>
 
@@ -54,15 +63,24 @@
                         <div class="flex flex-col text-xl font-bold">
 
                             <span>Web Development</span>
+
                             <span>System Development</span>
+
                             <span>Application Development</span>
+
                             <span>Video Editing</span>
+
                             <span>Graphic Design</span>
+                            
                             <span>Hardware & Networking</span>
 
                         </div>
 
                     </div>
+
+                    <!-- services -->
+
+                    <!-- quicklinks -->
 
                     <div>
 
@@ -71,14 +89,20 @@
                         <div class="flex flex-col text-xl font-bold">
 
                             <a href="#">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+
                             <a href="#">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+
                             <a href="#">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+
                             <a href="#">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            
                             <a href="#">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         </div>
 
                     </div>
+
+                    <!-- quicklinks -->
 
                     <div>
 
@@ -141,20 +165,28 @@
 
         </div>
 
+        <!-- footer_copyrightsection -->
+
         <div class="p-3 bg-white">
 
             <div class="flex flex-col items-center justify-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
 
+                <!-- logo -->
+
                 <div>
 
-                    <img class="h-24" src="resources/logo/logo.png" alt="">
+                    <img class="h-20" src="resources/logo/logo_transparent vertical.png" alt="">
 
                 </div>
+
+                <!-- logo -->
 
                 <div class="flex flex-col">
 
                     <span class="text-sm font-bold lg:text-lg">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions (PVT) LTD &trade;</span>
+
                     <span class="text-sm font-bold text-center">All Rights Reserved By NeoLife Software Solutions</span>
+                    
                     <span class="text-sm font-bold text-center">Designed & Developed By NeoLife Software Solutions</span>
 
                 </div>
@@ -162,6 +194,9 @@
             </div>
 
         </div>
+
+        <!-- footer_copyrightsection -->
+
         <!-- content -->
 
     </footer>

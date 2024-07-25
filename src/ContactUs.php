@@ -34,7 +34,7 @@
 
             <?php
 
-            require "header.php";
+                require "header.php";
 
             ?>
 
@@ -60,6 +60,8 @@
 
                         </div>
 
+                        <!-- introduction -->
+
                         <div class="p-1 mt-5 text-lg text-center">
 
                             <p>Ready to transform your business with cutting-edge technology? 
@@ -67,6 +69,8 @@
                             </p>
 
                         </div>
+
+                        <!-- introduction -->
 
                     </div>
 
@@ -97,6 +101,8 @@
                             <!-- content -->
 
                             <div class="flex flex-col w-full gap-4 mt-11">
+
+                                <!-- name,email,mobile,and etc.. -->
 
                                 <div class="grid grid-cols-1">
 
@@ -142,11 +148,17 @@
 
                                 </div>
 
+                                <!-- sendbutton -->
+
                                 <div class="flex flex-row lg:justify-end sm:justify-center">
 
                                     <button class="rounded-md bg-[#645FCE] px-8 hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white py-3">Send</button>
 
                                 </div>
+
+                                <!-- sendbutton -->
+
+                                <!-- name,email,mobile,and etc.. -->
 
                             </div>
 
@@ -172,7 +184,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-1">
 
-                                            <img src="resources/logo/logo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contsctus_slider_images/contact_slider_img_01.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -180,7 +192,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-2">
 
-                                            <img src="resources/logo/logo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contsctus_slider_images/contact_slider_img_02.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -188,7 +200,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-3">
 
-                                            <img src="resources/logo/logo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contsctus_slider_images/contact_slider_img_03.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -196,7 +208,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-4">
 
-                                            <img src="resources/logo/logo.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contsctus_slider_images/contact_slider_img_04.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -260,6 +272,8 @@
 
                     </div>
 
+                    <!-- social_media & other details tags -->
+
                     <div class="">
 
                         <div class="flex flex-row justify-center hidden text-sm text-center lg:block">
@@ -279,6 +293,8 @@
                         </div>
 
                     </div>
+
+                    <!-- social_media & other details tags -->
 
                 </div>
 
