@@ -10,8 +10,6 @@
 
         <link rel="stylesheet" href="tailwind.css">
 
-        <!-- <link rel="stylesheet" href="service_img_slider.scss"> -->
-
         <link rel="stylesheet" href="style.css">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -676,25 +674,25 @@
                         
                             <div class="flex flex-row justify-center mt-10 ">
         
-                                <div class="p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 ">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center ">
                                     
-                                    <div class="">
+                                    <div class="flex flex-col">
                                     
-                                        <div class="">
+                                        <div >
                                             
-                                            <div class="">
+                                            <div class="flex flex-row justify-center">
                 
                                                 <img class="w-40 h-40 rounded-full ms-5" src="resources/staff_images/Sheshan_Edirisingha(1).jpg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Sheshan Edirisingha</span>
                 
                                             </div>
                 
-                                            <div class="text-center">
+                                            <div class="text-center ">
                 
                                                 <span class="text-lg font-semibold text-red-600">Chairman</span><br>
                                                 <span class="text-lg font-semibold text-red-600">software generalist</span>
@@ -733,19 +731,19 @@
                             
                             <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center">
                                     
                                     <div class="flex flex-col">
                                     
                                         <div>
                                             
-                                            <div class="">
+                                            <div class="flex flex-row justify-center">
                 
                                                 <img class="w-40 h-40 rounded-full ms-4" src="resources/staff_images/Pasidu(1).jpeg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Pasidu Nethsara</span>
                 
@@ -790,19 +788,19 @@
                             
                             <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
                                     <div class="flex flex-col">
                                     
                                         <div>
                                             
-                                            <div class="ms-4">
+                                            <div class="flex flex-row justify-center">
                 
                                                 <img class="w-40 h-40 rounded-full" src="resources/staff_images/Kavindu.jpg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Kavindu Vishmitha</span>
                 
@@ -847,19 +845,19 @@
                             
                             <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
                                     <div class="flex flex-col">
                                     
                                         <div>
                                             
-                                            <div class="">
+                                            <div class="flex flex-row justify-center">
                 
                                                 <img class="w-40 h-40 rounded-full" src="resources/staff_images/sanjana.jpg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Sanjana Kumara</span>
                 
@@ -904,19 +902,19 @@
                             
                             <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
                                     <div class="flex flex-col">
                                     
-                                        <div>
+                                        <div class="w-44">
                                             
-                                            <div class="">
+                                            <div class="flex flex-row justify-center">
                 
-                                                <img class="w-40 h-40 rounded-full " src="resources/staff_images/Jude_Thamel(1).jpg"/>
+                                                <img class="w-40 h-40 rounded-full " src="resources/staff_images/Jude _hamel(2).jpg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Jude Thamel</span>
                 
@@ -925,7 +923,7 @@
                                             <div class="text-center">
                 
                                                 <span class="text-lg font-semibold text-red-600">Director</span><br>
-                                                <span class="text-lg font-semibold text-red-600">Fullstack Developer</span>
+                                                <span class="text-lg font-semibold text-red-600">Backend Developer</span>
                 
                                             </div>
                                             
@@ -961,19 +959,19 @@
                             
                             <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
                                     <div class="flex flex-col">
                                     
                                         <div>
                                             
-                                            <div class="">
+                                            <div class="flex flex-row justify-center">
                 
                                                 <img class="w-40 h-40 rounded-full " src="resources/staff_images/Avishka_Jayalath.jpg"/>
                 
                                             </div>
                 
-                                            <div class="py-2 text-center">
+                                            <div class="flex flex-row justify-center py-2 text-center">
                 
                                                 <span class="text-2xl font-bold">Avishka Jayalath</span>
                 
