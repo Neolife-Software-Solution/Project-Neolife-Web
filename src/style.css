@@ -20,6 +20,16 @@
     src: url("resources/fonts/Lato-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Arvo";
+    src: url("resources/fonts/Arvo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Marvel";
+    src: url("resources/fonts/Marvel-Regular.ttf");
+}
+
 *{
 
     font-family: "Lato";
@@ -49,7 +59,23 @@
 }
 
 
+.deshead{
+
+    font-family: "Arvo";
+    font-size: 14px;
+
+}
+
+.destext{
+
+    font-family: "Marvel";
+    font-size: 14px;
+
+}
+
 /* font end (don't change) */
+
+
 canvas{
 
     width: 100%;
@@ -305,5 +331,3 @@ canvas{
     margin: 20px;
 
 }
-
-
