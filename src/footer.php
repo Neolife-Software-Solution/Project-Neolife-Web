@@ -127,29 +127,29 @@
 
                         <div class="flex flex-row justify-center gap-8 mt-3">
 
-                            <div>
+                            <a href="https://www.facebook.com/profile.php?id=61552215121507" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 
-                            </div>
+                            </a>
 
                         </div>
 
