@@ -127,29 +127,29 @@
 
                         <div class="flex flex-row justify-center gap-8 mt-3">
 
-                            <div>
+                            <a href="https://www.facebook.com/profile.php?id=61552215121507" target="_blank">
 
                                 <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
                                 <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
                                 <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
                                 <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 
-                            </div>
+                            </a>
 
                         </div>
 
@@ -167,9 +167,9 @@
 
         <!-- footer_copyrightsection -->
 
-        <div class="p-3 bg-white">
+        <div class="flex flex-row justify-center p-4 bg-white">
 
-            <div class="flex flex-col items-center justify-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
+            <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
 
                 <!-- logo -->
 
