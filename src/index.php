@@ -10,9 +10,16 @@
 
         <link rel="stylesheet" href="tailwind.css">
 
+
         <!-- <link rel="stylesheet" href="service_img_slider.scss"> -->
 
         <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Neo Life | Home</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -28,7 +35,13 @@
 
             <!-- Header -->
 
+
             <div>
+
+            <?php
+
+            require "header.php";
+
 
                 <?php
                     
@@ -36,7 +49,11 @@
 
                 ?>
 
+
             </div>
+
+            <div class="mt-16 mb-80">
+
 
             <!-- Header -->            
 
@@ -93,6 +110,7 @@
                         </div>
 
                     </div>
+
 
                 </div>               
                 
@@ -341,7 +359,48 @@
 
                         </div>
 
-                    </div>
+                </div>
+
+            </div>
+
+            <!-- headerSection -->
+
+        </div>
+
+        <!-- Language Image Slider -->
+         
+
+        <div class=" logos">
+
+            <div class="flex flex-row logos-slide">
+
+              
+
+                    <img src="resources/logo image slider/css3-original-wordmark.svg" />
+
+
+                    <img src="resources/logo image slider/git-original-wordmark.svg" />
+
+
+                    <img src="resources/logo image slider/html5-original-wordmark.svg" />
+
+
+                    <img src="resources/logo image slider/javascript-original.svg" />
+
+                
+                    <img src="resources/logo image slider/mysql-original-wordmark.svg" />
+
+               
+
+                    <img src="resources/logo image slider/php-original.svg" />
+
+                
+                    <img src="resources/logo image slider/illustrator-line.svg" />
+
+
+                
+                    <img src="resources/logo image slider/photoshop-original.svg" />
+
 
                     <!-- Project Image Slider -->
         
@@ -643,13 +702,27 @@
                     
                 </div>
 
-            </div>
+                
+                    <img src="resources/logo image slider/wordpress-plain-wordmark.svg" />
+
+
+                
+
 
             <!-- Our Project Section-->
              
             <!-- Our Staff Section -->
 
+            </div> 
+            
+            <script>
+                var copy = document.querySelector(".logos-slide").cloneNode(true);
+                //  document.querySelector(".logos").appendChild(copy);
+            </script>
+
+
             <div>
+
 
                 <div>
 
@@ -1185,6 +1258,14 @@
         </div>
 
         <script src="service_img_slider_animation.js"></script>
+
+        
+
+        <!-- Language Image Slider -->
+
+    </div>
+
+
 
     </body>
 
