@@ -19,6 +19,7 @@
         <link rel="icon" href="resources/logo/favicon.png" />
 
         <title>Neolife Software Solutions | Home</title>
+        
 
     </head>
 
@@ -60,11 +61,11 @@
 
                     <div class="flex flex-row">
 
-                        <div class="flex flex-col">
+                        <div class="flex flex-col p-4 ">
 
-                            <div class="flex flex-col p-5 px-5 bg-white/15">
+                            <div class="flex flex-col p-5 px-5 rounded-md mb-60 bg-white/15">
 
-                                <div>
+                                <div class="">
 
                                     <p class="text-2xl font-bold text-center text-white">
     
@@ -108,7 +109,7 @@
 
                 <div>
 
-                    <div class="bg-[#645FCE] py-5 lg:mt-[400px] mt-20">
+                    <div class="bg-[#645FCE] py-5 mt-32">
 
                         <div>
 
@@ -141,7 +142,7 @@
         
                                                 <div class="name">Application Development</div>
         
-                                                <div class="des">Application development is the process of creating software applications for various platforms such as desktops, mobile devices, and web browsers. It involves several stages including planning, designing the user interface, coding, testing, and deployment. Developers focus on creating applications that are user-friendly, efficient, and tailored to meet specific user needs or solve particular problems. This process often includes continuous updates and improvements to enhance functionality, security, and performance.</div>
+                                                <div class="des">Application development is the process of creating software applications for various platforms such as desktops, mobile devices, and web browsers. Developers focus on creating applications that are user-friendly, efficient, and tailored to meet specific user needs or solve particular problems. This process often includes continuous updates and improvements to enhance functionality, security, and performance.</div>
         
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
@@ -197,7 +198,7 @@
         
                                                 <div class="name">Video Editing</div>
         
-                                                <div class="des">Video editing is the process of manipulating and rearranging video footage to create a final product. It involves cutting and splicing clips, adding transitions, effects, audio, and adjusting color and lighting. Video editors use software tools to craft a coherent and engaging narrative, enhancing the visual and auditory experience. This process is essential for producing films, TV shows, advertisements, and online content, ensuring the final video is polished and effectively communicates the intended message.</div>
+                                                <div class="des">Video editing is the process of manipulating and rearranging video footage to create a final product. It involves cutting and splicing clips, adding transitions, effects, audio, and adjusting color and lighting. This process is essential for producing films, TV shows, advertisements, and online content, ensuring the final video is polished and effectively communicates the intended message.</div>
         
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
@@ -242,8 +243,8 @@
         
                             <div class="button">
         
-                                <button class="prev btn2"><i class="fa-solid fa-arrow-left"></i></button>
-                                <button class="next btn2"><i class="fa-solid fa-arrow-right"></i></button>
+                                <button class="prev btn2"><i class="fa-solid fa-less-than"></i></button>
+                                <button class="next btn2"><i class="fa-solid fa-greater-than"></i></button>
         
                             </div>
                                     
@@ -265,7 +266,7 @@
 
                 <div>
 
-                    <div class="mt-80 Logo_body">
+                    <div class="mt-[385PX] Logo_body">
     
                         <div class="mt-72 logos lg:mt-80">
     
@@ -683,19 +684,20 @@
                                             
                                             <div class="">
                 
-                                                <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+                                                <img class="w-40 h-40 rounded-full ms-5" src="resources/staff_images/Sheshan_Edirisingha(1).jpg"/>
                 
                                             </div>
                 
                                             <div class="py-2 text-center">
                 
-                                                <span class="text-2xl font-bold">Sanjana Kumara</span>
+                                                <span class="text-2xl font-bold">Sheshan Edirisingha</span>
                 
                                             </div>
                 
                                             <div class="text-center">
                 
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+                                                <span class="text-lg font-semibold text-red-600">Chairman</span><br>
+                                                <span class="text-lg font-semibold text-red-600">software generalist</span>
                 
                                             </div>
                                             
@@ -739,7 +741,64 @@
                                             
                                             <div class="">
                 
-                                                <img class="h-40 rounded-full ms-4" src="resources/staff_images/Kavindu.jpg"/>
+                                                <img class="w-40 h-40 rounded-full ms-4" src="resources/staff_images/Pasidu(1).jpeg"/>
+                
+                                            </div>
+                
+                                            <div class="py-2 text-center">
+                
+                                                <span class="text-2xl font-bold">Pasidu Nethsara</span>
+                
+                                            </div>
+                
+                                            <div class="text-center">
+                
+                                                <span class="text-lg font-semibold text-red-600">Chief executive officer</span><br>
+                                                <span class="text-lg font-semibold text-red-600">software generalist</span>
+                
+                                            </div>
+                                            
+                                            <div class="flex flex-row justify-center gap-3 mt-4">
+                
+                                                <div class="rounded-full">
+                                                    
+                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                
+                                                </div>
+                
+                                                <div class="rounded-full">
+                
+                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                
+                                                </div>
+                
+                                                <div class="rounded-full">
+                
+                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    
+                                                </div>
+                
+                                            </div>
+                                                                            
+                                        </div>
+        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+                            
+                            <div class="flex flex-row justify-center mt-10">
+        
+                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
+                                    
+                                    <div class="flex flex-col">
+                                    
+                                        <div>
+                                            
+                                            <div class="ms-4">
+                
+                                                <img class="w-40 h-40 rounded-full" src="resources/staff_images/Kavindu.jpg"/>
                 
                                             </div>
                 
@@ -751,7 +810,8 @@
                 
                                             <div class="text-center">
                 
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+                                                <span class="text-lg font-semibold text-red-600">Director</span><br>
+                                                <span class="text-lg font-semibold text-red-600">Fullstack Developer</span>
                 
                                             </div>
                                             
@@ -795,7 +855,7 @@
                                             
                                             <div class="">
                 
-                                                <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+                                                <img class="w-40 h-40 rounded-full" src="resources/staff_images/sanjana.jpg"/>
                 
                                             </div>
                 
@@ -807,7 +867,8 @@
                 
                                             <div class="text-center">
                 
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+                                                <span class="text-lg font-semibold text-red-600">Director</span><br>
+                                                <span class="text-lg font-semibold text-red-600">Fullstack Developer</span>
                 
                                             </div>
                                             
@@ -851,19 +912,20 @@
                                             
                                             <div class="">
                 
-                                                <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+                                                <img class="w-40 h-40 rounded-full " src="resources/staff_images/Jude_Thamel(1).jpg"/>
                 
                                             </div>
                 
                                             <div class="py-2 text-center">
                 
-                                                <span class="text-2xl font-bold">Sanjana Kumara</span>
+                                                <span class="text-2xl font-bold">Jude Thamel</span>
                 
                                             </div>
                 
                                             <div class="text-center">
                 
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+                                                <span class="text-lg font-semibold text-red-600">Director</span><br>
+                                                <span class="text-lg font-semibold text-red-600">Fullstack Developer</span>
                 
                                             </div>
                                             
@@ -907,75 +969,20 @@
                                             
                                             <div class="">
                 
-                                                <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
+                                                <img class="w-40 h-40 rounded-full " src="resources/staff_images/Avishka_Jayalath.jpg"/>
                 
                                             </div>
                 
                                             <div class="py-2 text-center">
                 
-                                                <span class="text-2xl font-bold">Sanjana Kumara</span>
+                                                <span class="text-2xl font-bold">Avishka Jayalath</span>
                 
                                             </div>
                 
                                             <div class="text-center">
                 
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
-                
-                                            </div>
-                                            
-                                            <div class="flex flex-row justify-center gap-3 mt-4">
-                
-                                                <div class="rounded-full">
-                                                    
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
-                
-                                                </div>
-                
-                                                <div class="rounded-full">
-                
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
-                
-                                                </div>
-                
-                                                <div class="rounded-full">
-                
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
-                                                    
-                                                </div>
-                
-                                            </div>
-                                                                            
-                                        </div>
-        
-                                    </div>
-        
-                                </div>
-        
-                            </div>
-                            
-                            <div class="flex flex-row justify-center mt-10">
-        
-                                <div class="flex flex-row p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
-                                    
-                                    <div class="flex flex-col">
-                                    
-                                        <div>
-                                            
-                                            <div class="">
-                
-                                                <img class="h-40 rounded-full " src="resources/staff_images/sanjana.jpg"/>
-                
-                                            </div>
-                
-                                            <div class="py-2 text-center">
-                
-                                                <span class="text-2xl font-bold">Sanjana Kumara</span>
-                
-                                            </div>
-                
-                                            <div class="text-center">
-                
-                                                <span class="text-lg font-semibold text-red-600">Software Enginner</span>
+                                                <span class="text-lg font-semibold text-red-600">Director</span><br>
+                                                <span class="text-lg font-semibold text-red-600">Fullstack Developer</span>
                 
                                             </div>
                                             
@@ -1057,15 +1064,14 @@
                                         
                                         <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">01</h2>
                                         
-                                        <h3>Why Are You Select Me ? </h3>
+                                        <h3>How long does it take before you start working on my project?</h3>
                                         
                                     </label>
                                     
-                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full">
+                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
                                         
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci veniam reiciendis laudantium
-                                            voluptatem in incidunt! Quod doloribus nostrum autem!
+                                        We strive to begin working on new projects as quickly as possible. Typically, we start within two weeks of receiving a project. However, this timeframe can vary depending on the complexity, requirements, and scope of the project.
                                         </p>
     
                                     </div>
@@ -1084,15 +1090,14 @@
                                         
                                         <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">02</h2>
                                         
-                                        <h3>Why Are You Select Me ? </h3>
+                                        <h3>How do you guarantee product quality?</h3>
                                         
                                     </label>
                                     
-                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full">
+                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
                                         
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci veniam reiciendis laudantium
-                                            voluptatem in incidunt! Quod doloribus nostrum autem!
+                                        Quality is our top priority. To ensure this, we use a short iteration model that allows for regular testing of our work. We make improvements and adjustments based on customer feedback, preferences, and the response from the target audience. This approach ensures that we deliver high-quality products that meet your business needs and audience expectations.
                                         </p>
     
                                     </div>
@@ -1111,15 +1116,14 @@
                                         
                                         <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">03</h2>
                                         
-                                        <h3>Why Are You Select Me ? </h3>
+                                        <h3>What is your approach to project management?</h3>
                                         
                                     </label>
                                     
-                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full">
+                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
                                         
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci veniam reiciendis laudantium
-                                            voluptatem in incidunt! Quod doloribus nostrum autem!
+                                        We manage projects using Agile methodologies, which emphasize flexibility, regular communication, and the timely delivery of high-quality software solutions.
                                         </p>
     
                                     </div>
@@ -1138,15 +1142,14 @@
                                         
                                         <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">04</h2>
                                         
-                                        <h3>Why Are You Select Me ? </h3>
+                                        <h3>What types of software do you specialize in developing?</h3>
                                         
                                     </label>
                                     
-                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full">
+                                    <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
                                         
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci veniam reiciendis laudantium
-                                            voluptatem in incidunt! Quod doloribus nostrum autem!
+                                        We specialize in developing custom software solutions, including web applications, mobile apps, and enterprise software tailored to meet specific business needs.
                                         </p>
     
                                     </div>
@@ -1184,6 +1187,7 @@
 
         </div>
 
+        <script src="tailwind.js"></script>
         <script src="service_img_slider_animation.js"></script>
 
     </body>

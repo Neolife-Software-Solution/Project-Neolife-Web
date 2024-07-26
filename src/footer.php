@@ -125,7 +125,7 @@
 
                         <!-- social media links -->
 
-                        <div class="flex flex-row justify-center gap-8 mt-3">
+                        <div class="flex flex-row justify-between gap-8 mt-3">
 
                             <div>
 
