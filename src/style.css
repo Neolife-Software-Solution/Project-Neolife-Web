@@ -455,3 +455,35 @@ video {
 }
 
 /* Project Image  */
+
+/* WhataApp Chat */
+.whatsapp_float {
+    position: fixed;
+    width: 77px;
+    height: 77px;
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  .whatsapp-icon {
+    margin-top: 8px;
+    /* font-size: 50px;
+    font-weight: bold; */
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 767px){
+    .whatsapp-icon {
+      margin-top: 10px;
+
+    }
+    .whatsapp_float {
+      min-width: auto;
+      min-height: auto;
+      bottom: 60px;
+      right: 10px;
+    }
+  }

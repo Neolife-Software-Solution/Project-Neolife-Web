@@ -24,6 +24,13 @@
     <body>
 
         <div class="w-auto h-screen">
+            
+            <div>
+                
+                <a href="https:/wa.me/+94720620057"  target="_blank" class="whatsapp_float cursor-pointer" title="Contact Us"><i class="fa-brands fa-whatsapp fa-shake whatsapp-icon text-6xl" style="color: #1bbb20;"></i></a>
+                
+            </div>
+
 
             <!-- Header -->
 
@@ -148,7 +155,7 @@
         
                                         </div>
                                         <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/web-development\(1\).jpg);">
+                                            style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
         
                                             <div class="content">
         
@@ -688,14 +695,14 @@
                 
                                             <div class="flex flex-row justify-center py-2 text-center">
                 
-                                                <span class="text-2xl font-bold">Sheshan Edirisingha</span>
+                                                <span class="text-2xl font-bold">Sheshan Edirisinghe</span>
                 
                                             </div>
                 
                                             <div class="text-center ">
                 
                                                 <span class="text-lg font-semibold text-red-600">Chairman</span><br>
-                                                <span class="text-lg font-semibold text-red-600">software generalist</span>
+                                                <span class="text-lg font-semibold text-red-600">Software Generalist</span>
                 
                                             </div>
                                             
@@ -703,19 +710,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/sheshan-edirisinghe-7556b2318/" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/SheshanEdirisinghe" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <a href="https://www.facebook.com/sheshan.edirisinghe.5/" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to facebook"></i></span></a>
                                                     
                                                 </div>
                 
@@ -745,14 +752,14 @@
                 
                                             <div class="flex flex-row justify-center py-2 text-center">
                 
-                                                <span class="text-2xl font-bold">Pasidu Nethsara</span>
+                                                <span class="text-2xl font-bold">Pasindu Nethsara</span>
                 
                                             </div>
                 
                                             <div class="text-center">
                 
                                                 <span class="text-lg font-semibold text-red-600">Chief executive officer</span><br>
-                                                <span class="text-lg font-semibold text-red-600">software generalist</span>
+                                                <span class="text-lg font-semibold text-red-600">Software Generalist</span>
                 
                                             </div>
                                             
@@ -760,19 +767,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/pasindu-nethsara-427b1231b/" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/Pasindu-Nethsara-Weerasuriya" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <a href="http://" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
                                                     
                                                 </div>
                 
@@ -817,19 +824,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/kavindu-vishmitha-b0502a320/" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/Kavindu-Vishmitha" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <a href="https://www.facebook.com/kavindu.vishmitha.5" target="_blank"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to facebook"></i></span></a>
                                                     
                                                 </div>
                 
@@ -874,19 +881,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/sanjana-kumara-44787b31b/?trk=public-profile-join-page" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/sanjana-kumara" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <a href="https://web.facebook.com/profile.php?id=100090487626389" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
                                                     
                                                 </div>
                 
@@ -931,19 +938,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/jude-thamel/" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/JudeThamel" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <a href="https://www.facebook.com/jude.malshan.733/" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
                                                     
                                                 </div>
                 
@@ -1000,7 +1007,7 @@
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-youtube" title="go to youtube"></i></span>
+                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span>
                                                     
                                                 </div>
                 
