@@ -1838,6 +1838,18 @@ video {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[reso\] {
+  background-color: reso;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
@@ -1860,6 +1872,22 @@ video {
 
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'reso\'\)\] {
+  background-image: url('reso');
+}
+
+.bg-\[url\(\'res\'\)\] {
+  background-image: url('res');
 }
 
 .bg-top {

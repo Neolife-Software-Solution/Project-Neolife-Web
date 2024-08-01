@@ -44,3 +44,27 @@ canvas{
     background: #111a22;
 
 }
+
+/* estimate bg image */
+
+.bgimage {
+
+    background-image: url("resources/estimate_page_bg_images/estimatepage_bg.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    background-repeat: repeat;
+
+}
+
+.bgimagebackdrop {
+
+    /* position: absolute; */
+    height: auto;
+    border: 0px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+
+}
+
+/* estimate bg image */
