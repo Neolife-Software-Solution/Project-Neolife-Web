@@ -779,7 +779,7 @@
                 
                                                 <div class="rounded-full">
                 
-                                                    <a href="http://" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
+                                                    <a href="https://www.facebook.com/pasindu.nethsara.338?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
                                                     
                                                 </div>
                 
@@ -995,19 +995,19 @@
                 
                                                 <div class="rounded-full">
                                                     
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span>
+                                                    <a href="https://www.linkedin.com/in/avi-sk-ka-395033275/" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-linkedin" title="go to linkedin"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span>
+                                                    <a href="https://github.com/AVISHKA69" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-github" title="go to github"></i></span></a>
                 
                                                 </div>
                 
                                                 <div class="rounded-full">
                 
-                                                    <span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span>
+                                                    <a href="https://www.facebook.com/sadith.nimhan.5/" target="_blank" rel="noopener noreferrer"><span><i class="text-4xl cursor-pointer fa-brands fa-facebook" title="go to youtube"></i></span></a>
                                                     
                                                 </div>
                 
