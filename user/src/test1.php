@@ -1,142 +1,43 @@
-<!-- FAQ Section -->
+<button id="openModalButton" class="px-4 py-2 text-white bg-blue-600 rounded">Open Modal</button>
 
-<div>
+<div id="modal" class="fixed inset-0 z-10 hidden overflow-y-auto">
+  <div class="flex items-end justify-center min-h-screen p-4 text-center sm:items-center sm:p-0">
+    <div class="fixed inset-0 transition-opacity duration-300 ease-out bg-gray-500 bg-opacity-75" aria-hidden="true"></div>
 
-    <div>
-
-        <div class="bg-[#645FCE] py-5 mt-10">
-
-            <div>
-
-                <span class="flex flex-row justify-center text-2xl font-bold text-white headertext">
-                    
-                    FAQ
-                    
-                </span>
-
+    <div class="relative overflow-hidden text-left transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-lg">
+      <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+        <div class="sm:flex sm:items-start">
+          <div class="flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto bg-red-100 rounded-full sm:mx-0 sm:h-10 sm:w-10">
+            <svg class="w-6 h-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
+            </svg>
+          </div>
+          <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+            <h3 class="text-base font-semibold leading-6 text-gray-900" id="modal-title">Deactivate account</h3>
+            <div class="mt-2">
+              <p class="text-sm text-gray-500">Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.</p>
             </div>
-
+          </div>
         </div>
-        
-        <!-- Question -->
-
-        <div class="">
-
-            <div class="">
-
-                <div class="flex flex-row justify-center mt-5 ">
-
-                    <div class="relative px-5 py-2 mb-2 bg-white rounded-md shadow-lg tab">
-                        
-                        <input type="radio" name="faq" id="faq1" class="appearance-none peer">
-                        
-                        <label for="faq1" class="flex items-center cursor-pointer font-semibold text-lg after:content-['+'] after:absolute after:right-5 after:text-2xl     after:text-gray-400 hover:after:text-gray-950 peer-checked:after:transform peer-checked:after:rotate-45">
-                            
-                            <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">01</h2>
-                            
-                            <h3>How long does it take before you start working on my project?</h3>
-                            
-                        </label>
-                        
-                        <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
-                            
-                            <p>
-                            We strive to begin working on new projects as quickly as possible. Typically, we start within two weeks of receiving a project. However, this timeframe can vary depending on the complexity, requirements, and scope of the project.
-                            </p>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-                
-                <div class="flex flex-row justify-center mt-5">
-
-                    <div class="relative px-5 py-2 mb-2 bg-white rounded-md shadow-lg tab">
-                        
-                        <input type="radio" name="faq" id="faq2" class="appearance-none peer">
-                        
-                        <label for="faq2" class="flex items-center cursor-pointer font-semibold text-lg after:content-['+'] after:absolute after:right-5 after:text-2xl     after:text-gray-400 hover:after:text-gray-950 peer-checked:after:transform peer-checked:after:rotate-45">
-                            
-                            <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">02</h2>
-                            
-                            <h3>How do you guarantee product quality?</h3>
-                            
-                        </label>
-                        
-                        <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
-                            
-                            <p>
-                            Quality is our top priority. To ensure this, we use a short iteration model that allows for regular testing of our work. We make improvements and adjustments based on customer feedback, preferences, and the response from the target audience. This approach ensures that we deliver high-quality products that meet your business needs and audience expectations.
-                            </p>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-                
-                <div class="flex flex-row justify-center mt-5">
-
-                    <div class="relative px-5 py-2 mb-2 bg-white rounded-md shadow-lg tab">
-                        
-                        <input type="radio" name="faq" id="faq3" class="appearance-none peer">
-                        
-                        <label for="faq3" class="flex items-center cursor-pointer font-semibold text-lg after:content-['+'] after:absolute after:right-5 after:text-2xl     after:text-gray-400 hover:after:text-gray-950 peer-checked:after:transform peer-checked:after:rotate-45">
-                            
-                            <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">03</h2>
-                            
-                            <h3>What is your approach to project management?</h3>
-                            
-                        </label>
-                        
-                        <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
-                            
-                            <p>
-                            We manage projects using Agile methodologies, which emphasize flexibility, regular communication, and the timely delivery of high-quality software solutions.
-                            </p>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-                
-                <div class="flex flex-row justify-center mt-5">
-
-                    <div class="relative px-5 py-2 mb-2 bg-white rounded-md shadow-lg tab">
-                        
-                        <input type="radio" name="faq" id="faq4" class="appearance-none peer">
-                        
-                        <label for="faq4" class="flex items-center cursor-pointer font-semibold text-lg after:content-['+'] after:absolute after:right-5 after:text-2xl     after:text-gray-400 hover:after:text-gray-950 peer-checked:after:transform peer-checked:after:rotate-45">
-                            
-                            <h2 class="flex items-center justify-center w-8 h-8 mr-3 text-white rounded-sm bg-[#645FCE]">04</h2>
-                            
-                            <h3>What types of software do you specialize in developing?</h3>
-                            
-                        </label>
-                        
-                        <div class="h-0 mt-5 overflow-hidden transition-all duration-500 ease-in-out answer content peer-checked:h-full lg:w-[1111px]">
-                            
-                            <p>
-                            We specialize in developing custom software solutions, including web applications, mobile apps, and enterprise software tailored to meet specific business needs.
-                            </p>
-
-                        </div>
-                        
-                    </div>
-
-                </div>
-            
-            </div>
-                                
-
-        </div>
-
-        <!-- Question -->
-
+      </div>
+      <div class="px-4 py-3 bg-gray-50 sm:flex sm:flex-row-reverse sm:px-6">
+        <button id="deactivateButton" type="button" class="inline-flex justify-center w-full px-3 py-2 text-sm font-semibold text-white bg-red-600 rounded-md shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">Deactivate</button>
+        <button id="cancelButton" type="button" class="inline-flex justify-center w-full px-3 py-2 mt-3 text-sm font-semibold text-gray-900 bg-white rounded-md shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto">Cancel</button>
+      </div>
     </div>
-
+  </div>
 </div>
 
-<!-- F&Q Section -->
+<script>
+    document.getElementById('openModalButton').addEventListener('click', function() {
+      const modal = document.getElementById('modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('ease-out', 'duration-300', 'opacity-100', 'translate-y-0', 'sm:scale-100');
+    });
+
+    document.getElementById('cancelButton').addEventListener('click', function() {
+      const modal = document.getElementById('modal');
+      modal.classList.add('ease-in', 'duration-200', 'opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+      setTimeout(() => modal.classList.add('hidden'), 200);
+    });
+</script>
