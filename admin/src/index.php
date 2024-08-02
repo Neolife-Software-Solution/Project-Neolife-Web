@@ -31,7 +31,7 @@
                         
                         <div class="grid grid-cols-1 mt-10 mb-5">
     
-                            <span class="text-4xl headertext-aboutus">Welcome To Admin Login</span>
+                            <span class="text-lg lg:text-4xl headertext-aboutus">Welcome To Admin Login</span>
     
                         </div>
                     
@@ -44,32 +44,78 @@
                             <div class="flex flex-row p-5 shadow-xl bg-slate-700/30 shadow-black/10 rounded-xl">
     
                                 <div class="">
+
+                                    <!-- Verfy Code Section -->
     
                                     <div>
     
-                                        <input class="h-10 p-5 rounded-full shadow-md w-80 focus:outline-none hover:shadow-black" placeholder="Enter Your Admin Email Address" type="text" name="" id=""/>
+                                        <input class="h-10 p-5 rounded-full shadow-md focus:outline-none hover:shadow-black w-[300px] lg:w-[530px]" placeholder="Enter Your Admin Email Address" type="text" name="" id=""/>
                                     
                                     </div>
                                 
-                                    <div class="flex justify-end mt-5 ms-40">
+                                    <div class="flex flex-row justify-center mt-5 lg:justify-end">
     
-                                        <button class="h-10 py-2 bg-white rounded-full w-52 hover:bg-[#645FCE] font-bold">Get verification Code</button>
+                                        <button class="h-10 py-2 bg-white rounded-full lg:w-52 hover:bg-[#645FCE] font-bold w-60">Get verification Code</button>
     
                                     </div>
 
+                                    <!-- Verfy Code Section -->
+
+                                    <!-- Verfiy Email Sections -->
+
                                     <div class="mt-10">
     
-                                        <div >
+                                        <div>
     
-                                            <div>
+                                            <div class="flex flex-row justify-center ">
     
-                                                <span class="flex flex-row justify-center h-10 w-80 bg-[#645FCE]">Verfy Your Email Address</span>
+                                                <span class="text-center text-white text-xl font-bold lg:h-10 lg:w-[500px] bg-[#645FCE] p-2 rounded-md w-80">Verfy Your Email Address</span>
     
                                             </div>
     
                                         </div>    
     
                                     </div>
+
+                                    <div class="justify-center mt-10 lg:flex">
+    
+                                        <input class="h-10 py-2 bg-white lg:w-[530px] font-bold p-5 rounded-full shadow-md text-center focus:outline-none hover:shadow-black text-lg w-80" placeholder="Entetr Your verification Code" type="text"></input>
+    
+                                    </div>
+                                    
+                                    <div class="justify-center mt-10 lg:flex:">
+    
+                                        <input class="h-10 py-2 bg-white lg:w-[530px] font-bold p-5 rounded-full shadow-md text-center focus:outline-none hover:shadow-black text-lg w-80" placeholder="Create User Name" type="text"></input>
+    
+                                    </div>
+                                    
+                                    <div >
+
+                                        <div class="justify-center lg:flex lg:flex-row">
+
+                                            <div class="flex justify-center p-2 mt-10">
+            
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Create Password" type="text"></input>
+            
+                                            </div>
+                                            
+                                            <div class="flex justify-center p-2 mt-10">
+            
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Re-Type Name" type="text"></input>
+            
+                                            </div>
+                                        
+                                        </div>
+                                        
+                                    </div>
+                                                                        
+                                    <div class="flex justify-center mt-10 ">
+    
+                                        <button class="h-10 py-2 bg-white rounded-full w-52 hover:bg-[#645FCE] font-bold">Create Account</button>
+    
+                                    </div>
+
+                                    <!-- Verfiy Email Sections -->
                                         
                                 </div>
     
@@ -84,6 +130,8 @@
             </div>
 
         </div>
+
+        <script src="admin_script.js"></script>
 
     </body>
 
