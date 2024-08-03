@@ -1056,6 +1056,10 @@ video {
     width: 530px;
   }
 
+  .lg\:w-\[380px\] {
+    width: 380px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
