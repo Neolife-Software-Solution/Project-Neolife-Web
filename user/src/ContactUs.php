@@ -184,7 +184,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-1">
 
-                                            <img src="resources/contsctus_slider_images/contact_slider_img_01.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contactus_slider_images/contact_slider_img_01.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -192,7 +192,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-2">
 
-                                            <img src="resources/contsctus_slider_images/contact_slider_img_02.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contactus_slider_images/contact_slider_img_02.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -200,7 +200,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-3">
 
-                                            <img src="resources/contsctus_slider_images/contact_slider_img_03.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contactus_slider_images/contact_slider_img_03.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -208,7 +208,7 @@
 
                                         <div class="hidden duration-700 ease-in-out" data-carousel-item id="carousel-item-4">
 
-                                            <img src="resources/contsctus_slider_images/contact_slider_img_04.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                            <img src="resources/contactus_slider_images/contact_slider_img_04.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
 
                                         </div>
 
@@ -306,15 +306,19 @@
 
         <!-- body -->
 
+        <!-- footerarea -->
+
         <div>
 
             <?php
 
-            require "footer.php";
+                require "footer.php";
 
             ?>
 
         </div>
+
+        <!-- footerarea -->
 
     </div>
 

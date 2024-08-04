@@ -94,7 +94,7 @@
 
                             <a href="#">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="Estimate.php" target="_self">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                             
                             <a href="#">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
@@ -108,7 +108,7 @@
 
                         <!-- button -->
 
-                        <a href="#" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="Estimate.php" target="_blank" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         <!-- button -->
 
