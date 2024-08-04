@@ -291,11 +291,42 @@
 
                                         </div>
 
+                                        <!-- packages selecting area -->
+
                                         <div class="grid grid-cols-1">
 
-                                            <input type="text" class="px-3 py-3 placeholder-black rounded-md focus:outline-none" placeholder="Package Type" disabled />
+                                            <select class="px-2 py-3 placeholder-black rounded-md focus:outline-none">
+
+                                                <div class="w-auto" role="listbox">
+
+                                                    <option value="0">Select Your Service</option>
+                                                    <option value="1">Web Development</option>
+                                                    <option value="2">System Development</option>
+
+                                                </div>
+
+                                            </select>
 
                                         </div>
+
+                                        <div class="grid grid-cols-1">
+
+                                            <select class="px-2 py-3 placeholder-black rounded-md focus:outline-none">
+
+                                                <div class="w-auto" role="listbox">
+
+                                                    <option value="0">Select Package</option>
+                                                    <option value="1">Basic Package</option>
+                                                    <option value="2">Standerd Package</option>
+                                                    <option value="3">Premium Package</option>
+
+                                                </div>
+
+                                            </select>
+
+                                        </div>
+
+                                        <!-- packages selecting area -->
 
                                         <div class="grid grid-cols-1">
 
