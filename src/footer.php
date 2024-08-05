@@ -94,7 +94,7 @@
 
                             <a href="#">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="Estimate.php" target="_self">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                             
                             <a href="#">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
@@ -108,7 +108,7 @@
 
                         <!-- button -->
 
-                        <a href="#" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="Estimate.php" target="_blank" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         <!-- button -->
 
@@ -127,29 +127,29 @@
 
                         <div class="flex flex-row justify-center gap-8 mt-3">
 
-                            <div>
+                            <a href="https://www.facebook.com/profile.php?id=61552215121507" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
-                            </div>
+                            </a>
 
-                            <div>
+                            <a href="">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 
-                            </div>
+                            </a>
 
                         </div>
 
