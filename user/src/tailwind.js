@@ -71,3 +71,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // imageslider
 
+// estimatepage accordian animation
+
+document.getElementById('openModalButton').addEventListener('click', function() {
+
+const modal = document.getElementById('modal');
+
+modal.classList.remove('hidden');
+
+modal.classList.add('ease-out', 'duration-300', 'opacity-100', 'translate-y-0', 'sm:scale-100');
+
+});
+
+document.getElementById('cancelButton').addEventListener('click', function() {
+
+const modal = document.getElementById('modal');
+
+modal.classList.add('ease-in', 'duration-200', 'opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+
+setTimeout(() => modal.classList.add('hidden'), 200);
+
+});
+
+// estimatepage accordian animation
