@@ -96,7 +96,7 @@
 
                             <a href="Estimate.php" target="_self">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                             
-                            <a href="#">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="ContactUs.php">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         </div>
 
