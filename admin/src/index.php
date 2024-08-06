@@ -27,6 +27,8 @@
 
                 <div class="flex flex-col">
 
+                    <!-- Header Text Section -->
+
                     <div class="flex flex-row justify-center">
                         
                         <div class="grid grid-cols-1 mt-10 mb-5">
@@ -36,6 +38,8 @@
                         </div>
                     
                     </div>
+
+                    <!-- Header Text Section -->
 
                     <div class="flex flex-col mt-2">
 
@@ -55,7 +59,7 @@
                                 
                                     <div class="flex flex-row justify-center mt-5 lg:justify-end">
     
-                                        <button class="h-10 py-2 bg-white rounded-full lg:w-52 hover:bg-gray-500 font-bold w-60 duration-500 hover:duration-700 hover:ease-in ease-out">Get verification Code</button>
+                                        <button class="h-10 py-2 font-bold duration-500 ease-out bg-white rounded-full lg:w-52 hover:bg-gray-500 w-60 hover:duration-700 hover:ease-in">Get verification Code</button>
     
                                     </div>
 
@@ -111,7 +115,7 @@
                                                                         
                                     <div class="flex justify-center mt-10 ">
     
-                                        <button class="h-10 py-2 bg-white rounded-full w-52 font-bold duration-500 hover:duration-700 hover:ease-in ease-out hover:bg-gray-500">Create Account</button>
+                                        <button class="h-10 py-2 font-bold duration-500 ease-out bg-white rounded-full w-52 hover:duration-700 hover:ease-in hover:bg-gray-500">Create Account</button>
     
                                     </div>
 
