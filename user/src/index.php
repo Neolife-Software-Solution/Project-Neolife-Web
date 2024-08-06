@@ -27,7 +27,7 @@
             
             <div>
                 
-                <a href="https:/wa.me/+94720620057"  target="_blank" class="whatsapp_float cursor-pointer" title="Contact Us"><i class="fa-brands fa-whatsapp fa-shake whatsapp-icon text-6xl" style="color: #1bbb20;"></i></a>
+                <a href="https:/wa.me/+94720620057"  target="_blank" class="cursor-pointer whatsapp_float" title="Contact Us"><i class="text-6xl fa-brands fa-whatsapp fa-shake whatsapp-icon" style="color: #1bbb20;"></i></a>
                 
             </div>
 
@@ -224,8 +224,7 @@
                                             </div>
         
                                         </div>
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/computer_networking.png);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
         
                                             <div class="content">
         
