@@ -183,7 +183,7 @@
 
                 <div class="flex flex-col">
 
-                    <span class="text-sm font-bold lg:text-lg">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions (PVT) LTD &trade;</span>
+                    <span class="text-sm font-bold lg:text-lg">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
 
                     <span class="text-sm font-bold text-center">All Rights Reserved By NeoLife Software Solutions</span>
                     
