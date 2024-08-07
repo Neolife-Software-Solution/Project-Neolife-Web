@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="bg_image">
+<body class="bg_image ">
 
     <!-- content -->
 
@@ -49,11 +49,11 @@
 
             <!-- project1 -->
 
-            <div class="grid md:grid-cols-2 p-24 py-0 gap-5 mt-28">
+            <div class="grid gap-5 p-24 py-0 md:grid-cols-2 mt-28">
 
                 <div class="rounded-3xl">
 
-                    <img class="rounded-3xl border-2 border-black" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
+                    <img class="border-2 border-black rounded-3xl" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
 
                 </div>
 
@@ -61,7 +61,7 @@
 
                     <div class="align-middle rounded-lg">
 
-                        <div class="py-11 sm:p-16 text-lg leading-8 text-justify lg:text-balance sm:text-wrap">
+                        <div class="text-lg leading-8 text-justify py-11 sm:p-16 lg:text-balance sm:text-wrap">
 
                             <p class="indent-10">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -85,11 +85,11 @@
 
             <!-- project2-small&medium -->
 
-            <div class="grid grid-cols-1 p-24 py-0 gap-5 mt-10 md:hidden">
+            <div class="grid grid-cols-1 gap-5 p-24 py-0 mt-10 md:hidden">
 
                 <div class="rounded-3xl">
 
-                    <img class="rounded-3xl border-2 border-black" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
+                    <img class="border-2 border-black rounded-3xl" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
 
                 </div>
 
@@ -97,7 +97,7 @@
 
                     <div class="align-middle rounded-lg">
 
-                        <div class="py-11 sm:p-16 text-lg leading-8 text-justify lg:text-balance sm:text-wrap">
+                        <div class="text-lg leading-8 text-justify py-11 sm:p-16 lg:text-balance sm:text-wrap">
 
                             <p class="indent-10">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -120,13 +120,13 @@
 
             <!-- project2-large -->
 
-            <div class="hidden md:grid md:grid-cols-2 p-24 py-0 gap-5 md:mt-16 md:my-28">
+            <div class="hidden gap-5 p-24 py-0 md:grid md:grid-cols-2 md:mt-16 md:my-28">
 
                 <div class="place-content-center">
 
                     <div class="align-middle rounded-lg">
 
-                        <div class="py-11 sm:p-16 text-lg leading-8 text-justify lg:text-balance sm:text-wrap">
+                        <div class="text-lg leading-8 text-justify py-11 sm:p-16 lg:text-balance sm:text-wrap">
 
                             <p class="indent-10">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -145,7 +145,7 @@
 
                 <div class="rounded-3xl">
 
-                    <img class="rounded-3xl border-2 border-black" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
+                    <img class="border-2 border-black rounded-3xl" src="resources/ourproject_imgs/Project01.jpg" alt="Description Image 1" />
 
                 </div>
 
