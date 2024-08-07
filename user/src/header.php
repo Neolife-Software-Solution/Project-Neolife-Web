@@ -46,7 +46,7 @@
 
           <div class="flex flex-row items-center gap-5 sm:mr-3 lg:me-5">
 
-            <a href="#" class="hidden lg:block">
+            <a href="index.php" class="hidden lg:block">
 
               <span class="px-4 py-3 font-medium duration-700 ease-out rounded-md headertext hover:bg-zinc-700 hover:ease-in hover:transition hover:duration-300 hover:text-white">Home</span>
 
