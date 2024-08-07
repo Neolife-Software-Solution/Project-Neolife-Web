@@ -224,8 +224,7 @@
                                             </div>
         
                                         </div>
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/computer_networking.png);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
         
                                             <div class="content">
         
