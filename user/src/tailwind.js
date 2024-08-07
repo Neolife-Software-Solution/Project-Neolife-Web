@@ -1,10 +1,21 @@
+
+// Home page Dropdown
+
+function Dropdown() {
+
+    let dropdown = document.querySelector('#dropdownButton #dropdown');
+
 function Dropdown() {
 
     const dropdown = document.querySelector('#dropdownButton #dropdown');
 
+
     dropdown.classList.toggle("hidden");
 
 }
+
+
+// Home page Dropdown
 
 
 // imageslider
