@@ -27,7 +27,7 @@
             
             <div>
                 
-                <a href="https:/wa.me/+94720620057"  target="_blank" class="cursor-pointer whatsapp_float" title="Contact Us"><i class="text-6xl fa-brands fa-whatsapp fa-shake whatsapp-icon" style="color: #1bbb20;"></i></a>
+                <a href="https:/wa.me/+94711401506"  target="_blank" class="cursor-pointer whatsapp_float" title="Contact Us"><i class="text-6xl fa-brands fa-whatsapp fa-shake whatsapp-icon" style="color: #1bbb20;"></i></a>
                 
             </div>
 
@@ -143,6 +143,8 @@
         
                                         <div class="item" style="background-image: url(resources/Services_img_slider/Application\ Development\(2\).jpeg);">
         
+                                            <!-- slider deatils -->                        
+
                                             <div class="content">
         
                                                 <div class="name">Application Development</div>
@@ -150,12 +152,16 @@
                                                 <div class="des">Application development is the process of creating software applications for various platforms such as desktops, mobile devices, and web browsers. Developers focus on creating applications that are user-friendly, efficient, and tailored to meet specific user needs or solve particular problems. This process often includes continuous updates and improvements to enhance functionality, security, and performance.</div>
         
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
-        
+                
                                             </div>
+                                            
+                                            <!-- slider deatils -->                        
         
                                         </div>
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
+                                            
+                                            <!-- slider deatils -->                        
         
                                             <div class="content">
         
@@ -166,10 +172,14 @@
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
                                             </div>
+                                            
+                                            <!-- slider deatils -->                        
         
                                         </div>
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
+                                            
+                                            <!-- slider deatils -->                        
         
                                             <div class="content">
         
@@ -180,11 +190,16 @@
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
                                             </div>
+                                            
+                                            <!-- slider deatils -->                        
+                                            
         
                                         </div>
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
         
+                                            <!-- slider deatils -->                        
+
                                             <div class="content">
         
                                                 <div class="name">Graphic Design</div>
@@ -195,10 +210,14 @@
         
                                             </div>
         
+                                            <!-- slider deatils -->                        
+
                                         </div>
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
         
+                                            <!-- slider deatils -->                        
+
                                             <div class="content">
         
                                                 <div class="name">Video Editing</div>
@@ -209,10 +228,14 @@
         
                                             </div>
         
+                                            <!-- slider deatils -->                        
+
                                         </div>
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
         
+                                            <!-- slider deatils -->                        
+
                                             <div class="content">
         
                                                 <div class="name">computer Hardware</div>
@@ -223,9 +246,13 @@
         
                                             </div>
         
+                                            <!-- slider deatils -->                        
+
                                         </div>
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
         
+                                            <!-- slider deatils -->                        
+
                                             <div class="content">
         
                                                 <div class="name">Networking</div>
@@ -236,6 +263,8 @@
         
                                             </div>
         
+                                            <!-- slider deatils -->                        
+                                            
                                         </div>
         
                                     </div>                            
@@ -245,6 +274,8 @@
         
                             </div>
         
+                            <!-- slider buttons -->
+                             
                             <div class="button">
         
                                 <button class="prev btn2"><i class="fa-solid fa-less-than"></i></button>
@@ -252,6 +283,8 @@
         
                             </div>
                                     
+                            <!-- slider buttons -->
+                            
                         </div>
                         
                     </div>
@@ -677,6 +710,8 @@
                     <div class="flex flex-col justify-center gap-8 lg:flex-row group">
 
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6">
+
+                            <!-- member deatils -->
                         
                             <div class="flex flex-row justify-center mt-10 ">
         
@@ -1020,6 +1055,8 @@
         
                             </div>
                             
+                            <!-- member deatils -->
+                                                        
                         </div>
                                             
                     </div>

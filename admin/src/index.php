@@ -99,13 +99,13 @@
 
                                             <div class="flex justify-center p-2 mt-10">
             
-                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Create Password" type="text"></input>
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Create Password" type="password"></input>
             
                                             </div>
                                             
                                             <div class="flex justify-center p-2 mt-10">
             
-                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Re-Type Name" type="text"></input>
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Re-Type Name" type="password"></input>
             
                                             </div>
                                         
