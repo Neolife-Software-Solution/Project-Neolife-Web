@@ -11,11 +11,13 @@
 }
 
 @font-face {
+
     font-family: "Montserrat-ExtraBold";
     src: url("resources/fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
+
     font-family: "Lato";
     src: url("resources/fonts/Lato-Regular.ttf");
 }
@@ -34,6 +36,7 @@
 
 }
 
+
 .headertext-aboutus {
 
     font-family: "Montserrat-ExtraBold";
@@ -41,12 +44,14 @@
 
 }
 
+
 .logotext{
 
     font-family: "Audiowide";
     font-size: 17px;
 
 }
+
 
 
 /* font end (don't change) */
@@ -487,3 +492,30 @@ video {
       right: 10px;
     }
   }
+
+/* font end (don't change) */
+
+/* estimate bg image start */
+
+.bgimage {
+
+    background-image: url("resources/estimate_page_bg_images/estimatepage_bg.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    background-repeat: repeat;
+
+}
+
+.bgimagebackdrop {
+
+    /* position: absolute; */
+    height: auto;
+    border: 0px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+
+}
+
+/* estimate bg image end */
+
