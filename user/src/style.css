@@ -74,9 +74,3 @@
 }
 
 /* font end (don't change) */
-
-.bg_image {
-    background-image: url("resources/logo/backgroundimg.jpg");
-    height: 100vh;
-    background-size: cover;
-}
