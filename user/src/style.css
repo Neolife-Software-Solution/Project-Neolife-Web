@@ -315,7 +315,7 @@ video {
 
 /* Responsive Design */
 
-@media screen and (max-width: 999px){
+@media screen and (max-width: 992px){
    
     .slide .item .content{
         left: 50px;
