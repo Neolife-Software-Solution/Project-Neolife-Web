@@ -86,11 +86,11 @@
 
                                 <div class="flex flex-row justify-center mt-8">
 
-                                    <button class="bg-[#645FCE] px-6 py-3 text-white rounded-md hover:bg-black font-medium duration-700 ease-out hover:ease-in hover:transition hover:duration-300 hover:text-white">
+                                    <a href="AboutUs.php" class="bg-[#645FCE] px-6 py-3 text-white rounded-md hover:bg-black font-medium duration-700 ease-out hover:ease-in hover:transition hover:duration-300 hover:text-white">
                                         
                                         About Us
                                     
-                                    </button>
+                                    </a>
                                     
                                 </div>
 
@@ -440,7 +440,7 @@
 
                                         <div class="flex flex-row justify-end mt-5 mb-2">
 
-                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+                                            <a href="OurProject.php" class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</a>
 
                                         </div>
 
@@ -493,7 +493,7 @@
 
                                         <div class="flex flex-row justify-end mt-5 mb-2">
 
-                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+                                            <a href="OurProject.php" class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</a>
 
                                         </div>
 
@@ -546,7 +546,7 @@
 
                                         <div class="flex flex-row justify-end mt-5 mb-2">
 
-                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+                                            <a href="OurProject.php" class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</a>
 
                                         </div>
 
@@ -599,7 +599,7 @@
 
                                         <div class="flex flex-row justify-end mt-5 mb-2">
 
-                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+                                            <a href="OurProject.php" class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</a>
 
                                         </div>
 

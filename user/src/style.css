@@ -58,21 +58,19 @@
 
 }
 
-.deshead {
+.descriptionhead {
 
     font-family: "Arvo";
     font-size: 14px;
 
 }
 
-.destext {
+.descriptiontext {
 
     font-family: "Marvel";
     font-size: 14px;
 
 }
-
-/* font end (don't change) */
 
 /* font end (don't change) */
 
@@ -105,7 +103,7 @@ video {
     z-index: 1;
     color: white;
     text-align: center;
-    padding-top: 20%; /* මේක වෙනස් කරන්න එපා දෙයියනේ */
+    padding-top: 20%;
 
 }
 
@@ -174,7 +172,7 @@ video {
     height: 300px; */
     position: absolute;
     top: 60%;
-    /* transform: translate(0, -60%); */
+    transform: translate(0, -50%);
     border-radius: 20px;
     box-shadow: 0 30px 50px #505050;
     background-position: 50% 50%;

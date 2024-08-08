@@ -1,11 +1,5 @@
 // Header Dropdown
 
-// Home page Dropdown
-
-function Dropdown() {
-
-    let dropdown = document.querySelector('#dropdownButton #dropdown');
-
 function Dropdown() {
 
     const dropdown = document.querySelector('#dropdownButton #dropdown');
@@ -15,9 +9,6 @@ function Dropdown() {
 }
 
 // Header Dropdown
-
-// Home page Dropdown
-
 
 // imageslider
 
