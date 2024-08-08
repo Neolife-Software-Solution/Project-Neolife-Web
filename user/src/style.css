@@ -11,15 +11,23 @@
 }
 
 @font-face {
-
     font-family: "Montserrat-ExtraBold";
     src: url("resources/fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
-
     font-family: "Lato";
     src: url("resources/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("resources/fonts/Arvo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Marvel";
+    src: url("resources/fonts/Marvel-Regular.ttf");
 }
 
 *{
@@ -30,12 +38,11 @@
 }
 
 .headertext{
-
+  
     font-family: "Montserrat";
     font-size: 14px;
 
 }
-
 
 .headertext-aboutus {
 
@@ -44,7 +51,6 @@
 
 }
 
-
 .logotext{
 
     font-family: "Audiowide";
@@ -52,7 +58,21 @@
 
 }
 
+.deshead {
 
+    font-family: "Arvo";
+    font-size: 14px;
+
+}
+
+.destext {
+
+    font-family: "Marvel";
+    font-size: 14px;
+
+}
+
+/* font end (don't change) */
 
 /* font end (don't change) */
 

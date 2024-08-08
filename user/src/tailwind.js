@@ -1,3 +1,4 @@
+// Header Dropdown
 
 // Home page Dropdown
 
@@ -9,11 +10,11 @@ function Dropdown() {
 
     const dropdown = document.querySelector('#dropdownButton #dropdown');
 
-
     dropdown.classList.toggle("hidden");
 
 }
 
+// Header Dropdown
 
 // Home page Dropdown
 
@@ -105,3 +106,4 @@ setTimeout(() => modal.classList.add('hidden'), 200);
 });
 
 // estimatepage accordian animation
+
