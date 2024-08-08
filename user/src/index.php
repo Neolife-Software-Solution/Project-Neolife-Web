@@ -23,7 +23,7 @@
 
     <body>
 
-        <div class="w-auto h-screen">
+        <div class="h-screen">
             
             <div>
                 
@@ -66,7 +66,7 @@
 
                     <div class="flex flex-row">
 
-                        <div class="flex flex-col p-4 ">
+                        <div class="flex flex-col p-4">
 
                             <div class="flex flex-col p-5 px-5 rounded-md mb-60 bg-white/15">
 
@@ -114,7 +114,7 @@
 
                 <div>
 
-                    <div class="bg-[#645FCE] py-5 mt-32">
+                    <div class="bg-[#645FCE] py-5">
 
                         <div>
 
@@ -158,6 +158,7 @@
                                             <!-- slider deatils -->                        
         
                                         </div>
+
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
                                             
@@ -176,6 +177,7 @@
                                             <!-- slider deatils -->                        
         
                                         </div>
+                                        
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
                                             
@@ -195,6 +197,7 @@
                                             
         
                                         </div>
+
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
         
@@ -213,6 +216,7 @@
                                             <!-- slider deatils -->                        
 
                                         </div>
+
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
         
@@ -231,6 +235,7 @@
                                             <!-- slider deatils -->                        
 
                                         </div>
+
                                         <div class="bg-cover item h-80"
                                             style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
         
@@ -249,6 +254,7 @@
                                             <!-- slider deatils -->                        
 
                                         </div>
+                                        
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
         
                                             <!-- slider deatils -->                        
@@ -381,303 +387,237 @@
 
                     </div>
 
-                    <!-- Project Image Slider -->
+                    <!-- Project Image -->
         
                     <div>
                     
-                        <div>
-                        
-                            <div class="py-5 bg-slate-300 ">
-                            
-                                <div class="">
-                                
-                                    <div class="flex flex-col justify-center gap-5 lg:flex-row ">
+                        <!-- project show card body -->
 
-                                        <div class="grid grid-cols-1 gap-10 lg:gap-20 md:grid-cols-2 lg:grid-cols-4">
-                                            
-                                            <!-- project Card -->
-                                            <div class="flex flex-row justify-center">
-    
-                                                <div>
-    
-                                                    <div>
-    
-                                                        <div class="bg-cover project_img" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
-                                                        
-                                                    </div>
-                                                    
-                                                    <div>
-                
-                                                        <div class="bg-white rounded-b-2xl project_content">
-                
-                                                            <div>
-                                                            
-                                                                <div class="flex flex-row justify-center ">
-                
-                                                                    <div class="mt-10 border-black rounded-lg shadow-lg shadow-slate-800">
-                                                                    
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                
-                                                                    </div>
-                
-                                                               </div> 
-                
-                                                            </div>
-                                                        
-                                                            <div>
-                                                        
-                                                                <div class="flex flex-row justify-center mt-6">
-                
-                                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
-                
-                                                                        <button class="font-bold shadow-2xl">See More</button>
-                
-                                                                    </div> 
-                                                                
-                                                                </div>                                                
-                
-                                                            </div>
-                                                            
-                                                        </div>                                        
-                                                
-                                                    </div>
-                                                
+                        <div class="flex flex-col justify-center gap-4 p-5 lg:flex-row bg-slate-200">             
+                        
+                            <!-- project card -->
+                        
+                            <div class="flex flex-col">
+
+                                <div class="flex flex-col gap-1 p-2 bg-white rounded-md">
+
+                                    <div class="flex flex-row justify-center">
+
+                                        <img src="resources/Services_img_slider/Application Development(2).jpeg" class="rounded-lg h-52" alt="" />
+
+                                    </div>
+
+                                    <div>
+
+                                        <div class="flex flex-row justify-center p-2 leading-10 rounded-md bg-gradient-to-br from-slate-200 via-white to-gray-300">
+
+                                            <div class="flex flex-col">
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Project Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
                                                 </div>
-                                                                                                                                          
                                                 
-                                            </div>
-                                            
-                                            <div class="flex flex-row justify-center">
-    
-                                                <div>
-    
-                                                    <div>
-    
-                                                        <div class="bg-cover project_img" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
-                                                        
-                                                    </div>
-                                                    
-                                                    <div>
-                
-                                                        <div class="bg-white project_content rounded-b-2xl">
-                
-                                                            <div>
-                                                            
-                                                                <div class="flex flex-row justify-center ">
-                
-                                                                    <div class="mt-10 border-black rounded-lg shadow-lg shadow-slate-800">
-                                                                    
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                
-                                                                    </div>
-                
-                                                               </div> 
-                
-                                                            </div>
-                                                        
-                                                            <div>
-                                                        
-                                                                <div class="flex flex-row justify-center mt-6">
-                
-                                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
-                
-                                                                        <button class="font-bold shadow-2xl">See More</button>
-                
-                                                                    </div> 
-                                                                
-                                                                </div>                                                
-                
-                                                            </div>
-                                                            
-                                                        </div>                                        
-                                                
-                                                    </div>
-                                                
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Company Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
                                                 </div>
-                                                                                                                                          
-                                                
-                                            </div>
-                                            
-                                            <div class="flex flex-row justify-center">
-    
-                                                <div>
-    
-                                                    <div>
-    
-                                                        <div class="bg-cover project_img" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
-                                                        
-                                                    </div>
-                                                    
-                                                    <div>
-                
-                                                        <div class="bg-white rounded-b-2xl project_content">
-                
-                                                            <div>
-                                                            
-                                                                <div class="flex flex-row justify-center ">
-                
-                                                                    <div class="mt-10 border-black rounded-lg shadow-lg shadow-slate-800">
-                                                                    
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                
-                                                                    </div>
-                
-                                                               </div> 
-                
-                                                            </div>
-                                                        
-                                                            <div>
-                                                        
-                                                                <div class="flex flex-row justify-center mt-6">
-                
-                                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
-                
-                                                                        <button class="font-bold shadow-2xl">See More</button>
-                
-                                                                    </div> 
-                                                                
-                                                                </div>                                                
-                
-                                                            </div>
-                                                            
-                                                        </div>                                        
-                                                
-                                                    </div>
-                                                
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Business Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
                                                 </div>
-                                                                                                                                          
-                                                
+
                                             </div>
-                                            
-                                            <div class="flex flex-row justify-center">
-    
-                                                <div>
-    
-                                                    <div>
-    
-                                                        <div class="bg-cover project_img" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);"></div>
-                                                        
-                                                    </div>
-                                                    
-                                                    <div>
-                
-                                                        <div class="bg-white rounded-b-2xl project_content">
-                
-                                                            <div>
-                                                            
-                                                                <div class="flex flex-row justify-center ">
-                
-                                                                    <div class="mt-10 border-black rounded-lg shadow-lg shadow-slate-800">
-                                                                    
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Project Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Company Name :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                                                                        
-                                                                        <div class="flex flex-row justify-center p-3">
-                
-                                                                            <span class="mt-2 text-2xl font-bold ">Business Type :- Kali Project</span>
-                                                                        
-                                                                        </div>
-                
-                                                                    </div>
-                
-                                                               </div> 
-                
-                                                            </div>
-                                                        
-                                                            <div>
-                                                        
-                                                                <div class="flex flex-row justify-center mt-6">
-                
-                                                                    <div class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">
-                
-                                                                        <button class="font-bold shadow-2xl">See More</button>
-                
-                                                                    </div> 
-                                                                
-                                                                </div>                                                
-                
-                                                            </div>
-                                                            
-                                                        </div>                                        
-                                                
-                                                    </div>
-                                                
-                                                </div>
-                                                                                                                                          
-                                                
-                                            </div>
-                                            <!-- project Card -->
-                                                                                
+
                                         </div>
-                                        
-                                    </div>                             
-        
+
+                                        <div class="flex flex-row justify-end mt-5 mb-2">
+
+                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+
+                                        </div>
+
+                                    </div>
+
                                 </div>
-        
+
                             </div>
+
+                            <div class="flex flex-col">
+
+                                <div class="flex flex-col gap-1 p-2 bg-white rounded-md">
+
+                                    <div class="flex flex-row justify-center">
+
+                                        <img src="resources/Services_img_slider/Application Development(2).jpeg" class="rounded-lg h-52" alt="" />
+
+                                    </div>
+
+                                    <div>
+
+                                        <div class="flex flex-row justify-center p-2 leading-10 rounded-md bg-gradient-to-br from-slate-200 via-white to-gray-300">
+
+                                            <div class="flex flex-col">
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Project Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+                                                
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Company Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Business Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="flex flex-row justify-end mt-5 mb-2">
+
+                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="flex flex-col">
+
+                                <div class="flex flex-col gap-1 p-2 bg-white rounded-md">
+
+                                    <div class="flex flex-row justify-center">
+
+                                        <img src="resources/Services_img_slider/Application Development(2).jpeg" class="rounded-lg h-52" alt="" />
+
+                                    </div>
+
+                                    <div>
+
+                                        <div class="flex flex-row justify-center p-2 leading-10 rounded-md bg-gradient-to-br from-slate-200 via-white to-gray-300">
+
+                                            <div class="flex flex-col">
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Project Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+                                                
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Company Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Business Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="flex flex-row justify-end mt-5 mb-2">
+
+                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="flex flex-col">
+
+                                <div class="flex flex-col gap-1 p-2 bg-white rounded-md">
+
+                                    <div class="flex flex-row justify-center">
+
+                                        <img src="resources/Services_img_slider/Application Development(2).jpeg" class="rounded-lg h-52" alt="" />
+
+                                    </div>
+
+                                    <div>
+
+                                        <div class="flex flex-row justify-center p-2 leading-10 rounded-md bg-gradient-to-br from-slate-200 via-white to-gray-300">
+
+                                            <div class="flex flex-col">
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Project Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+                                                
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Company Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                                <div class="flex flex-row items-center">
+
+                                                    <span class="text-lg font-bold">Business Name&nbsp;:&nbsp;</span>
+                                                    <span class="font-bold text-md">Project Kali</span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="flex flex-row justify-end mt-5 mb-2">
+
+                                            <button class="py-2 text-center rounded-md w-28 bg-[#645FCE] hover:bg-[#5852EC] hove:transition hover:duration-500 hover:ease-in duration-700 ease-out hover:text-white">See More</button>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- project card -->
                         
                         </div>
+
+                        <!-- project show card body -->
         
                     </div>
         
-                    <!-- Project Image Slider -->
+                    <!-- Project Image -->
                     
                 </div>
 
@@ -707,17 +647,17 @@
 
                     <!-- Staff Card -->
 
-                    <div class="flex flex-col justify-center gap-8 lg:flex-row group">
+                    <div class="flex flex-col justify-center lg:flex-row group">
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6">
+                        <div class="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
 
                             <!-- member deatils -->
                         
-                            <div class="flex flex-row justify-center mt-10 ">
+                            <div class="flex flex-row justify-center mt-10">
         
-                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center ">
+                                <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52">
                                     
                                         <div >
                                             
@@ -770,11 +710,11 @@
         
                             </div>
                             
-                            <div class="flex flex-row justify-center mt-10">
+                            <div class="flex flex-row justify-center mt-10 ">
         
                                 <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500 justify-center">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52">
                                     
                                         <div>
                                             
@@ -831,13 +771,13 @@
         
                                 <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52">
                                     
                                         <div>
                                             
                                             <div class="flex flex-row justify-center">
                 
-                                                <img class="w-40 h-40 rounded-full" src="resources/staff_images/Kavindu.jpg"/>
+                                                <img class="w-40 h-40 rounded-full " src="resources/staff_images/Kavindu.jpg"/>
                 
                                             </div>
                 
@@ -888,7 +828,7 @@
         
                                 <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52 ">
                                     
                                         <div>
                                             
@@ -945,11 +885,11 @@
         
                                 <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52">
                                     
-                                        <div class="w-44">
+                                        <div class="">
                                             
-                                            <div class="flex flex-row justify-center">
+                                            <div class="flex flex-row justify-center ">
                 
                                                 <img class="w-40 h-40 rounded-full " src="resources/staff_images/Jude _hamel(2).jpg"/>
                 
@@ -1002,7 +942,7 @@
         
                                 <div class="flex flex-row items-center p-20 shadow-2xl cursor-pointer lg:p-10 rounded-3xl group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-500">
                                     
-                                    <div class="flex flex-col">
+                                    <div class="flex flex-col w-52">
                                     
                                         <div>
                                             

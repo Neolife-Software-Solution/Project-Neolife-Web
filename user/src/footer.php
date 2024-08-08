@@ -88,7 +88,7 @@
 
                         <div class="flex flex-col text-xl font-bold">
 
-                            <a href="#" target="_self">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="index.php" target="_self">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                             <a href="#" target="_self">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
