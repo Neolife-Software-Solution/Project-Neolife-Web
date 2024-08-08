@@ -104,7 +104,7 @@
 
                   <div class="flex flex-col hidden gap-2 p-2 text-start" id="dropdown">
 
-                    <a href="#" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Home</a>
+                    <a href="index.php" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Home</a>
                     <a href="Estimate.php" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-black hover:ease-in hover:transition">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right fa-shake"></i></a>
                     <a href="#" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Our Services</a>
                     <a href="#" target="_self" class="p-3 text-black duration-700 ease-out rounded-md hover:duration-500 hover:text-white hover:bg-indigo-600 hover:ease-in hover:transition">Our Projects</a>
