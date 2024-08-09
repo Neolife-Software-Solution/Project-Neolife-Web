@@ -97,28 +97,28 @@
 
             <!-- des1 -->
 
-            <div class="m-11 mt-20 sm:m-28 rounded-3xl bg-slate-300">
+            <div class="mt-20 m-11 sm:m-28 rounded-3xl bg-slate-300">
 
-                <div class="grid grid-cols-1 md:grid-cols-2 pb-0 p-11 md:p-16 place-items-center">
+                <div class="grid grid-cols-1 pb-0 md:grid-cols-2 p-11 md:p-16 place-items-center">
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des1.png" alt="Description Image 1" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des1.png" alt="Description Image 1" />
 
                     </div>
 
                     <div class="align-middle">
 
-                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+                        <div class="px-0 text-lg leading-8 py-11 md:px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Client-Centric Approach</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Client-Centric Approach</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>We prioritize our clients' needs and work closely with
                                     them to ensure that our solutions align with their business goals.</p>
                             </div>
@@ -144,22 +144,22 @@
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
 
                     </div>
 
                     <div class="align-middle">
 
-                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+                        <div class="px-0 text-lg leading-8 py-11 md:px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Quality Assurance</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Quality Assurance</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>Our rigorous quality assurance processes guarantee
                                     that every product we deliver meets the highest standards of performance and reliability.</p>
                             </div>
@@ -186,13 +186,13 @@
                         <div class="text-lg leading-8 px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Quality Assurance</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Quality Assurance</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>Our rigorous quality assurance processes guarantee
                                     that every product we deliver meets the highest standards of performance and reliability.</p>
                             </div>
@@ -204,7 +204,7 @@
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des2.png" alt="Description Image 1" />
 
                     </div>
 
@@ -219,26 +219,26 @@
 
             <div class="m-11 sm:m-28 rounded-3xl bg-slate-300">
 
-                <div class="grid grid-cols-1 md:grid-cols-2 pb-0 p-11 md:p-16 place-items-center">
+                <div class="grid grid-cols-1 pb-0 md:grid-cols-2 p-11 md:p-16 place-items-center">
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des3.png" alt="Description Image 1" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des3.png" alt="Description Image 1" />
 
                     </div>
 
                     <div class="align-middle">
 
-                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+                        <div class="px-0 text-lg leading-8 py-11 md:px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Dedicated Support</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Dedicated Support</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>Our commitment to excellent customer service means that we are
                                     always available to provide support and assistance whenever you need it.</p>
                             </div>
@@ -262,22 +262,22 @@
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 4" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 4" />
 
                     </div>
 
                     <div class="align-middle">
 
-                        <div class="text-lg leading-8 py-11 px-0 md:px-11">
+                        <div class="px-0 text-lg leading-8 py-11 md:px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Innovative Solutions</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Innovative Solutions</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>We leverage the latest technologies and industry best practices
                                     to deliver innovative solutions that drive business growth.</p>
                             </div>
@@ -305,13 +305,13 @@
                         <div class="text-lg leading-8 px-11">
 
                             <!-- font is Arvo-Regular -->
-                            <p class="text-2xl font-black text-center deshead">Innovative Solutions</p>
+                            <p class="text-2xl font-black text-center descriptionhead">Innovative Solutions</p>
                             <!-- font is Arvo-Regular -->
 
                             <br />
 
                             <!-- font is Marvel-Regular -->
-                            <div class="text-wrap destext">
+                            <div class="text-wrap descriptiontext">
                                 <p>We leverage the latest technologies and industry best practices
                                     to deliver innovative solutions that drive business growth.</p>
                             </div>
@@ -323,7 +323,7 @@
 
                     <div class="rounded-3xl">
 
-                        <img class="rounded-3xl border-4 border-white" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 1" />
+                        <img class="border-4 border-white rounded-3xl" src="./resources/aboutus_imgs/Des4.png" alt="Description Image 1" />
 
                     </div>
 
