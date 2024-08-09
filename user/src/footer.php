@@ -90,9 +90,9 @@
 
                             <a href="index.php" target="_self">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#" target="_self">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="AboutUs.php" target="_self">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#" target="_self">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="OurProject.php" target="_self">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                             <a href="Estimate.php" target="_self">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
                             

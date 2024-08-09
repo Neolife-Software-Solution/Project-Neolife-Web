@@ -92,7 +92,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -515,7 +515,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -879,7 +879,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -1243,7 +1243,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -1607,7 +1607,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -1971,7 +1971,7 @@
                                                     
                                                     <div class="flex flex-col">
 
-                                                        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-3 sm:grid-cols-1">
+                                                        <div class="grid gap-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
 
                                                             <!-- bascipackage -->
 
@@ -2430,7 +2430,7 @@
 
                                         <div class="grid grid-cols-1">
 
-                                            <input type="text" class="px-3 py-3 placeholder-black rounded-md focus:outline-none" placeholder="Enter Your Email Address ex :- john_doely@gmail.com" />
+                                            <input type="email" class="px-3 py-3 placeholder-black rounded-md focus:outline-none" placeholder="Enter Your Email Address ex :- john_doely@gmail.com" />
 
                                         </div>
 
