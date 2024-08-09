@@ -138,7 +138,8 @@
         
                                 <div class="w-screen">
         
-                                    <!-- images -->                             
+                                    <!-- images -->   
+                                                               
                                     <div class="slide">
         
                                         <div class="item" style="background-image: url(resources/Services_img_slider/Application\ Development\(2\).jpeg);">
@@ -250,7 +251,7 @@
 
                                         </div>
                                         
-                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/hiclipart.com.jpg);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
         
                                             <!-- slider deatils -->                        
 
@@ -268,7 +269,8 @@
                                             
                                         </div>
         
-                                    </div>                            
+                                    </div>
+                                                               
                                     <!-- images -->
         
                                 </div>
