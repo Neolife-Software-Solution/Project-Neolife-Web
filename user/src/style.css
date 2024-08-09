@@ -11,15 +11,23 @@
 }
 
 @font-face {
-
     font-family: "Montserrat-ExtraBold";
     src: url("resources/fonts/Montserrat-ExtraBold.ttf");
 }
 
 @font-face {
-
     font-family: "Lato";
     src: url("resources/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Arvo";
+    src: url("resources/fonts/Arvo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Marvel";
+    src: url("resources/fonts/Marvel-Regular.ttf");
 }
 
 *{
@@ -30,12 +38,11 @@
 }
 
 .headertext{
-
+  
     font-family: "Montserrat";
     font-size: 14px;
 
 }
-
 
 .headertext-aboutus {
 
@@ -44,7 +51,6 @@
 
 }
 
-
 .logotext{
 
     font-family: "Audiowide";
@@ -52,7 +58,19 @@
 
 }
 
+.descriptionhead {
 
+    font-family: "Arvo";
+    font-size: 14px;
+
+}
+
+.descriptiontext {
+
+    font-family: "Marvel";
+    font-size: 14px;
+
+}
 
 /* font end (don't change) */
 
@@ -132,15 +150,17 @@ video {
     /* overflow: hidden; */
 }
 
-.body{
+/* .body{
 
     background: #eaeaea;
-}
+} */
 
 .container_img{
 
     position: absolute;
-    width: 1903px;
+    width: auto;
+    /* left: 50%; */
+    /* transform: translate(0, 0); */
     height: 710px;
     background: #f5f5f5;
 
@@ -148,11 +168,11 @@ video {
 
 .container_img .slide .item{
 
-    width: 200px;
-    height: 300px;
+    /* width: 200px;
+    height: 300px; */
     position: absolute;
     top: 60%;
-    transform: translate(0, -60%);
+    transform: translate(0, -50%);
     border-radius: 20px;
     box-shadow: 0 30px 50px #505050;
     background-position: 50% 50%;
