@@ -3814,15 +3814,6 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -3841,10 +3832,6 @@ video {
 
   .lg\:gap-60 {
     gap: 15rem;
-  }
-
-  .lg\:gap-20 {
-    gap: 5rem;
   }
 
   .lg\:text-balance {

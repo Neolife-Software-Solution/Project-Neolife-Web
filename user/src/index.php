@@ -54,7 +54,7 @@
 
                     <video autoplay="{true}" loop muted class="hidden lg:block">
                     
-                        <source src="resources/background_video_animation/background.mp4" type="video/mp4">
+                        <source src="resources/background_video_animation/background(2).mp4" type="video/mp4">
                     
                     </video>
 
@@ -159,8 +159,7 @@
         
                                         </div>
 
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
                                             
                                             <!-- slider deatils -->                        
         
@@ -178,8 +177,7 @@
         
                                         </div>
                                         
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
                                             
                                             <!-- slider deatils -->                        
         
@@ -198,8 +196,7 @@
         
                                         </div>
 
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
         
                                             <!-- slider deatils -->                        
 
@@ -217,8 +214,7 @@
 
                                         </div>
 
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
         
                                             <!-- slider deatils -->                        
 
@@ -236,8 +232,7 @@
 
                                         </div>
 
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
         
                                             <!-- slider deatils -->                        
 
@@ -255,7 +250,7 @@
 
                                         </div>
                                         
-                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_networking.png);">
+                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/hiclipart.com.jpg);">
         
                                             <!-- slider deatils -->                        
 
