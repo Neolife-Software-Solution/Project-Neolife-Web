@@ -53,7 +53,7 @@
     
                                     <div>
     
-                                        <input class="h-10 p-5 rounded-full shadow-md focus:outline-none hover:shadow-black w-[300px] lg:w-[530px]" placeholder="Enter Your Admin Email Address" type="text" name="" id=""/>
+                                        <input class="h-10 p-5 rounded-full shadow-md focus:outline-none hover:shadow-black w-[300px] lg:w-[530px]" placeholder="Enter Your Admin Email Address" type="email" name="" id=""/>
                                     
                                     </div>
                                 
