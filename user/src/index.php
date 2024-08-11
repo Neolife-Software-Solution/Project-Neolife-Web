@@ -166,9 +166,9 @@
         
                                             <div class="content">
         
-                                                <div class="name">web Development</div>
+                                                <div class="!text-yellow-500 name">web Development</div>
         
-                                                <div class="des">Web development involves building and maintaining websites, focusing on both the visual and technical aspects. It includes designing layouts, ensuring user-friendly navigation, implementing interactive features, and optimizing performance. Web developers work to create seamless, responsive, and accessible websites that provide a positive user experience across various devices and platforms.</div>
+                                                <div class="!text-rose-950 font-bold des">Web development involves building and maintaining websites, focusing on both the visual and technical aspects. It includes designing layouts, ensuring user-friendly navigation, implementing interactive features, and optimizing performance. Web developers work to create seamless, responsive, and accessible websites that provide a positive user experience across various devices and platforms.</div>
         
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
