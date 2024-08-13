@@ -18,6 +18,8 @@
 
     <title>Admin-Header & Side Menu</title>
 
+    <link rel="icon" href="resources/logo/favicon.png" />
+
 </head>
 
 <body>
@@ -204,7 +206,7 @@
             <div class="nav-right flex items-center gap-8 relative">
 
                 <!-- admin_name -->
-                <p class=" text-sm sm:text-base sm:font-bold ">Kavindu Vishmitha</p>
+                <p class=" text-sm font-bold hidden sm:block">Kavindu Vishmitha</p>
                 <!-- admin_name -->
 
                 <!-- admin_profile_&_dropdownMenu -->
