@@ -16,7 +16,9 @@
 
     <link rel="stylesheet" href="tailwind.css" />
 
-    <title>Admin-Header & Side Menu</title>
+    <title>Admin-Header & Side Menu 01</title>
+
+    <link rel="icon" href="resources/logo/favicon.png" />
 
 </head>
 
@@ -34,7 +36,7 @@
 
             <img class="w-[80px] rounded-full sm:mt-10 mt-4 p-2" src="resources/logo/logo.png" />
 
-            <span class="sm:mt-10 ">Dashboard</span>
+            <span class="sm:mt-10 md:text-3xl">Dashboard</span>
 
         </a>
 
@@ -177,6 +179,17 @@
 
             </li>
 
+            <li class="text sm:hidden block">
+
+                <a href="#">
+
+                    <i class='bx bx-log-out'></i>
+                    <span>Log Out</span>
+
+                </a>
+
+            </li>
+
         </ul>
 
         <!-- dashboard_sidepanel_button_list -->
@@ -204,7 +217,7 @@
             <div class="nav-right flex items-center gap-8 relative">
 
                 <!-- admin_name -->
-                <p class=" text-sm sm:text-base sm:font-bold ">Kavindu Vishmitha</p>
+                <p class=" text-sm font-bold hidden sm:block">Kavindu Vishmitha</p>
                 <!-- admin_name -->
 
                 <!-- admin_profile_&_dropdownMenu -->

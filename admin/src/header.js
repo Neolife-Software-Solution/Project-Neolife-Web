@@ -13,12 +13,26 @@ allSideMenu.forEach(item=> {
 	})
 });
 
+// Check the screen size on page load and set the initial state of the sidebar
+document.addEventListener('DOMContentLoaded', function () {
+    const sidebar = document.getElementById('sidebar');
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 1024) {
+        sidebar.classList.add('hide');
+    } else {
+        sidebar.classList.remove('hide');
+    }
+});
+
+// Add event listener to the menu bar for toggling the sidebar on smaller screens
 const menuBar = document.querySelector('#content nav .bx.bx-menu');
 const sidebar = document.getElementById('sidebar');
 
 menuBar.addEventListener('click', function () {
-	sidebar.classList.toggle('hide');
-})
+    sidebar.classList.toggle('hide');
+});
+
 
 const profileImage = document.getElementById('profileImage');
 const dropdownMenu = document.getElementById('dropdownMenu');
