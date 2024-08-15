@@ -27,6 +27,8 @@
 
                 <div class="flex flex-col">
 
+                    <!-- Header Text Section -->
+
                     <div class="flex flex-row justify-center">
                         
                         <div class="grid grid-cols-1 mt-10 mb-5">
@@ -36,6 +38,8 @@
                         </div>
                     
                     </div>
+
+                    <!-- Header Text Section -->
 
                     <div class="flex flex-col mt-2">
 
@@ -49,13 +53,13 @@
     
                                     <div>
     
-                                        <input class="h-10 p-5 rounded-full shadow-md focus:outline-none hover:shadow-black w-[300px] lg:w-[530px]" placeholder="Enter Your Admin Email Address" type="text" name="" id=""/>
+                                        <input class="h-10 p-5 rounded-full shadow-md focus:outline-none hover:shadow-black w-[300px] lg:w-[530px]" placeholder="Enter Your Admin Email Address" type="email" name="" id=""/>
                                     
                                     </div>
                                 
                                     <div class="flex flex-row justify-center mt-5 lg:justify-end">
     
-                                        <button class="h-10 py-2 bg-white rounded-full lg:w-52 hover:bg-[#645FCE] font-bold w-60">Get verification Code</button>
+                                        <button class="h-10 py-2 font-bold duration-500 ease-out bg-white rounded-full lg:w-52 hover:bg-gray-500 w-60 hover:duration-700 hover:ease-in">Get verification Code</button>
     
                                     </div>
 
@@ -95,13 +99,13 @@
 
                                             <div class="flex justify-center p-2 mt-10">
             
-                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Create Password" type="text"></input>
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Create Password" type="password"></input>
             
                                             </div>
                                             
                                             <div class="flex justify-center p-2 mt-10">
             
-                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Re-Type Name" type="text"></input>
+                                                <input class="h-10 p-5 py-2 text-lg font-bold text-center bg-white rounded-full shadow-md w-60 focus:outline-none hover:shadow-black" placeholder="Re-Type Name" type="password"></input>
             
                                             </div>
                                         
@@ -111,7 +115,7 @@
                                                                         
                                     <div class="flex justify-center mt-10 ">
     
-                                        <button class="h-10 py-2 bg-white rounded-full w-52 hover:bg-[#645FCE] font-bold">Create Account</button>
+                                        <button class="h-10 py-2 font-bold duration-500 ease-out bg-white rounded-full w-52 hover:duration-700 hover:ease-in hover:bg-gray-500">Create Account</button>
     
                                     </div>
 

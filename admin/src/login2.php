@@ -52,6 +52,7 @@
 
                                         <div class="flex flex-row justify-center ">
 
+
                                             <span class="text-center text-white text-xl font-bold lg:h-10 lg:w-[300px] bg-[#645FCE] p-2 rounded-md w-80">Login To Your Account</span>
 
                                         </div>
@@ -75,7 +76,8 @@
 
                                 <div class="flex justify-end mt-10 ">
 
-                                    <button class="h-10 py-2 bg-white rounded-full w-52 hover:bg-[#645FCE] font-bold">Login To Account</button>
+                                    <button class="h-10 py-2 bg-white rounded-full w-52 duration-500 hover:duration-700 hover:ease-in ease-out hover:bg-gray-500 font-bold">Login To Account</button>
+
 
                                 </div>
 
