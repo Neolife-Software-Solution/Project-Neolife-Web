@@ -632,6 +632,14 @@ video {
   margin-bottom: 13rem;
 }
 
+.mb-56 {
+  margin-bottom: 14rem;
+}
+
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
 .ms-40 {
   margin-inline-start: 10rem;
 }
@@ -674,14 +682,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-56 {
-  margin-bottom: 14rem;
-}
-
-.mb-64 {
-  margin-bottom: 16rem;
 }
 
 .block {
