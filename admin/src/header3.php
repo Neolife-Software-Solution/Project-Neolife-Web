@@ -173,10 +173,10 @@
 
                     <div id="dropdownMenu" class="hidden absolute px-36 right-0 mt-7 w-96 bg-white text-black rounded-lg shadow-lg  sm:px-6 sm:py-5 py-4 sm:space-y-4 space-y-2 ">
 
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base"><b>User Name :</b> Kavindu Vishmitha</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base"><b>Email :</b> 2003kavinduvishmitha@gmail.com</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base"><b>Postion :</b> Full-Stack Developer</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base"><b>Department :</b> HR Department</p>
+                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>User Name :</b> Kavindu Vishmitha</p>
+                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Email :</b> 2003kavinduvishmitha@gmail.com</p>
+                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Postion :</b> Full-Stack Developer</p>
+                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Department :</b> HR Department</p>
                         <i class="fa-solid fa-right-from-bracket fa-fade cursor-pointer "></i>
 
                     </div>
