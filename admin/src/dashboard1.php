@@ -16,48 +16,67 @@
 
     <link rel="icon" href="resources/logo/favicon.png" />
 
+
 </head>
 
 <body>
 
+    <div class="h-screen w-full">
 
-    <div class="w-full h-screen">
+        <!-- Access level 01 header -->
+
+        <div><?php require "header1.php"  ?></div>
+
+        <!-- Access level 01 header -->
 
 
-        <?php
-        
-            require "header.php";
+        <!-- Content -->
 
-        ?>
+        <!-- Company Report -->
 
-        <div class="grid grid-cols-1 sm:grid-cols-4 p-10 *:border-2 *:shadow-2xlk 
-        *:w-[100px] *:sm:w-[220px] *:h-[100px] *:sm:h-[190px] *:place-self-center 
+        <div class="grid grid-cols-1 lg:grid-cols-4 p-10 *:border-2 *:shadow-2xl 
+        *:w-[200px] *:lg:w-[220px] *:h-[200px] *:lg:h-[190px] *:place-self-center 
         *:text-center *:content-center *:space-y-4 *:font-medium *:text-wrap 
-        hover:*:border-2 hover:*:border-black">
+        hover:*:border-2 hover:*:border-black gap-2">
 
-            <div class="rounded-3xl bg-sky-300">
+            <div class="rounded-3xl bg-[#645FCE]">
+
                 <p class="text-2xl">Total Orders</p>
                 <p class="text-4xl">02</p>
+
             </div>
 
-            <div class="bg-blue-300 rounded-3xl">
+            <div class="rounded-3xl bg-[#645FCE]">
+
                 <p class="text-2xl">Monthly Revenue</p>
                 <p class="text-4xl">02</p>
+
             </div>
 
-            <div class="bg-indigo-300 rounded-3xl">
+            <div class="rounded-3xl bg-[#645FCE]">
+
                 <p class="text-2xl">Categories</p>
                 <p class="text-4xl">02</p>
+
             </div>
 
-            <div class="bg-purple-300 rounded-3xl">
+            <div class="rounded-3xl bg-[#645FCE]">
+
                 <p class="text-2xl">Total Sales</p>
                 <p class="text-4xl">02</p>
+
+
             </div>
 
         </div>
 
+
+        <!-- Company Report -->
+
         <hr class="border-2 border-slate-600" />
+
+        <!-- Attendance -->
+
 
         <div class="flex place-content-center p-14">
 
@@ -65,153 +84,226 @@
 
         </div>
 
+        <!-- Attendance -->
+
         <hr class="border-2 border-slate-600" />
 
-        <div class="flex p-5 place-content-center">
+        <!-- Company Performance title -->
 
-            <div class="w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center">
-                <span class="text-3xl font-bold">Company Performance This Week</span>
-            </div>
+        <div class="flex place-content-center p-5">
 
-        </div>
+            <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
 
-        <div class="flex flex-col mx-20 border-2 rounded-lg shadow-xl bg-slate-300/35 shadow-black/50">
-            
-            <div class="flex place-self-center">
-                <img src="resources/profile_img/performance_1.png" alt="">
-            </div>
-            
-            <div class="grid grid-cols-3 p-10 text-center place-items-center">
+                <span class="font-bold text-sm lg:text-3xl">Company Performance</span>
 
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">Completed</div>
-                </div>
-
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">Percentage</div>
-                </div>
-                
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">Pending</div>
-                </div>
 
             </div>
 
         </div>
-        
-        <div class="flex p-5 place-content-center">
-            
-            <div class="w-[310px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center">
-                <span class="text-3xl font-bold">Company Revenue</span>
+
+        <!-- Company Performance title -->
+
+        <!-- Company Performance Content -->
+
+        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+
+            <!-- Company Performance image -->
+
+            <div class="flex flex-row place-self-center">
+
+                <img class="lg:w-96 w-[200px]" src="resources/dashboard_img/performance.png" alt="Performance Chart" />
+
             </div>
-            
+
+            <!-- Company Performance image -->
+
+            <!-- Company Performance image Section -->
+
+            <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+
+            </div>
+
+            <!-- Company Performance image Section -->
+
         </div>
-        
-        <div class="flex flex-col mx-20 border-2 rounded-lg shadow-xl bg-slate-300/35 shadow-black/50">            
-            
-            <div class="grid grid-cols-3 p-10 text-center place-items-center">
-                
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">1 Day</div>
+
+        <!-- Company Performance Content -->
+
+        <!-- User Performance title -->
+
+        <div class="flex place-content-center p-5">
+
+            <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
+
+                <span class="font-bold text-sm lg:text-3xl">User Performance</span>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- User Performance title -->
+
+        <!-- User Performance Content -->
+
+        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+
+            <!-- User Performance image -->
+
+            <div class="flex flex-row place-self-center">
+
+                <img class="lg:w-96 w-[200px]" src="resources/dashboard_img/performance.png" alt="Performance Chart" />
+
+            </div>
+
+            <!-- User Performance image -->
+
+            <!-- User Performance image Section -->
+
+            <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+
+            </div>
+
+            <!-- User Performance image Section -->
+
+        </div>
+
+        <!-- User Performance Content -->
+
+        <!-- Company Revenue title -->
+
+        <div class="flex place-content-center p-5">
+
+            <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl">
+
+                <span class="font-bold text-sm lg:text-3xl">Company Revenue</span>
+
+            </div>
+
+        </div>
+
+        <!-- Company Revenue title -->
+
+        <!-- Company Revenue Content -->
+
+        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 py-5">
+
+            <!-- Company Revenue image -->
+
+            <div class="flex flex-row place-self-center">
+
+                <img class="lg:w-96 w-[200px]" src="resources/dashboard_img/analytics.png" alt="Performance Chart" />
+
+            </div>
+
+            <!-- Company Revenue image -->
+
+        </div>
+
+        <!-- Company Revenue Content -->
+
+        <!-- Order Details title -->
+
+        <div class="flex flex-row justify-center p-5 ">
+
+            <div class="hidden lg:block">
+
+                <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
+
+                    <span class="font-bold text-3xl text-center">Order Details</span>
+
                 </div>
-                
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">1 Week</div>
-                </div>
-                
-                <div>
-                    <div class="p-5 text-xl border-2 border-black w-36 hover:bg-purple-300 rounded-2xl">1 Year</div>
-                </div>
-                
-            </div>
-            
-            <div class="flex place-self-center">
-                
-                <img src="resources/profile_img/Revanew.png" alt="">
-                
+
             </div>
 
         </div>
-        
-        <div class="flex p-5 my-5 place-content-center ">
-            
-            <div class="w-[310px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center ">
-                <span class="text-3xl font-bold">Order Deatils</span>
+
+        <!-- Order Details title -->
+
+        <!-- Order Details Content -->
+
+        <div class="px-24 p-5 hidden lg:block">
+
+            <div class="flex flex-col bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 p-5">
+
+                <table class="table-auto text-center">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Order Id</th>
+                            <th>Order Date</th>
+                            <th>Order Customer</th>
+                            <th>Payment</th>
+                            <th>Order Status</th>
+                            <th>Total</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>01</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>02</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>02</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
             </div>
-            
-        </div>
-        
-        <div class="flex flex-col mx-20 border-2 rounded-lg shadow-xl bg-slate-300/35 shadow-black/50 ">            
-            
-            <table class="text-center table-fixed">
-            
-                <thead>
-                    
-                    <tr>
-                        
-                        <th>Order Id</th>
-                        <th>Order Data</th>
-                        <th>Customer</th>
-                        <th>Payment</th>
-                        <th>Order Status</th>
-                        <th>Total</th>
-                                        
-                    </tr>
-
-                </thead>
-                
-                <tbody>
-                    
-                    <tr>
-                        
-                        <td>01</td>
-                        <td>8/13/2024</td>
-                        <td>Sahan Perera</td>
-                        <td>10000.00</td>
-                        <td>Ongoing</td>
-                        <td>2</td>
-                        
-                    </tr>
-
-                    <tr>
-                        
-                        <td>02</td>
-                        <td>8/13/2024</td>
-                        <td>Sahan Perera</td>
-                        <td>10000.00</td>
-                        <td>Ongoing</td>
-                        <td>2</td>
-
-                    </tr>
-                    
-                    <tr>
-                        
-                        <td>03</td>
-                        <td>8/13/2024</td>
-                        <td>Sahan Perera</td>
-                        <td>10000.00</td>
-                        <td>Ongoing</td>
-                        <td>2</td>
-                        
-                    </tr>
-                    
-                    <tr>
-                        
-                        <td>04</td>
-                        <td>8/13/2024</td>
-                        <td>Sahan Perera</td>
-                        <td>10000.00</td>
-                        <td>Ongoing</td>
-                        <td>2</td>
-                        
-                    </tr>
-                    
-                </tbody>
-            
-            </table>
 
         </div>
-        
+
+        <!-- Order Details Content -->
+
+        <!-- Content -->
+
+
     </div>
 
 </body>

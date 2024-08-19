@@ -1,118 +1,100 @@
+// Header Dropdown
+
 function Dropdown() {
 
-    let dropdown = document.querySelector('#dropdownButton #dropdown');
+    const dropdown = document.querySelector('#dropdownButton #dropdown');
 
     dropdown.classList.toggle("hidden");
 
 }
 
-// Home Page background Animation 
+// Header Dropdown
 
-// window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame
+// imageslider
 
-// onload = function (){
-//   setTimeout(init,0)
-// }
+document.addEventListener('DOMContentLoaded', () => {
 
-// init = function(){
-//   canvas = document.querySelector('canvas')
-//   ctx = canvas.getContext('2d')
+    const items = [
 
-//   onresize = function(){
-//     canvas.width = canvas.clientWidth
-//     canvas.height = canvas.clientHeight
-//   }
-//   onresize()
+        { position: 0, el: document.getElementById('carousel-item-1') },
 
-//   mouse = {x:canvas.width/2,y:canvas.height/2,out:false}
+        { position: 1, el: document.getElementById('carousel-item-2') },
 
-//   canvas.onmouseout = function(){
-//     mouse.out = true
-//   }
+        { position: 2, el: document.getElementById('carousel-item-3') },
 
-//   canvas.onmousemove = function(e){
-//     var rect = canvas.getBoundingClientRect()
-//     mouse = {
-//       x: e.clientX - rect.left,
-//       y: e.clientY - rect.top,
-//       out: false
-//     }
-//   }
+        { position: 3, el: document.getElementById('carousel-item-4') },
 
-//   gravityStrength = 10
-//   particles = []
-//   spawnTimer = 0
-//   spawnInterval = 10
-//   type = 0
-//   requestAnimationFrame(startLoop)
-// }
+    ];
 
-// newParticle = function(){
-//   type = type?0:1
-//   particles.push({
-//     x:mouse.x,
-//     y:mouse.y,
-//     xv:type?18*Math.random()-9:24*Math.random()-12,
-//     yv:type?18*Math.random()-9:24*Math.random()-12,
-//     c:type?'rgb(255,'+((200*Math.random())|0)+','+((80*Math.random())|0)+')':'rgb(255,255,255)',
-//     s:type?5+10*Math.random():1,
-//     a:1
-//   })
-// }
+    const options = {
 
-// startLoop = function(newTime){
-//   time = newTime
-//   requestAnimationFrame(loop)
-// }
+        defaultPosition: 0,
 
-// loop = function(newTime){
-//   draw()
-//   calculate(newTime)
-//   requestAnimationFrame(loop)
-// }
+        interval: 2000,
 
-// draw = function(){
-//   ctx.clearRect(0,0,canvas.width,canvas.height)
-//   for(var i=0;i<particles.length;i++){
-//     var p = particles[i]
-//     ctx.globalAlpha = p.a
-//     ctx.fillStyle = p.c
-//     ctx.beginPath()
-//     ctx.arc(p.x,p.y,p.s,0,2*Math.PI)
-//     ctx.fill()
-//   }
-// }
+        indicators: {
 
-// calculate = function(newTime){
-//   var dt = newTime-time
-//   time = newTime
+            activeClasses: 'bg-white dark:bg-gray-800',
 
-//   if(!mouse.out){
-//     spawnTimer += (dt<100)?dt:100
-//     for(;spawnTimer>0;spawnTimer-=spawnInterval){
-//       newParticle()
-//     }
-//   }
+            inactiveClasses: 'bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800',
 
-//   particleOverflow = particles.length-700
-//   if(particleOverflow>0){
-//     particles.splice(0,particleOverflow)
-//   }
+            items: [
 
-//   for(var i=0;i<particles.length;i++){
-//     var p = particles[i]
-//     if(!mouse.out){
-//       x = mouse.x-p.x
-//       y = mouse.y-p.y
-//       a = x*x+y*y
-//       a = a>100?gravityStrength/a:gravityStrength/100
-//       p.xv = (p.xv+a*x)*0.99
-//       p.yv = (p.yv+a*y)*0.99
-//     }
-//     p.x += p.xv
-//     p.y += p.yv
-//     p.a *= 0.99
-//   }
-// }
+                { position: 0, el: document.getElementById('carousel-indicator-1') },
 
-// Home Page background Animation 
+                { position: 1, el: document.getElementById('carousel-indicator-2') },
+
+                { position: 2, el: document.getElementById('carousel-indicator-3') },
+
+                { position: 3, el: document.getElementById('carousel-indicator-4') },
+
+            ],
+
+        },
+
+        onNext: () => console.log('Next slider item is shown'),
+
+        onPrev: () => console.log('Previous slider item is shown'),
+
+        onChange: () => console.log('New slider item has been shown'),
+
+    };
+
+    // Initialize the carousel
+    const carousel = new Carousel(document.getElementById('carousel-example'), items, options);
+
+    // Ensure only the default position item is visible initially
+
+    items.forEach(item => item.el.classList.add('hidden'));
+
+    items[options.defaultPosition].el.classList.remove('hidden');
+    
+});
+
+
+// imageslider
+
+// estimatepage accordian animation
+
+document.getElementById('openModalButton').addEventListener('click', function() {
+
+const modal = document.getElementById('modal');
+
+modal.classList.remove('hidden');
+
+modal.classList.add('ease-out', 'duration-300', 'opacity-100', 'translate-y-0', 'sm:scale-100');
+
+});
+
+document.getElementById('cancelButton').addEventListener('click', function() {
+
+const modal = document.getElementById('modal');
+
+modal.classList.add('ease-in', 'duration-200', 'opacity-0', 'translate-y-4', 'sm:translate-y-0', 'sm:scale-95');
+
+setTimeout(() => modal.classList.add('hidden'), 200);
+
+});
+
+// estimatepage accordian animation
+
