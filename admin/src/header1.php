@@ -104,7 +104,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="adminmeeting.php">
 
                     <i class="bx bxs-mobile"></i>
                     <span class="text">Meeting</span>
@@ -179,7 +179,7 @@
 
             </li>
 
-            <li class="text sm:hidden block">
+            <li class="block text sm:hidden">
 
                 <a href="#">
 
@@ -203,21 +203,21 @@
 
     <section id="content" class="fixed">
 
-        <nav class="nav-container flex justify-between items-center p-4 bg-gray-800 text-white">
+        <nav class="flex items-center justify-between p-4 text-white bg-gray-800 nav-container">
 
             <!-- toggle-menu-icon -->
 
-            <i class='bx bx-menu text-2xl'></i>
+            <i class='text-2xl bx bx-menu'></i>
 
             <!-- toggle-menu-icon -->
 
 
             <!-- admin_header_right -->
 
-            <div class="nav-right flex items-center gap-8 relative">
+            <div class="relative flex items-center gap-8 nav-right">
 
                 <!-- admin_name -->
-                <p class=" text-sm font-bold hidden sm:block">Kavindu Vishmitha</p>
+                <p class="hidden text-sm font-bold sm:block">Kavindu Vishmitha</p>
                 <!-- admin_name -->
 
                 <!-- admin_profile_&_dropdownMenu -->
@@ -236,13 +236,13 @@
 
                     <!-- dropdownMenu_(profile_details) -->
 
-                    <div id="dropdownMenu" class="hidden absolute px-36 right-0 mt-7 w-96 bg-white text-black rounded-lg shadow-lg  sm:px-6 sm:py-5 py-4 sm:space-y-4 space-y-2 ">
+                    <div id="dropdownMenu" class="absolute right-0 hidden py-4 space-y-2 text-black bg-white rounded-lg shadow-lg px-36 mt-7 w-96 sm:px-6 sm:py-5 sm:space-y-4 ">
 
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>User Name :</b> Kavindu Vishmitha</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Email :</b> 2003kavinduvishmitha@gmail.com</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Postion :</b> Full-Stack Developer</p>
-                        <p class="hover:text-white  ease-out rounded-md  hover:bg-indigo-600 text-sm sm:text-base p-1"><b>Department :</b> HR Department</p>
-                        <i class="fa-solid fa-right-from-bracket fa-fade cursor-pointer "></i>
+                        <p class="p-1 text-sm ease-out rounded-md hover:text-white hover:bg-indigo-600 sm:text-base"><b>User Name :</b> Kavindu Vishmitha</p>
+                        <p class="p-1 text-sm ease-out rounded-md hover:text-white hover:bg-indigo-600 sm:text-base"><b>Email :</b> 2003kavinduvishmitha@gmail.com</p>
+                        <p class="p-1 text-sm ease-out rounded-md hover:text-white hover:bg-indigo-600 sm:text-base"><b>Postion :</b> Full-Stack Developer</p>
+                        <p class="p-1 text-sm ease-out rounded-md hover:text-white hover:bg-indigo-600 sm:text-base"><b>Department :</b> HR Department</p>
+                        <i class="cursor-pointer fa-solid fa-right-from-bracket fa-fade "></i>
 
                     </div>
 
@@ -254,11 +254,11 @@
 
                 <!-- bell_icon -->
 
-                <a href="#" class="notification relative">
+                <a href="#" class="relative notification">
 
-                    <i class="fa-solid fa-bell fa-shake text-base sm:text-xl"></i>
+                    <i class="text-base fa-solid fa-bell fa-shake sm:text-xl"></i>
 
-                    <span class="num absolute top-0 right-0 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">1</span>
+                    <span class="absolute top-0 right-0 flex items-center justify-center w-5 h-5 text-xs text-white bg-red-500 rounded-full num">1</span>
 
                 </a>
 
@@ -266,11 +266,11 @@
 
                 <!-- message_icon -->
 
-                <a href="#" class="notification relative">
+                <a href="#" class="relative notification">
 
-                    <i class="fa-solid fa-message fa-shake text-sm sm:text-xl"></i>
+                    <i class="text-sm fa-solid fa-message fa-shake sm:text-xl"></i>
 
-                    <span class="num absolute top-0 right-0 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">1</span>
+                    <span class="absolute top-0 right-0 flex items-center justify-center w-5 h-5 text-xs text-white bg-red-500 rounded-full num">1</span>
 
                 </a>
 
