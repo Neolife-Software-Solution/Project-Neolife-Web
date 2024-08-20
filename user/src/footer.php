@@ -88,15 +88,17 @@
 
                         <div class="flex flex-col text-xl font-bold">
 
-                            <a href="#">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="index.php" target="_self">Home&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="AboutUs.php" target="_self">About Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
-                            <a href="#">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="OurProject.php" target="_self">Our Project Pages&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                             <a href="#">Estimate Page&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
-                            
+
                             <a href="#">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+
+                            <a href="ContactUs.php" target="_self">Contact Us&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         </div>
 
@@ -135,17 +137,23 @@
 
                             <div>
 
+                            <a href="" target="_blank">
+
                                 <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
                             </div>
 
                             <div>
+                              
+                            <a href="" target="_blank">
 
                                 <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
                             </div>
 
                             <div>
+
+                            <a href="" target="_blank">
 
                                 <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 

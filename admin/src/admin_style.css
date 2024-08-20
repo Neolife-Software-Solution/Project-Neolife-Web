@@ -20,15 +20,14 @@
     src: url("resources/fonts/Lato-Regular.ttf");
 }
 
-* {
-
+*{
     font-family: "Lato";
     font-size: 16px;
 
 }
 
-.headertext {
-
+.headertext{
+  
     font-family: "Montserrat";
     font-size: 14px;
 
@@ -41,7 +40,7 @@
 
 }
 
-.logotext {
+.logotext{
 
     font-family: "Audiowide";
     font-size: 17px;
@@ -53,7 +52,7 @@
 
 /* background Img */
 
-.bg_img {
+.bg_img{
 
     background-image: url(resources/background_img/background.jpg);
     background-size: cover;
@@ -63,8 +62,6 @@
 }
 
 /* background Img */
-
-
 
 /* punch_button */
 
@@ -102,7 +99,6 @@ punchbtn:active {
     transition: 100ms;
 
 }
-
 
 @media screen and (max-width: 900px) {
 
@@ -144,3 +140,5 @@ punchbtn:active {
 }
 
 /* punch_button */
+
+/* background Img */
