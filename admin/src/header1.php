@@ -159,7 +159,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="leaveRequest.php">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>

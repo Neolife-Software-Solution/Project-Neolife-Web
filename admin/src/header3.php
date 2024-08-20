@@ -93,7 +93,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="https://mail.google.com">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>
