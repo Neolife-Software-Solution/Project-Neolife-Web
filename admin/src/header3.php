@@ -80,18 +80,6 @@
 
             </li>
 
-
-            <li>
-
-                <a href="#">
-
-                    <i class="bx bxs-user-check"></i>
-                    <span class="text">Attendance</span>
-
-                </a>
-
-            </li>
-
             <li>
 
                 <a href="#">
