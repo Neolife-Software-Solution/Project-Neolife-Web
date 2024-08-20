@@ -17,8 +17,6 @@
 
 <body class="bg-gray-100">
 
-    <!-- Manage Department Section -->
-
     <div class="text-center py-10">
 
         <h1 class="text-3xl font-bold text-gray-700">Manage Department</h1>
@@ -45,8 +43,6 @@
         </div>
 
     </div>
-
-    <!-- HR Department Section -->
 
     <div class="bg-white shadow-md rounded-lg max-w-5xl mx-auto p-6">
 
