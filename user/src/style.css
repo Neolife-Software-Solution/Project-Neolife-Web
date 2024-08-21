@@ -74,7 +74,7 @@
 
 /* font end (don't change) */
 
-/* Background Vedio */
+/* Background Vedio start */
 
 .background_vedio{
 
@@ -91,7 +91,7 @@ video {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: auto;
+    width: 100%;
     height: 70%;
     z-index: -1;
     transform: translate(-50%, -50%);
@@ -137,30 +137,21 @@ video {
 
 }
 
+/* Background Vedio end */
 
-/* Background Vedio */
+/* image slider start */
 
-
-/* image slider */
 *{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
-
-/* .body{
-
-    background: #eaeaea;
-} */
 
 .container_img{
 
     position: absolute;
-    max-width: 1900px;
-    /* left: 50%; */
-    /* transform: translate(0, 0); */
+    width: 100%;
     height: 710px;
     background: #f5f5f5;
 
@@ -168,8 +159,6 @@ video {
 
 .container_img .slide .item{
 
-    /* width: 200px;
-    height: 300px; */
     position: absolute;
     top: 60%;
     transform: translate(0, -50%);
@@ -333,7 +322,7 @@ video {
 
 }
 
-/* Responsive Design */
+/* Responsive Design start */
 
 @media screen and (max-width: 999px){
    
@@ -397,15 +386,15 @@ video {
 
 }
 
+/* Responsive Design end */
 
-/* image Slider */
+/* image Slider end */
 
-/* language Slider */
+/* language Slider start */
 
 .Logo_body{
 
     margin-top: 800px;
-    /* height: 150px; */
     background-color: white;
     display: grid;
     place-items: center;
@@ -417,11 +406,9 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 150px; */
     width: 100%;
     overflow: hidden;
     background: #cbd5e1;
-    /* border-radius: 16px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7.4px);
     -webkit-backdrop-filter: blur(7.4px);
@@ -457,32 +444,12 @@ video {
 
 }
 
-/* Languag Image Slider */
-
-/* Project Image  */
-
-.project_img ,.project_content{
-
-    width:380px;
-    height:320px;
-
-}
-
-@media screen and (max-width: 999px){
-
-    .project_img ,.project_content{
-
-        width:auto;
-        height:320px;
-    
-    }
-
-}
-
-/* Project Image  */
+/* Languag Image Slider end */
 
 /* WhataApp Chat */
+
 .whatsapp_float {
+    
     position: fixed;
     width: 77px;
     height: 77px;
@@ -492,50 +459,32 @@ video {
     text-align: center;
     font-size: 30px;
     z-index: 100;
-  }
-  .whatsapp-icon {
-    margin-top: 8px;
-    /* font-size: 50px;
-    font-weight: bold; */
-  }
 
-  /* for mobile */
-  @media screen and (max-width: 767px){
+}
+.whatsapp-icon {
+
+    margin-top: 8px;
+}
+
+/* for mobile start */
+
+@media screen and (max-width: 767px){
     .whatsapp-icon {
+
       margin-top: 10px;
 
     }
+
     .whatsapp_float {
+
       min-width: auto;
       min-height: auto;
       bottom: 60px;
       right: 10px;
+
     }
-  }
-
-/* font end (don't change) */
-
-/* estimate bg image start */
-
-.bgimage {
-
-    background-image: url("resources/estimate_page_bg_images/estimatepage_bg.png");
-    background-position: center;
-    background-size: cover;
-    height: auto;
-    background-repeat: repeat;
 
 }
 
-.bgimagebackdrop {
-
-    /* position: absolute; */
-    height: auto;
-    border: 0px solid rgba(255, 255, 255, .5);
-    backdrop-filter: blur(10px);
-    background-size: cover;
-
-}
-
-/* estimate bg image end */
+/* for mobile end */
 
