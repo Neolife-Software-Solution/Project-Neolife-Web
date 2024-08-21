@@ -52,15 +52,4 @@ window.addEventListener('click', () => {
 	}
 });
 
-
 /* Admin-Header & Side Menu */
-
-
-
-
-
-
-
-
-
-

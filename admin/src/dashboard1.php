@@ -69,11 +69,8 @@
 
         </div>
 
-        <!-- Company Report -->
 
         <hr class="border-2 border-slate-600" />
-
-        <!-- Attendance -->
 
         <div class="flex place-content-center p-14">
 
@@ -81,7 +78,10 @@
 
         </div>
 
-        <!-- Attendance -->
+        <hr class="border-2 border-slate-600" />
+
+
+        <!-- Company Report -->
 
         <hr class="border-2 border-slate-600" />
 
@@ -295,7 +295,47 @@
 
         <!-- Order Details Content -->
 
-        <!-- Content -->
+        <!-- footer -->
+
+        <footer class="w-full  left-0 right-0 md:mt-6 ">
+
+            <!-- content -->
+
+            <!-- footer_copyrightsection -->
+
+            <div class="flex flex-row justify-center p-4 bg-white">
+
+                <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
+
+                    <!-- logo -->
+
+                    <div>
+
+                        <img class="h-14 md:h-20" src="resources/logo/logo_transparent vertical.png" alt="">
+
+                    </div>
+
+                    <!-- logo -->
+
+                    <div class="flex flex-col px-8 sm:px-0">
+
+                            <span class=" text-sm md:text-sm font-bold lg:text-lg ">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
+
+                            <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">All Rights Reserved By NeoLife Software Solutions</span>
+
+                            <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">Designed & Developed By NeoLife Software Solutions</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer_copyrightsection -->
+
+        </footer>
+
+        <!-- footer -->
 
     </div>
 
