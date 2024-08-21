@@ -29,11 +29,11 @@
 
             <div class="relative w-full">
 
-                <div>
+                <!-- <div>
 
-                <?php  require "header1.php"   ?>
+                <?php /* require "header1.php" */ ?>
 
-                </div>
+                </div> -->
 
                 <!-- Employee's full name design and profile image design -->
 
@@ -41,64 +41,68 @@
 
                     <!-- Employee's full name in the top -->
 
-                    <div class="absolute top-14 right-32 w-[600px] h-44 text-white">
+                    <div class="w-full flex justify-center">
 
-                        <div class="grid grid-cols-2 p-5">
+                        <div class="absolute top-14 xl:right-32 w-[350px] sm:w-[500px] md:w-[600px] h-44 text-white">
 
-                            <!-- Left Column (Headings) -->
+                            <div class="grid grid-cols-2 p-5">
 
-                            <div class="col-span-1 space-y-5 font-bold">
+                                <!-- Left Column (Headings) -->
 
-                                <!-- full name -->
+                                <div class="col-span-1 space-y-5 font-bold">
 
-                                <div class="flex flex-row">
+                                    <!-- full name -->
 
-                                    <div class="w-44 font-bold text-2xl">Full Name</div>
-                                    <span class="font-bold text-2xl">: -</span>
+                                    <div class="flex flex-row">
+
+                                        <div class="w-20 sm:w-32 md:w-44 font-bold md:text-2xl">Full Name</div>
+                                        <span class="font-bold md:text-2xl">: -</span>
+
+                                    </div>
+
+                                    <!-- full name -->
+
+                                    <!-- Position -->
+
+                                    <div class="flex flex-row">
+
+                                        <div class="w-20 sm:w-32 md:w-44 font-bold md:text-2xl">Position</div>
+                                        <span class="font-bold md:text-2xl">: -</span>
+
+                                    </div>
+
+                                    <!-- Position -->
+
+                                    <!-- Department -->
+
+                                    <div class="flex flex-row">
+
+                                        <div class="w-20 sm:w-32 md:w-44 font-bold md:text-2xl">Department</div>
+                                        <span class="font-bold md:text-2xl">: -</span>
+
+                                    </div>
+
+                                    <!-- Department -->
 
                                 </div>
 
-                                <!-- full name -->
+                                <!-- Left Column (Headings) -->
 
-                                <!-- Position -->
+                                <!-- Right Column (Description/Data) -->
 
-                                <div class="flex flex-row">
+                                <div class="col-span-1 space-y-5">
 
-                                    <div class="w-44 font-bold text-2xl">Position</div>
-                                    <span class="font-bold text-2xl">: -</span>
+                                    <div class="md:text-2xl">W. D. John De Silva</div>
 
-                                </div>
+                                    <div class="md:text-2xl">CEO</div>
 
-                                <!-- Position -->
-
-                                <!-- Department -->
-
-                                <div class="flex flex-row">
-
-                                    <div class="w-44 font-bold text-2xl">Department</div>
-                                    <span class="font-bold text-2xl">: -</span>
+                                    <div class="md:text-2xl">HR Department</div>
 
                                 </div>
 
-                                <!-- Department -->
+                                <!-- Right Column (Description/Data) -->
 
                             </div>
-
-                            <!-- Left Column (Headings) -->
-
-                            <!-- Right Column (Description/Data) -->
-
-                            <div class="col-span-1 space-y-5">
-
-                                <div class="text-2xl">W. D. John De Silva</div>
-
-                                <div class="text-2xl">CEO</div>
-
-                                <div class="text-2xl">HR Department</div>
-
-                            </div>
-
-                            <!-- Right Column (Description/Data) -->
 
                         </div>
 
@@ -108,13 +112,17 @@
 
                     <!-- Profile Image Section -->
 
-                    <div class="absolute top-24 left-32 z-10">
+                    <div class="w-full flex justify-center">
 
-                        <div class="grid gap-3 text-center">
+                        <div class="absolute top-[300px] xl:top-24 xl:left-32 z-10">
 
-                            <img src="resources\profile_img\default.png" alt="Profile Icon" class="rounded-full border-2 border-white h-72 w-72">
+                            <div class="grid gap-3 text-center">
 
-                            <button class="w-48 bg-[#645fce] text-lg rounded px-3 py-1 place-self-center hover:opacity-75">Edit Profile Image</button>
+                                <img src="resources\profile_img\default.png" alt="Profile Icon" class="rounded-full border-2 border-white h-72 w-72">
+
+                                <button class="w-48 bg-[#645FCE]/70 text-lg rounded px-3 py-1 place-self-center hover:bg-[#645FCE]/100">Edit Profile Image</button>
+
+                            </div>
 
                         </div>
 
@@ -129,7 +137,7 @@
 
                 <!-- Profile Settings -->
 
-                <div class="w-full flex justify-center mt-44 mb-32">
+                <div class="w-full flex justify-center mt-96 xl:mt-44 mb-32">
 
                     <div class="w-10/12 rounded-lg shadow-2xl shadow-black/50 mx-auto">
 
@@ -245,7 +253,8 @@
 
                             <div class="p-8 flex place-content-center mb-3">
 
-                                <button class="bg-[#645FCE] text-white py-2 px-5 rounded-[20px] text-2xl hover:opacity-75">Save Changes</button>
+                                <button class="bg-[#645FCE]/70 text-white py-2 px-5 rounded-[20px] text-2xl hover:bg-[#645FCE]/90
+                                 active:bg-[#645FCE]/100 focus:outline-none focus:ring focus:[#645FCE]/30">Save Changes</button>
 
                             </div>
 
