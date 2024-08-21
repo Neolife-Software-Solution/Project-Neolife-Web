@@ -90,11 +90,11 @@
 
             <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
 
             </div>
 
@@ -120,11 +120,11 @@
 
             <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
 
             </div>
 
@@ -231,6 +231,48 @@
             </div>
 
         </div>
+      
+        <!-- footer -->
+
+        <footer class="w-full  left-0 right-0 md:mt-6 ">
+
+            <!-- content -->
+
+            <!-- footer_copyrightsection -->
+
+            <div class="flex flex-row justify-center p-4 bg-white">
+
+                <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
+
+                    <!-- logo -->
+
+                    <div>
+
+                        <img class="h-14 md:h-20" src="resources/logo/logo_transparent vertical.png" alt="">
+
+                    </div>
+
+                    <!-- logo -->
+
+                    <div class="flex flex-col px-8 sm:px-0">
+
+                        <span class=" text-sm md:text-sm font-bold lg:text-lg ">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
+
+                        <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">All Rights Reserved By NeoLife Software Solutions</span>
+
+                        <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">Designed & Developed By NeoLife Software Solutions</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer_copyrightsection -->
+
+        </footer>
+
+        <!-- footer -->
 
     </div>
 

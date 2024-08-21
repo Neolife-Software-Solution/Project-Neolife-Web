@@ -36,7 +36,7 @@
 
             <img class="w-[80px] rounded-full sm:mt-10 mt-4 p-2" src="resources/logo/logo.png" />
 
-            <span class="sm:mt-10 ">Dashboard</span>
+            <span class="sm:mt-10 md:text-3xl">Dashboard</span>
 
         </a>
 
@@ -49,7 +49,7 @@
 
             <li class="active">
 
-                <a href="#">
+                <a href="dashboard2.php">
 
                     <i class='bx bxs-dashboard'></i>
                     <span class="text">Dashboard</span>
@@ -115,7 +115,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="attendanceReport.php">
 
                     <i class="bx bxs-user-check"></i>
                     <span class="text">Attendance</span>
@@ -137,7 +137,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="https://mail.google.com">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>

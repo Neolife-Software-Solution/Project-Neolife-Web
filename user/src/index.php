@@ -54,7 +54,7 @@
 
                     <video autoplay="{true}" loop muted class="hidden lg:block">
                     
-                        <source src="resources/background_video_animation/background.mp4" type="video/mp4">
+                        <source src="resources/background_video_animation/background(2).mp4" type="video/mp4">
                     
                     </video>
 

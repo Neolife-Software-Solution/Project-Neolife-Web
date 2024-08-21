@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Add event listener to the menu bar for toggling the sidebar on smaller screens
+
 const menuBar = document.querySelector('#content nav .bx.bx-menu');
 const sidebar = document.getElementById('sidebar');
 
@@ -52,12 +53,3 @@ window.addEventListener('click', () => {
 });
 
 /* Admin-Header & Side Menu */
-
-
-
-
-
-
-
-
-

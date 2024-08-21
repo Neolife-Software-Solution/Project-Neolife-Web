@@ -23,7 +23,16 @@
 
     <div class="h-screen w-full">
 
+        <!-- Access level 01 header -->
+
         <div><?php require "header1.php"  ?></div>
+
+        <!-- Access level 01 header -->
+
+
+        <!-- Content -->
+
+        <!-- Company Report -->
 
         <div class="grid grid-cols-1 lg:grid-cols-4 p-10 *:border-2 *:shadow-2xl 
         *:w-[200px] *:lg:w-[220px] *:h-[200px] *:lg:h-[190px] *:place-self-center 
@@ -60,6 +69,7 @@
 
         </div>
 
+
         <hr class="border-2 border-slate-600" />
 
         <div class="flex place-content-center p-14">
@@ -69,6 +79,13 @@
         </div>
 
         <hr class="border-2 border-slate-600" />
+
+
+        <!-- Company Report -->
+
+        <hr class="border-2 border-slate-600" />
+
+        <!-- Company Performance title -->
 
         <div class="flex place-content-center p-5">
 
@@ -80,7 +97,13 @@
 
         </div>
 
+        <!-- Company Performance title -->
+
+        <!-- Company Performance Content -->
+
         <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+
+            <!-- Company Performance image -->
 
             <div class="flex flex-row place-self-center">
 
@@ -88,17 +111,27 @@
 
             </div>
 
+            <!-- Company Performance image -->
+
+            <!-- Company Performance image Section -->
+
             <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
 
-                <div class="w-36 p-5 hover:bg-purple-300 rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
 
             </div>
 
+            <!-- Company Performance image Section -->
+
         </div>
+
+        <!-- Company Performance Content -->
+
+        <!-- User Performance title -->
 
         <div class="flex place-content-center p-5">
 
@@ -110,7 +143,13 @@
 
         </div>
 
+        <!-- User Performance title -->
+
+        <!-- User Performance Content -->
+
         <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+
+            <!-- User Performance image -->
 
             <div class="flex flex-row place-self-center">
 
@@ -118,22 +157,31 @@
 
             </div>
 
+            <!-- User Performance image -->
+
+            <!-- User Performance image Section -->
+
             <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
 
-                <div class="w-36 p-5 hover:bg-purple-600 rounded-2xl text-xl text-center border-2 border-black">Completed</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
-                <div class="w-36 p-5 hover:bg-purple-600 rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Percentage</div>
 
-                <div class="w-36 p-5 hover:bg-purple-600 rounded-2xl text-xl text-center border-2 border-black">Pending</div>
+                <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Pending</div>
 
             </div>
 
+            <!-- User Performance image Section -->
+
         </div>
 
+        <!-- User Performance Content -->
+
+        <!-- Company Revenue title -->
 
         <div class="flex place-content-center p-5">
 
-            <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
+            <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl">
 
                 <span class="font-bold text-sm lg:text-3xl">Company Revenue</span>
 
@@ -141,7 +189,13 @@
 
         </div>
 
+        <!-- Company Revenue title -->
+
+        <!-- Company Revenue Content -->
+
         <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 py-5">
+
+            <!-- Company Revenue image -->
 
             <div class="flex flex-row place-self-center">
 
@@ -149,11 +203,13 @@
 
             </div>
 
-
+            <!-- Company Revenue image -->
 
         </div>
 
+        <!-- Company Revenue Content -->
 
+        <!-- Order Details title -->
 
         <div class="flex flex-row justify-center p-5 ">
 
@@ -168,6 +224,10 @@
             </div>
 
         </div>
+
+        <!-- Order Details title -->
+
+        <!-- Order Details Content -->
 
         <div class="px-24 p-5 hidden lg:block">
 
@@ -232,6 +292,50 @@
             </div>
 
         </div>
+
+        <!-- Order Details Content -->
+
+        <!-- footer -->
+
+        <footer class="w-full  left-0 right-0 md:mt-6 ">
+
+            <!-- content -->
+
+            <!-- footer_copyrightsection -->
+
+            <div class="flex flex-row justify-center p-4 bg-white">
+
+                <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
+
+                    <!-- logo -->
+
+                    <div>
+
+                        <img class="h-14 md:h-20" src="resources/logo/logo_transparent vertical.png" alt="">
+
+                    </div>
+
+                    <!-- logo -->
+
+                    <div class="flex flex-col px-8 sm:px-0">
+
+                            <span class=" text-sm md:text-sm font-bold lg:text-lg ">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
+
+                            <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">All Rights Reserved By NeoLife Software Solutions</span>
+
+                            <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">Designed & Developed By NeoLife Software Solutions</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- footer_copyrightsection -->
+
+        </footer>
+
+        <!-- footer -->
 
     </div>
 
