@@ -104,7 +104,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="userProfile.php">
 
                     <i class="bx bxs-cog"></i>
                     <span class="text">Setting</span>
