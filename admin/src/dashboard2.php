@@ -231,7 +231,7 @@
             </div>
 
         </div>
-
+      
         <!-- footer -->
 
         <footer class="w-full  left-0 right-0 md:mt-6 ">

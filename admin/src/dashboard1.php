@@ -69,6 +69,18 @@
 
         </div>
 
+
+        <hr class="border-2 border-slate-600" />
+
+        <div class="flex place-content-center p-14">
+
+            <punchbtn class="bg-slate-300">PUNCH IN</punchbtn>
+
+        </div>
+
+        <hr class="border-2 border-slate-600" />
+
+
         <!-- Company Report -->
 
         <hr class="border-2 border-slate-600" />
