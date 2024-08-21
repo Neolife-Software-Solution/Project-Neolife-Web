@@ -36,7 +36,7 @@
 
         <!-- title -->
 
-        <div class="md:max-w-3xl lg:max-w-4xl mx-auto flex flex-col items-center  p-10 sm:p-20 mt-5 sm:mt-14 bg-slate-50 rounded-2xl shadow-2xl border-3  sm:mb-10">
+        <div class="md:max-w-3xl lg:max-w-4xl mx-auto flex flex-col items-center  p-10 sm:p-20 mt-20 sm:mt-14 bg-slate-50 rounded-2xl shadow-2xl border-3  sm:mb-10">
 
             <div class="flex flex-col items-center p-4 sm:p-20 gap-10 bg-white rounded-2xl border-2">
 
@@ -59,7 +59,7 @@
 
                     <!-- date -->
 
-                    <input type="text" class="text-center border-2 text-base sm:text-lg rounded-lg hover:border-blue-500" placeholder="mm/dd/yyyy">
+                    <input type="text" class="text-center border-2 text-lg  sm:text-lg rounded-lg hover:border-blue-500" placeholder="mm/dd/yyyy">
 
                     <!-- date -->
 
@@ -68,7 +68,7 @@
                 <!-- Submit Button -->
 
                 <div>
-                    <button class="bg-blue-500 text-white font-bold text-sm sm:text-lg rounded-lg px-5 py-2.5 hover:bg-blue-700">Submit</button>
+                    <button class="bg-blue-500 text-white font-bold text-sm sm:text-lg rounded-lg px-5 py-2.5  hover:bg-blue-700">Submit</button>
                 </div>
 
                 <!-- Submit Button -->
