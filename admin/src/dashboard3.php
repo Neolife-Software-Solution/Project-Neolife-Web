@@ -101,15 +101,93 @@
 
         </div>
 
+        <div class="flex flex-row justify-center p-5 ">
+
+            <div class="hidden lg:block">
+
+                <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
+
+                    <span class="font-bold text-3xl text-center">Order Details</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="px-24 p-5 hidden lg:block">
+
+            <div class="flex flex-col bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 p-5">
+
+                <table class="table-auto text-center">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Order Id</th>
+                            <th>Order Date</th>
+                            <th>Order Customer</th>
+                            <th>Payment</th>
+                            <th>Order Status</th>
+                            <th>Total</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>01</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>02</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <td>02</td>
+                            <td>8/13/2024</td>
+                            <td>Sahan Perera</td>
+                            <td>10000.00</td>
+                            <td>Ongoing</td>
+                            <td>2</td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
         <!-- Meeting title -->
 
         <div class="flex flex-row justify-center p-5 ">
 
-            <div>
+            <div class="hidden lg:block">
 
                 <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
 
-                    <span class="font-bold text-sm lg:text-3xl">Meeting</span>
+                    <span class="font-bold text-3xl text-center">Meeting</span>
 
                 </div>
 
@@ -121,7 +199,7 @@
 
         <!-- Meeting Content -->
 
-        <div class="flex flex-col mb-6 lg:mx-32 mt-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+        <div class="flex flex-col mb-3 lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
 
             <div class="flex justify-evenly p-10 gap-3">
 
@@ -352,48 +430,6 @@
         </div>
 
         <!-- Meeting Content -->
-
-        <!-- footer -->
-
-        <footer class="w-full  left-0 right-0 md:mt-6 ">
-
-            <!-- content -->
-
-            <!-- footer_copyrightsection -->
-
-            <div class="flex flex-row justify-center p-4 bg-white">
-
-                <div class="flex flex-col items-center gap-2 md:gap-32 md:flex-row lg:flex-row lg:gap-60">
-
-                    <!-- logo -->
-
-                    <div>
-
-                        <img class="h-14 md:h-20" src="resources/logo/logo_transparent vertical.png" alt="">
-
-                    </div>
-
-                    <!-- logo -->
-
-                    <div class="flex flex-col px-8 sm:px-0">
-
-                        <span class=" text-sm md:text-sm font-bold lg:text-lg ">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
-
-                        <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">All Rights Reserved By NeoLife Software Solutions</span>
-
-                        <span class=" text-xs md:text-sm font-bold text-center hidden sm:block">Designed & Developed By NeoLife Software Solutions</span>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- footer_copyrightsection -->
-
-        </footer>
-
-        <!-- footer -->
 
     </div>
 
