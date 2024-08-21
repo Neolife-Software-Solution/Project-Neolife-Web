@@ -1369,7 +1369,6 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1418,10 +1417,6 @@ video {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.opacity-0 {
-  opacity: 0;
 }
 
 .shadow-2xl {
@@ -1716,6 +1711,7 @@ video {
     display: block;
   }
 
+@media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
   }
@@ -1789,4 +1785,5 @@ video {
   .\*\:lg\:w-\[220px\] > * {
     width: 220px;
   }
+
 }
