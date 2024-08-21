@@ -29,11 +29,11 @@
 
             <div class="relative w-full">
 
-                <!-- <div>
+                <div>
 
-                <?php /* require "header1.php" */ ?>
+                <?php require "header1.php" ?>
 
-                </div> -->
+                </div>
 
                 <!-- Employee's full name design and profile image design -->
 
