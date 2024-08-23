@@ -129,25 +129,25 @@
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
+                                <a href="http://"><i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i></a>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
+                                <a href="http://"><i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i></a>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
+                                <a href="http://"><i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i></a>
 
                             </div>
 
                             <div>
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
+                                <a href="http://"><i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i></a>
 
                             </div>
 
