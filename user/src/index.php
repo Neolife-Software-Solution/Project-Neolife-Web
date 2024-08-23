@@ -53,10 +53,8 @@
                 <div class="flex bg-cover background_vedio backgroung_img">
 
                     <video autoplay="{true}" loop muted class="hidden lg:block">
-
+                    
                         <source src="resources/background_video_animation/background(2).mp4" type="video/mp4">
-
-                        <source src="resources/background_video_animation/background.mp4" type="video/mp4">
                     
                     </video>
 
@@ -139,11 +137,9 @@
                             <div>
         
                                 <div class="w-screen">
-
+        
                                     <!-- images -->   
-
-                                    <!-- images -->                             
-                                  
+                                                               
                                     <div class="slide">
         
                                         <div class="item" style="background-image: url(resources/Services_img_slider/Application\ Development\(2\).jpeg);">
@@ -165,10 +161,7 @@
                                         </div>
 
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
-
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/Untitled\ design.jpg);">
-
+                                            
                                             <!-- slider deatils -->                        
         
                                             <div class="content">
@@ -176,11 +169,7 @@
                                                 <div class="!text-yellow-500 name">web Development</div>
         
                                                 <div class="!text-rose-950 font-bold des">Web development involves building and maintaining websites, focusing on both the visual and technical aspects. It includes designing layouts, ensuring user-friendly navigation, implementing interactive features, and optimizing performance. Web developers work to create seamless, responsive, and accessible websites that provide a positive user experience across various devices and platforms.</div>
-
-                                                <div class="name">web Development</div>
         
-                                                <div class="des">Web development involves building and maintaining websites, focusing on both the visual and technical aspects. It includes designing layouts, ensuring user-friendly navigation, implementing interactive features, and optimizing performance. Web developers work to create seamless, responsive, and accessible websites that provide a positive user experience across various devices and platforms.</div>
-
                                                 <button class="px-10 py-2 text-black bg-white btn">See More</button>
         
                                             </div>
@@ -188,11 +177,8 @@
                                             <!-- slider deatils -->                        
         
                                         </div>
-
+                                        
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
-
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/System\ Development\(1\).webp);">
                                             
                                             <!-- slider deatils -->                        
         
@@ -212,8 +198,6 @@
                                         </div>
 
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
-                                          
-                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Graphi\ Design\ \(3\).png);">
         
                                             <!-- slider deatils -->                        
 
@@ -232,9 +216,7 @@
                                         </div>
 
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
-                                          
-                                        <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/Video\ Editing\(1\).webp);">
-
+        
                                             <!-- slider deatils -->                        
 
                                             <div class="content">
@@ -252,10 +234,7 @@
                                         </div>
 
                                         <div class="bg-cover item h-80" style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
-
-                                        <div class="bg-cover item h-80"
-                                            style="background-image: url(resources/Services_img_slider/computer_hardware_\(3\).png);">
-
+        
                                             <!-- slider deatils -->                        
 
                                             <div class="content">
@@ -289,11 +268,9 @@
                                             <!-- slider deatils -->                        
                                             
                                         </div>
-
+        
                                     </div>
                                                                
-                                    </div>                            
-                                          
                                     <!-- images -->
         
                                 </div>
