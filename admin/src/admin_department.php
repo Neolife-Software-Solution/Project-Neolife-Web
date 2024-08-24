@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
 
@@ -21,18 +22,19 @@
 
         <h1 class="text-3xl font-bold text-gray-700">Manage Department</h1>
 
-        <div class="mt-6">
+        <div class="mt-10">
 
-            <button class="bg-orange-500 text-white px-6 py-2 rounded-lg">Add New Department</button>
+            <span class="bg-orange-500 text-white px-20 py-2 rounded-lg">Add New Department</span>
 
         </div>
-        <div class="mt-4">
+        <div class="mt-10">
 
             <div class="bg-gray-300 inline-block">
 
-                <input type="text" placeholder="HR Department"></div>
+                <input class="px-6 py-2 rounded-lg" type="text" placeholder="HR Department"> </input>
+            </div>
 
-            <button class="bg-blue-500 text-white px-6 py-2 rounded-lg ml-2">Add Department</button>
+            <button class="bg-blue-500 text-white px-6 py-2 rounded ml-2">Add Department</button>
 
         </div>
 
@@ -44,15 +46,19 @@
 
     </div>
 
-    <div class="bg-white shadow-md rounded-lg max-w-5xl mx-auto p-6">
+    <div class="bg-purple-300 shadow-md rounded-lg max-w-5xl mx-auto p-6">
 
         <h2 class="text-center text-2xl font-bold text-gray-700">HR Department</h2>
 
-        <div class="flex justify-between mt-6">
+        <div class="flex flex-row">
 
-            <button class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg">Add New Employee</button>
+            <button class= "mr-36 font-bold bg-gray-200 px-14 py-2 rounded-lg ">Add New Employee</button>
+        
+            <button class="ml-[350px] font-bold bg-gray-200 px-14 py-2 rounded-lg">Add Job Roles</button>
 
-            <button class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg">Add Job Roles</button>
+        </div>
+
+        <div class="flex justify-end mt-2">
 
             <button class="bg-blue-500 text-white px-6 py-2 rounded-lg">Add Employee</button>
 
@@ -60,57 +66,71 @@
 
         <!-- Employee Table -->
 
-        <div class="mt-6">
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
 
-            <div class="grid grid-cols-8 gap-4 text-center text-gray-600">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
 
-                <div>Full Name</div>
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
 
-                <div>Employee Id</div>
+                    <tr>
 
-                <div>Join Date</div>
+                        <th scope="col" class="px-6 py-3">Full Name</th>
 
-                <div>Position</div>
+                        <th scope="col" class="px-6 py-3">Employee Id</th>
 
-                <div>Availability</div>
+                        <th scope="col" class="px-6 py-3">Join Date</th>
 
-                <div>Status</div>
+                        <th scope="col" class="px-6 py-3">Position</th>
 
-                <div>Block/Un Block</div>
+                        <th scope="col" class="px-6 py-3">Availability</th>
 
-                <div>Remove Employee</div>
+                        <th scope="col" class="px-6 py-3">Status</th>
 
-            </div>
+                        <th scope="col" class="px-6 py-3">Block/UnBlock</th>
 
-            <div class="grid grid-cols-8 gap-4 mt-4 items-center text-center text-gray-700">
+                        <th scope="col" class="px-6 py-3">Remove Employee</th>
 
-                <div>Saman Kumara</div>
+                    </tr>
 
-                <div>101</div>
+                </thead>
 
-                <div>2024-01-01</div>
+                <tbody class="mb-3">
 
-                <div>HR Manager</div>
+                    <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
 
-                <div>Full-Time</div>
+                        <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
 
-                <div >Online</div>
+                        <td class="px-6 py-4">1000</td>
 
-                <div>
+                        <td class="px-6 py-4">2024.01.01</td>
 
-                    <button class="bg-orange-500 text-white px-3 py-1 rounded-lg">Block</button>
+                        <td class="px-6 py-4">Member</td>
 
-                </div>
+                        <td class="px-6 py-4">Unavailable</td>
 
-                <div>
+                        <td class="px-6 py-4">Online</td>
 
-                    <button class="bg-red-500 text-white px-3 py-1 rounded-lg">Remove</button>
+                        <td class="px-6 py-4">
 
-                </div>
+                        <button class=" font-medium bg-orange-500 text-black px-4 py-1 rounded-lg">Block</button>
 
-            </div>
+                        </td>
+
+                        <td class="px-6 py-4">
+
+                            <button class="font-medium bg-red-700 text-white px-3 py-1 rounded-lg">Remove</button>
+
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
 
         </div>
+
 
     </div>
 
