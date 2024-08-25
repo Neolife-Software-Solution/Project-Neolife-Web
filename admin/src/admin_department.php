@@ -8,7 +8,7 @@
 
     <title>Admin Department</title>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="header.css">
 
     <link rel="stylesheet" href="tailwind.css" />
 
@@ -18,121 +18,272 @@
 
 <body class="bg-gray-100">
 
-    <div class="text-center py-10">
+    <!-- Manage Dearpement section Start-->
 
-        <h1 class="text-3xl font-bold text-gray-700">Manage Department</h1>
+    <div class="text-center">
+
+        <h1 class="mt-5 text-3xl font-bold text-gray-700">Manage Department</h1>
+
+        <!-- Add Dearpement lable -->
 
         <div class="mt-10">
 
-            <span class="bg-orange-500 text-white px-20 py-2 rounded-lg">Add New Department</span>
+            <span class="px-20 py-2 text-lg font-bold text-white bg-orange-500 rounded-lg">Add New Department</span>
 
         </div>
-        <div class="mt-10">
 
-            <div class="bg-gray-300 inline-block">
+        <!-- Add Dearpement lable -->
 
-                <input class="px-6 py-2 rounded-lg" type="text" placeholder="HR Department"> </input>
-            </div>
-
-            <button class="bg-blue-500 text-white px-6 py-2 rounded ml-2">Add Department</button>
-
-        </div>
+        <!-- Add Dearpement input filed -->
 
         <div class="mt-6">
 
-            <button class="bg-blue-500 text-white px-6 py-2 rounded-lg">Our Departments</button>
+            <div class="inline-block ">
+
+                <input class="px-6 py-2 bg-gray-300 rounded-lg" type="text" placeholder="HR Department"> </input>
+
+            </div>
+
+            <button class="px-6 py-2 mt-5 ml-2 text-white bg-blue-500 rounded">Add Department</button>
 
         </div>
+
+        <!-- Add Dearpement input filed -->
+
 
     </div>
 
-    <div class="bg-purple-300 shadow-md rounded-lg max-w-5xl mx-auto p-6">
+    <!-- Manage Dearpement section End-->
 
-        <h2 class="text-center text-2xl font-bold text-gray-700">HR Department</h2>
+    <!-- our Dearpement section Start-->
 
-        <div class="flex flex-row">
+    <div>
 
-            <button class= "mr-36 font-bold bg-gray-200 px-14 py-2 rounded-lg ">Add New Employee</button>
-        
-            <button class="ml-[350px] font-bold bg-gray-200 px-14 py-2 rounded-lg">Add Job Roles</button>
+        <div class="flex justify-center mt-6 mb-5">
 
-        </div>
+            <!-- our Dearpement section name-->
 
-        <div class="flex justify-end mt-2">
+            <div class="px-6 py-2 font-bold text-white bg-blue-500 rounded-lg lg:px-60">Our Departments</div>
 
-            <button class="bg-blue-500 text-white px-6 py-2 rounded-lg">Add Employee</button>
+            <!-- our Dearpement section name-->
 
         </div>
 
-        <!-- Employee Table -->
+        <!-- our Dearpement section Content -->
 
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-4">
+        <div class="max-w-5xl p-6 mx-auto bg-purple-300 rounded-lg shadow-md">
 
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <h2 class="mb-5 text-2xl font-bold text-center ">HR Department</h2>
 
-                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <!-- add employee section -->
+            <div>
 
-                    <tr>
+                <div class="hidden lg:block md:block">
 
-                        <th scope="col" class="px-6 py-3">Full Name</th>
+                    <div class="flex flex-row justify-between ">
 
-                        <th scope="col" class="px-6 py-3">Employee Id</th>
+                        <!-- add employee input fields -->
 
-                        <th scope="col" class="px-6 py-3">Join Date</th>
+                        <div>
 
-                        <th scope="col" class="px-6 py-3">Position</th>
+                            <input class="py-2 font-bold text-center bg-gray-200 rounded-lg" placeholder="Add New Employee" type="text"></input>
 
-                        <th scope="col" class="px-6 py-3">Availability</th>
+                        </div>
 
-                        <th scope="col" class="px-6 py-3">Status</th>
+                        <div>
 
-                        <th scope="col" class="px-6 py-3">Block/UnBlock</th>
+                            <input class="py-2 font-bold text-center bg-gray-200 rounded-lg" placeholder="Add Job Roles" type="text"></input>
 
-                        <th scope="col" class="px-6 py-3">Remove Employee</th>
+                        </div>
 
-                    </tr>
-
-                </thead>
-
-                <tbody class="mb-3">
-
-                    <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
-
-                        <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
-
-                        <td class="px-6 py-4">1000</td>
-
-                        <td class="px-6 py-4">2024.01.01</td>
-
-                        <td class="px-6 py-4">Member</td>
-
-                        <td class="px-6 py-4">Unavailable</td>
-
-                        <td class="px-6 py-4">Online</td>
-
-                        <td class="px-6 py-4">
-
-                        <button class=" font-medium bg-orange-500 text-black px-4 py-1 rounded-lg">Block</button>
-
-                        </td>
-
-                        <td class="px-6 py-4">
-
-                            <button class="font-medium bg-red-700 text-white px-3 py-1 rounded-lg">Remove</button>
-
-                        </td>
-
-                    </tr>
+                        <!-- add employee input fields -->
 
 
-                </tbody>
+                    </div>
 
-            </table>
+                </div>
+
+                <div class="flex justify-end mt-2">
+
+                    <!-- add employee button -->
+
+                    <button class="px-6 py-2 text-white bg-blue-500 rounded-lg">Add Employee</button>
+
+                    <!-- add employee button -->
+
+                </div>
+
+            </div>
+
+            <!-- add employee section -->
+
+            <!-- Employee Table -->
+
+            <div class="relative mt-4 overflow-x-auto rounded-lg shadow-md">
+
+                <!-- table Content -->
+
+                <table class="w-full text-sm text-left text-gray-500 rtl:text-right dark:text-gray-400">
+
+                    <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+
+                        <tr class="text-center">
+
+                            <th scope="col" class="px-6 py-3">Full Name</th>
+
+                            <th scope="col" class="px-6 py-3">Employee Id</th>
+
+                            <th scope="col" class="px-6 py-3">Join Date</th>
+
+                            <th scope="col" class="px-6 py-3">Position</th>
+
+                            <th scope="col" class="px-6 py-3">Availability</th>
+
+                            <th scope="col" class="px-6 py-3">Status</th>
+
+                            <th scope="col" class="px-6 py-3">Block/UnBlock</th>
+
+                            <th scope="col" class="px-6 py-3">Remove Employee</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <!-- table data -->
+
+                    <tbody class="mb-3 text-center">
+
+                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
+
+                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
+
+                            <td class="px-6 py-4">1000</td>
+
+                            <td class="px-6 py-4">2024.01.01</td>
+
+                            <td class="px-6 py-4">Member</td>
+
+                            <td class="px-6 py-4">Unavailable</td>
+
+                            <td class="px-6 py-4">Online</td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
+
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
+
+                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
+
+                            <td class="px-6 py-4">1000</td>
+
+                            <td class="px-6 py-4">2024.01.01</td>
+
+                            <td class="px-6 py-4">Member</td>
+
+                            <td class="px-6 py-4">Unavailable</td>
+
+                            <td class="px-6 py-4">Online</td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
+
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
+
+                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
+
+                            <td class="px-6 py-4">1000</td>
+
+                            <td class="px-6 py-4">2024.01.01</td>
+
+                            <td class="px-6 py-4">Member</td>
+
+                            <td class="px-6 py-4">Unavailable</td>
+
+                            <td class="px-6 py-4">Online</td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
+
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
+
+                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
+
+                            <td class="px-6 py-4">1000</td>
+
+                            <td class="px-6 py-4">2024.01.01</td>
+
+                            <td class="px-6 py-4">Member</td>
+
+                            <td class="px-6 py-4">Unavailable</td>
+
+                            <td class="px-6 py-4">Online</td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
+
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                    <!-- table data -->
+
+                </table>
+
+                <!-- table Content -->
+
+            </div>
+
+            <!-- Employee Table -->
 
         </div>
 
+        <!-- our Dearpement section Content -->
 
     </div>
+
+    <!-- our Dearpement section End-->
 
 </body>
 
