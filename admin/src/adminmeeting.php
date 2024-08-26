@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Admin Meetings | Access Level 01</title>
+    <title>Admin Meetings </title>
 
     <link rel="stylesheet" href="tailwind.css" />
 
@@ -65,16 +65,6 @@
                         <div class="justify-center mt-5 lg:flex">
 
                             <input class="p-5 py-2 text-lg font-bold rounded-full shadow-md  bg-slate-200 focus:outline-none hover:shadow-black lg:w-[930px] w-80 text-black" placeholder="Meeting Held Date" type="text"></input>
-
-                        </div>
-
-                    </div>
-
-                    <div class="">
-
-                        <div class="justify-center mt-5 lg:flex">
-
-                            <input class="p-5 py-2 text-lg font-bold rounded-full shadow-md  bg-slate-200 focus:outline-none hover:shadow-black lg:w-[930px] w-80 text-black" placeholder="Meeting Deuration" type="text"></input>
 
                         </div>
 
@@ -189,30 +179,6 @@
     
                                 <!-- Meeting Type -->
     
-                                <!-- Meeting Duration -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Meeting Duration</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">3 Houses</span>
-    
-                                </div>
-    
-                                <!-- Meeting Duration -->
-    
-                                <!-- Position -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Position</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Director</span>
-    
-                                </div>
-    
-                                <!-- Position -->
-    
                                 <!-- Joing Meeting Button -->
     
                                 <div class="flex flex-col">
@@ -267,32 +233,8 @@
     
                                 </div>
     
-                                <!-- Meeting Type -->
-    
-                                <!-- Meeting Duration -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Meeting Duration</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">3 Houses</span>
-    
-                                </div>
-    
-                                <!-- Meeting Duration -->
-    
-                                <!-- Position -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Position</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Director</span>
-    
-                                </div>
-    
-                                <!-- Position -->
-    
+                                <!-- Meeting Type -->   
+                                    
                                 <!-- Joing Meeting Button -->
     
                                 <div class="flex flex-col">
@@ -347,32 +289,8 @@
     
                                 </div>
     
-                                <!-- Meeting Type -->
-    
-                                <!-- Meeting Duration -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Meeting Duration</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">3 Houses</span>
-    
-                                </div>
-    
-                                <!-- Meeting Duration -->
-    
-                                <!-- Position -->
-    
-                                <div class="flex flex-col">
-    
-                                    <label class="block mb-2 font-medium text-white">Position</label>
-    
-                                    <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Director</span>
-    
-                                </div>
-    
-                                <!-- Position -->
-    
+                                <!-- Meeting Type -->   
+                                    
                                 <!-- Joing Meeting Button -->
     
                                 <div class="flex flex-col">

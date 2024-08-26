@@ -21,7 +21,7 @@
 
 <body>
 
-    <div class="h-screen w-full">
+    <div class="w-full h-screen">
 
         <div>
 
@@ -71,17 +71,17 @@
 
         <hr class="border-2 border-slate-600" />
 
-        <div class="flex place-content-center p-5">
+        <div class="flex p-5 place-content-center">
 
             <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
 
-                <span class="font-bold text-sm lg:text-3xl">User Performance</span>
+                <span class="text-sm font-bold lg:text-3xl">User Performance</span>
 
             </div>
 
         </div>
 
-        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+        <div class="flex flex-col my-5 shadow-2xl lg:mx-32 bg-slate-100 rounded-2xl shadow-black/50">
 
             <div class="flex flex-row place-self-center">
 
@@ -89,7 +89,7 @@
 
             </div>
 
-            <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
+            <div class="grid grid-cols-1 gap-2 p-10 lg:grid-cols-3 place-items-center">
 
                 <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
@@ -107,7 +107,7 @@
 
                 <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
 
-                    <span class="font-bold text-3xl text-center">Order Details</span>
+                    <span class="text-3xl font-bold text-center">Order Details</span>
 
                 </div>
 
@@ -115,11 +115,11 @@
 
         </div>
 
-        <div class="px-24 p-5 hidden lg:block">
+        <div class="hidden p-5 px-24 lg:block">
 
-            <div class="flex flex-col bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 p-5">
+            <div class="flex flex-col p-5 shadow-2xl bg-slate-100 rounded-2xl shadow-black/50">
 
-                <table class="table-auto text-center">
+                <table class="text-center table-auto">
 
                     <thead>
 
@@ -187,7 +187,7 @@
 
                 <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
 
-                    <span class="font-bold text-3xl text-center">Meeting</span>
+                    <span class="text-3xl font-bold text-center">Meeting</span>
 
                 </div>
 
@@ -199,15 +199,15 @@
 
         <!-- Meeting Content -->
 
-        <div class="flex flex-col mb-3 lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+        <div class="flex flex-col my-5 mb-3 shadow-2xl lg:mx-32 bg-slate-100 rounded-2xl shadow-black/50">
 
-            <div class="flex justify-evenly p-10 gap-3">
+            <div class="flex gap-3 p-10 justify-evenly">
 
                 <div class="grid grid-cols-1 gap-3 lg:grid-cols-3 md:grid-cols-2">
 
                     <!-- Meeting Section 1 -->
 
-                    <div class="bg-indigo-600 p-10 rounded-lg shadow-lg w-full max-w-xs">
+                    <div class="w-full max-w-xs p-10 bg-indigo-600 rounded-lg shadow-lg">
 
                         <div class="space-y-3 text-center">
 
@@ -215,9 +215,9 @@
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Date</label>
+                                <label class="block mb-2 font-medium text-white">Date</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">2096/05/02</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">2096/05/02</span>
 
                             </div>
 
@@ -227,9 +227,9 @@
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Time</label>
+                                <label class="block mb-2 font-medium text-white">Time</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">12.15.20</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">12.15.20</span>
 
                             </div>
 
@@ -239,55 +239,31 @@
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting Type</label>
+                                <label class="block mb-2 font-medium text-white">Meeting Type</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg break-words whitespace-normal">Special Meeting</span>
+                                <span class="px-3 py-1 text-gray-800 break-words whitespace-normal bg-white border border-gray-300 rounded-lg">Special Meeting</span>
 
                             </div>
 
                             <!-- Meeting Type -->
 
-                            <!-- Meeting Duration -->
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Meeting Duration</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">3 Houses</span>
-
-                            </div>
-
-                            <!-- Meeting Duration -->
-
                             <!-- Meeting By -->
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting By</label>
+                                <label class="block mb-2 font-medium text-white">Meeting By</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Jude Thamel</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Jude Thamel</span>
 
                             </div>
 
                             <!-- Meeting By -->
-
-                            <!-- Position -->
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Position</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Director</span>
-
-                            </div>
-
-                            <!-- Position -->
 
                             <!-- Joing Meeting Button -->
 
                             <div class="flex flex-col">
 
-                                <button type="submit" class="w-full mt-3 py-2 px-4 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
 
                             </div>
 
@@ -299,61 +275,45 @@
 
                     <!-- Meeting Section 1 -->
 
-                    <div class="bg-indigo-600 p-10 rounded-lg shadow-lg w-full max-w-xs">
+                    <div class="w-full max-w-xs p-10 bg-indigo-600 rounded-lg shadow-lg">
 
                         <div class="space-y-3 text-center">
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Date</label>
+                                <label class="block mb-2 font-medium text-white">Date</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">2096/05/02</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Time</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">12.15.20</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">2096/05/02</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting Type</label>
+                                <label class="block mb-2 font-medium text-white">Time</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg break-words whitespace-normal">Special Meeting</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Meeting Duration</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">3 Houses</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">12.15.20</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting By</label>
+                                <label class="block mb-2 font-medium text-white">Meeting Type</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Jude Thamel</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Position</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Director</span>
+                                <span class="px-3 py-1 text-gray-800 break-words whitespace-normal bg-white border border-gray-300 rounded-lg">Special Meeting</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <button type="submit" class="w-full mt-3 py-2 px-4 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                <label class="block mb-2 font-medium text-white">Meeting By</label>
+
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Jude Thamel</span>
+
+                            </div>
+
+                            <div class="flex flex-col">
+
+                                <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
 
                             </div>
 
@@ -361,61 +321,45 @@
 
                     </div>
 
-                    <div class="bg-indigo-600 p-10 rounded-lg shadow-lg w-full max-w-xs">
+                    <div class="w-full max-w-xs p-10 bg-indigo-600 rounded-lg shadow-lg">
 
                         <div class="space-y-3 text-center">
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Date</label>
+                                <label class="block mb-2 font-medium text-white">Date</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">2096/05/02</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Time</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">12.15.20</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">2096/05/02</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting Type</label>
+                                <label class="block mb-2 font-medium text-white">Time</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg break-words whitespace-normal">Special Meeting</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Meeting Duration</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">3 Houses</span>
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">12.15.20</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <label class="block text-white font-medium mb-2">Meeting By</label>
+                                <label class="block mb-2 font-medium text-white">Meeting Type</label>
 
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Jude Thamel</span>
-
-                            </div>
-
-                            <div class="flex flex-col">
-
-                                <label class="block text-white font-medium mb-2">Position</label>
-
-                                <span class="text-gray-800 bg-white px-3 py-1 border border-gray-300 rounded-lg">Director</span>
+                                <span class="px-3 py-1 text-gray-800 break-words whitespace-normal bg-white border border-gray-300 rounded-lg">Special Meeting</span>
 
                             </div>
 
                             <div class="flex flex-col">
 
-                                <button type="submit" class="w-full mt-3 py-2 px-4 bg-white text-indigo-600 font-semibold rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                <label class="block mb-2 font-medium text-white">Meeting By</label>
+
+                                <span class="px-3 py-1 text-gray-800 bg-white border border-gray-300 rounded-lg">Jude Thamel</span>
+
+                            </div>
+                            
+                            <div class="flex flex-col">
+
+                                <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
 
                             </div>
 
