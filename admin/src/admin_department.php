@@ -63,7 +63,19 @@
 
             <!-- our Dearpement section name-->
 
-            <div class="px-6 py-2 font-bold text-white bg-blue-500 rounded-lg lg:px-60">Our Departments</div>
+            <div>
+
+                <select  class="px-6 py-2 font-bold text-white bg-slate-500 rounded-lg lg:px-60" name="" id="">
+
+                <option value="">HR Departments</option>
+                <option value="">IT Departments</option>
+                <option value="">Technical Departments</option>
+
+
+
+                </select>
+
+                </div>
 
             <!-- our Dearpement section name-->
 
@@ -137,8 +149,6 @@
 
                             <th scope="col" class="px-6 py-3">Position</th>
 
-                            <th scope="col" class="px-6 py-3">Availability</th>
-
                             <th scope="col" class="px-6 py-3">Status</th>
 
                             <th scope="col" class="px-6 py-3">Block/UnBlock</th>
@@ -163,7 +173,31 @@
 
                             <td class="px-6 py-4">Member</td>
 
-                            <td class="px-6 py-4">Unavailable</td>
+                            <td class="px-6 py-4">Online</td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
+
+                            </td>
+
+                            <td class="px-6 py-4">
+
+                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
+
+                            </td>
+
+                        </tr>
+
+                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
+
+                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
+
+                            <td class="px-6 py-4">1000</td>
+
+                            <td class="px-6 py-4">2024.01.01</td>
+
+                            <td class="px-6 py-4">Member</td>
 
                             <td class="px-6 py-4">Online</td>
 
@@ -191,8 +225,6 @@
 
                             <td class="px-6 py-4">Member</td>
 
-                            <td class="px-6 py-4">Unavailable</td>
-
                             <td class="px-6 py-4">Online</td>
 
                             <td class="px-6 py-4">
@@ -218,36 +250,6 @@
                             <td class="px-6 py-4">2024.01.01</td>
 
                             <td class="px-6 py-4">Member</td>
-
-                            <td class="px-6 py-4">Unavailable</td>
-
-                            <td class="px-6 py-4">Online</td>
-
-                            <td class="px-6 py-4">
-
-                                <button class="px-4 py-1 font-medium text-black bg-orange-500 rounded-lg ">Block</button>
-
-                            </td>
-
-                            <td class="px-6 py-4">
-
-                                <button class="px-3 py-1 font-medium text-white bg-red-700 rounded-lg">Remove</button>
-
-                            </td>
-
-                        </tr>
-
-                        <tr class="bg-white border-b dark:border-gray-700 text-gray-950">
-
-                            <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap ">Kavindu Vishmitha</th>
-
-                            <td class="px-6 py-4">1000</td>
-
-                            <td class="px-6 py-4">2024.01.01</td>
-
-                            <td class="px-6 py-4">Member</td>
-
-                            <td class="px-6 py-4">Unavailable</td>
 
                             <td class="px-6 py-4">Online</td>
 
