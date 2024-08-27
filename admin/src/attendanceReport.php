@@ -44,7 +44,7 @@
 
         <div class="p-5 sm:p-14">
 
-            <div class="flex items-center md:max-w-xl lg:max-w-4xl mx-auto">
+            <div class="flex items-center md:max-w-xl lg:max-w-4xl mx-auto flex-col sm:flex-row ">
 
             <!-- Search Bar -->
 
@@ -58,7 +58,7 @@
 
             <!-- Search Button -->
 
-                <button type="submit" class="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium shadow-2xl text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 space-x-2">
+                <button type="submit" class="inline-flex items-center py-2.5 px-3 mt-2 sm:mt-0 ms-2 text-sm font-medium shadow-2xl text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 space-x-2">
 
                     <span><i class="fa-solid fa-magnifying-glass fa-fade"></i></span>
 
