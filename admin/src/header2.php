@@ -104,7 +104,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="employee.php">
 
                     <i class="bx bxs-user"></i>
                     <span class="text">Employees</span>
