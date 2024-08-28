@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Admin Dashboard | Access Level 01</title>
+    <title>Dashboard | Neolife Software Solutions</title>
 
     <link rel="stylesheet" href="admin_style.css" />
 
@@ -21,11 +21,19 @@
 
 <body>
 
-    <div class="h-screen w-full">
+    <div class="w-full h-screen">
 
         <!-- Access level 01 header -->
 
-        <div><?php require "header1.php"  ?></div>
+        <div>
+            
+            <?php 
+            
+                require "header1.php";
+                
+            ?>
+            
+        </div>
 
         <!-- Access level 01 header -->
 
@@ -35,9 +43,9 @@
         <!-- Company Report -->
 
         <div class="grid grid-cols-1 lg:grid-cols-4 p-10 *:border-2 *:shadow-2xl 
-        *:w-[200px] *:lg:w-[220px] *:h-[200px] *:lg:h-[190px] *:place-self-center 
-        *:text-center *:content-center *:space-y-4 *:font-medium *:text-wrap 
-        hover:*:border-2 hover:*:border-black gap-2">
+            *:w-[200px] *:lg:w-[220px] *:h-[200px] *:lg:h-[190px] *:place-self-center 
+            *:text-center *:content-center *:space-y-4 *:font-medium *:text-wrap 
+            hover:*:border-2 hover:*:border-black gap-2">
 
             <div class="rounded-3xl bg-[#645FCE]">
 
@@ -73,7 +81,7 @@
 
         <hr class="border-2 border-slate-600" />
 
-        <!-- Attendance -->
+        <!-- Attendance button -->
 
         <div class="flex place-content-center p-14">
 
@@ -81,17 +89,17 @@
 
         </div>
 
-        <!-- Attendance -->
+        <!-- Attendance button -->
 
         <hr class="border-2 border-slate-600" />
 
         <!-- Company Performance title -->
 
-        <div class="flex place-content-center p-5">
+        <div class="flex p-5 place-content-center">
 
             <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
 
-                <span class="font-bold text-sm lg:text-3xl">Company Performance</span>
+                <span class="text-sm font-bold lg:text-3xl">Company Performance</span>
 
             </div>
 
@@ -101,7 +109,7 @@
 
         <!-- Company Performance Content -->
 
-        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+        <div class="flex flex-col my-5 shadow-2xl lg:mx-32 bg-slate-100 rounded-2xl shadow-black/50">
 
             <!-- Company Performance image -->
 
@@ -115,7 +123,7 @@
 
             <!-- Company Performance image Section -->
 
-            <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
+            <div class="grid grid-cols-1 gap-2 p-10 lg:grid-cols-3 place-items-center">
 
                 <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
@@ -133,11 +141,11 @@
 
         <!-- User Performance title -->
 
-        <div class="flex place-content-center p-5">
+        <div class="flex p-5 place-content-center">
 
             <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
 
-                <span class="font-bold text-sm lg:text-3xl">User Performance</span>
+                <span class="text-sm font-bold lg:text-3xl">User Performance</span>
 
             </div>
 
@@ -147,7 +155,7 @@
 
         <!-- User Performance Content -->
 
-        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50">
+        <div class="flex flex-col my-5 shadow-2xl lg:mx-32 bg-slate-100 rounded-2xl shadow-black/50">
 
             <!-- User Performance image -->
 
@@ -161,7 +169,7 @@
 
             <!-- User Performance image Section -->
 
-            <div class="grid lg:grid-cols-3 grid-cols-1 place-items-center p-10 gap-2">
+            <div class="grid grid-cols-1 gap-2 p-10 lg:grid-cols-3 place-items-center">
 
                 <div class="w-36 p-5 hover:bg-[#645FCE] rounded-2xl text-xl text-center border-2 border-black">Completed</div>
 
@@ -179,11 +187,11 @@
 
         <!-- Company Revenue title -->
 
-        <div class="flex place-content-center p-5">
+        <div class="flex p-5 place-content-center">
 
             <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl">
 
-                <span class="font-bold text-sm lg:text-3xl">Company Revenue</span>
+                <span class="text-sm font-bold lg:text-3xl">Company Revenue</span>
 
             </div>
 
@@ -193,7 +201,7 @@
 
         <!-- Company Revenue Content -->
 
-        <div class="flex flex-col lg:mx-32 my-5 bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 py-5">
+        <div class="flex flex-col py-5 my-5 shadow-2xl lg:mx-32 bg-slate-100 rounded-2xl shadow-black/50">
 
             <!-- Company Revenue image -->
 
@@ -206,7 +214,7 @@
             <!-- Company Revenue image -->
 
         </div>
-
+        
         <!-- Company Revenue Content -->
 
         <!-- Order Details title -->
@@ -217,7 +225,7 @@
 
                 <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl  ">
 
-                    <span class="font-bold text-3xl text-center">Order Details</span>
+                    <span class="text-3xl font-bold text-center">Order Details</span>
 
                 </div>
 
@@ -229,11 +237,11 @@
 
         <!-- Order Details Content -->
 
-        <div class="px-24 p-5 hidden lg:block">
+        <div class="hidden p-5 px-24 lg:block">
 
-            <div class="flex flex-col bg-slate-100 rounded-2xl shadow-2xl shadow-black/50 p-5">
+            <div class="flex flex-col p-5 shadow-2xl bg-slate-100 rounded-2xl shadow-black/50">
 
-                <table class="table-auto text-center">
+                <table class="text-center table-auto">
 
                     <thead>
 

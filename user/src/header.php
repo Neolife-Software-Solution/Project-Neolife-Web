@@ -32,8 +32,18 @@
 
         <div class="flex flex-row items-center lg:gap-4">
 
-          <img class="h-[48px] sm:ml-3 lg:ml-5 rounded-full" src="resources/logo/logo.png" />
-          <span class="hidden text-2xl text-black logotext lg:block">NeoLife <br/><span class="hidden text-xs text-white logotext lg:block">Pioneers of Digital Era</span></span>
+          <a href="index.php">
+
+            <img class="h-[48px] sm:ml-3 lg:ml-5 rounded-full" src="resources/logo/logo.png" />            
+
+          </a>
+
+          <a href="index.php">
+
+            <span class="hidden text-2xl text-black logotext lg:block">NeoLife <br/><span class="hidden text-xs text-white logotext lg:block">Pioneers of Digital Era</span></span>            
+
+          </a>
+
           <span class="ml-[90px] md:ml-[540px] lg:hidden sm:block logotext">+94&nbsp;&nbsp;775429803</span>
 
         </div>
