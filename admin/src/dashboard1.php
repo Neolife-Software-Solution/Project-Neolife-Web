@@ -73,18 +73,6 @@
 
         <!-- Company Report -->
 
-        <hr class="border-2 border-slate-600" />
-
-        <!-- Attendance -->
-
-
-        <div class="flex place-content-center p-14">
-
-            <punchbtn class="bg-slate-300">PUNCH IN</punchbtn>
-
-        </div>
-
-        <!-- Attendance -->
 
         <hr class="border-2 border-slate-600" />
 

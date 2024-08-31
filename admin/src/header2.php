@@ -82,7 +82,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="adminorder.php">
 
                     <i class="bx bxs-briefcase"></i>
                     <span class="text">Orders</span>

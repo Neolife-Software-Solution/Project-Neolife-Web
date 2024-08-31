@@ -49,7 +49,7 @@
 
             <li class="active">
 
-                <a href="#">
+                <a href="dashboard1.php">
 
                     <i class='bx bxs-dashboard'></i>
                     <span class="text">Dashboard</span>
@@ -60,7 +60,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="admin_department.php">
 
                     <i class=" bx bxs-building"></i>
                     <span class="text">Department</span>
