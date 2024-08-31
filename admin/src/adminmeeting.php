@@ -183,7 +183,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                    <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 mt-3 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
     
                                 </div>
     
@@ -193,7 +193,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-red-600 bg-white rounded-lg shadow-md hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
+                                    <button type="submit" class="w-full bg-red-700 text-white px-4 py-2 mt-3 font-semibold text-red-600 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
     
                                 </div>
     
@@ -239,7 +239,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                    <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 mt-3 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
     
                                 </div>
     
@@ -249,7 +249,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-red-600 bg-white rounded-lg shadow-md hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
+                                    <button type="submit" class="w-full bg-red-700 text-white px-4 py-2 mt-3 font-semibold text-red-600 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
     
                                 </div>
     
@@ -295,7 +295,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-indigo-600 bg-white rounded-lg shadow-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
+                                    <button type="submit" class="w-full bg-blue-600 text-white px-4 py-2 mt-3 font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Join Meeting</button>
     
                                 </div>
     
@@ -305,7 +305,7 @@
     
                                 <div class="flex flex-col">
     
-                                    <button type="submit" class="w-full px-4 py-2 mt-3 font-semibold text-red-600 bg-white rounded-lg shadow-md hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
+                                    <button type="submit" class="w-full bg-red-700 text-white px-4 py-2 mt-3 font-semibold text-red-600 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-75">Remove Meeting</button>
     
                                 </div>
     
