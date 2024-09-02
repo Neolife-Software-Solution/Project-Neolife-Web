@@ -42,7 +42,6 @@
 
         <!-- logo_&_dashboard_name -->
 
-
         <!-- dashboard_sidepanel_button_list -->
 
         <ul class="side-menu top">
