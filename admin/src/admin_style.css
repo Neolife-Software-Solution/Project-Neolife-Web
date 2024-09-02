@@ -144,3 +144,36 @@ punchbtn:active {
 }
 
 /* punch_button */
+
+
+/* employee_model(visibility) */
+
+/* Hide the modal on small devices (width below 768px) */
+@media (max-width: 639px) {
+    #modal3 {
+      display: none;
+    }
+  }
+  
+  /* Show the modal on medium and larger devices (width 768px and above) */
+  @media (min-width: 640px) {
+    #modal3.hidden {
+      display: none;
+    }
+  
+    #modal3 {
+      display: block;
+      /* You can adjust this to your preferred modal styles */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+/* employee_model(visibility) */
