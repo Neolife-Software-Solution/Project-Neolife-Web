@@ -1,3 +1,5 @@
+// Header Dropdown
+
 function Dropdown() {
 
     const dropdown = document.querySelector('#dropdownButton #dropdown');
@@ -6,6 +8,7 @@ function Dropdown() {
 
 }
 
+// Header Dropdown
 
 // imageslider
 
@@ -94,3 +97,4 @@ setTimeout(() => modal.classList.add('hidden'), 200);
 });
 
 // estimatepage accordian animation
+
