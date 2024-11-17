@@ -58,7 +58,7 @@
 
             </a>
 
-            <a href="#" target="_blank" class="hidden lg:block">
+            <a href="Estimate.php" target="_blank" class="hidden lg:block">
 
               <span class="px-4 py-3 font-medium duration-700 ease-out rounded-md headertext hover:bg-zinc-700 hover:ease-in hover:transition hover:duration-300 hover:text-white">Our Services</span>
 

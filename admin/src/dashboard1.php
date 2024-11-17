@@ -65,23 +65,12 @@
                 <p class="text-2xl">Total Sales</p>
                 <p class="text-4xl">02</p>
 
+
             </div>
 
         </div>
 
 
-        <hr class="border-2 border-slate-600" />
-
-        <div class="flex place-content-center p-14">
-
-            <punchbtn class="bg-slate-300">PUNCH IN</punchbtn>
-
-        </div>
-
-        <hr class="border-2 border-slate-600" />
-
-
-        <!-- Company Report -->
 
         <hr class="border-2 border-slate-600" />
 
@@ -92,6 +81,7 @@
             <div class="lg:w-[520px] p-5 rounded-[30px] bg-[#645FCE] flex place-content-center shadow-2xl ">
 
                 <span class="font-bold text-sm lg:text-3xl">Company Performance</span>
+
 
             </div>
 
@@ -139,9 +129,11 @@
 
                 <span class="font-bold text-sm lg:text-3xl">User Performance</span>
 
+
             </div>
 
         </div>
+
 
         <!-- User Performance title -->
 
@@ -336,6 +328,7 @@
         </footer>
 
         <!-- footer -->
+
 
     </div>
 
