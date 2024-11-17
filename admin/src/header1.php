@@ -115,7 +115,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="employee.php">
 
                     <i class="bx bxs-user"></i>
                     <span class="text">Employees</span>
@@ -137,7 +137,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="attendanceReport.php">
 
                     <i class="bx bxs-user-check"></i>
                     <span class="text">Attendance</span>
@@ -159,7 +159,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="leaveRequest.php">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>
@@ -170,7 +170,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="userProfile.php">
 
                     <i class="bx bxs-cog"></i>
                     <span class="text">Setting</span>

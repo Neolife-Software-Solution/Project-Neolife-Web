@@ -80,18 +80,6 @@
 
             </li>
 
-
-            <li>
-
-                <a href="#">
-
-                    <i class="bx bxs-user-check"></i>
-                    <span class="text">Attendance</span>
-
-                </a>
-
-            </li>
-
             <li>
 
                 <a href="#">
@@ -105,7 +93,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="https://mail.google.com">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>
@@ -116,7 +104,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="userProfile.php">
 
                     <i class="bx bxs-cog"></i>
                     <span class="text">Setting</span>
