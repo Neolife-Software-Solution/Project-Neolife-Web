@@ -71,7 +71,7 @@
 
             <li>
 
-                <a href="#">
+                <a href="ongoing_project.php">
 
                     <i class="bx bxs-folder"></i>
                     <span class="text">Ongoing Project</span>
