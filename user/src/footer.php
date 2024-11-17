@@ -108,7 +108,7 @@
 
                         <!-- button -->
 
-                        <a href="#" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="Estimate.php" target="_blank" class="px-4 py-2 text-sm transition duration-700 ease-out bg-white rounded-md lg:text-md lg:py-3 lg:px-5 hover:text-white hover:transition hover:ease-in hover:duration-1000 md:px-3 md:py-2 hover:bg-black">Build Your Dream&nbsp;<i class="fa-solid fa-arrow-right"></i></a>
 
                         <!-- button -->
 
@@ -129,25 +129,26 @@
 
                             <a href="https://www.facebook.com/profile.php?id=61552215121507&mibextid=ZbWKwL" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
+
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
                             </a>
 
                             <a href="" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-youtube"></i>
 
                             </a>
 
                             <a href="" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-instagram"></i>
 
                             </a>
 
                             <a href="" target="_blank">
 
-                                <i class="text-3xl transition duration-1000 ease-out cursor-pointer hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
+                                <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-x-twitter"></i>
 
                             </a>
 
@@ -183,7 +184,7 @@
 
                 <div class="flex flex-col">
 
-                    <span class="text-sm font-bold lg:text-lg">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions (PVT) LTD &trade;</span>
+                    <span class="text-sm font-bold lg:text-lg">&copy;&nbsp;2024 - 2024 NeoLife Software Solutions&trade;</span>
 
                     <span class="text-sm font-bold text-center">All Rights Reserved By NeoLife Software Solutions</span>
                     

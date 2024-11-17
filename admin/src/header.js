@@ -13,6 +13,7 @@ allSideMenu.forEach(item=> {
 	})
 });
 
+
 // Check the screen size on page load and set the initial state of the sidebar
 document.addEventListener('DOMContentLoaded', function () {
     const sidebar = document.getElementById('sidebar');
@@ -31,8 +32,10 @@ const menuBar = document.querySelector('#content nav .bx.bx-menu');
 const sidebar = document.getElementById('sidebar');
 
 menuBar.addEventListener('click', function () {
+
     sidebar.classList.toggle('hide');
 });
+
 
 
 const profileImage = document.getElementById('profileImage');
@@ -52,15 +55,4 @@ window.addEventListener('click', () => {
 	}
 });
 
-
 /* Admin-Header & Side Menu */
-
-
-
-
-
-
-
-
-
-

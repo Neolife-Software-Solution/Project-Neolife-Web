@@ -48,7 +48,7 @@
 
             <li class="active" title="Dashboard">
 
-                <a href="#">
+                <a href="dashboard1.php">
 
                     <i class='bx bxs-dashboard'></i>
                     <span class="text">Dashboard</span>
@@ -59,7 +59,7 @@
 
             <li title="Department">
 
-                <a href="#">
+                <a href="admin_department.php">
 
                     <i class=" bx bxs-building"></i>
                     <span class="text">Department</span>
@@ -92,7 +92,7 @@
 
             <li title="Orders">
 
-                <a href="#">
+                <a href="adminorder.php">
 
                     <i class="bx bxs-briefcase"></i>
                     <span class="text">Orders</span>
@@ -103,7 +103,7 @@
 
             <li title="Meeting">
 
-                <a href="#">
+                <a href="adminmeeting.php">
 
                     <i class="bx bxs-mobile"></i>
                     <span class="text">Meeting</span>
@@ -114,7 +114,7 @@
 
             <li title="Employees">
 
-                <a href="#">
+                <a href="employee.php">
 
                     <i class="bx bxs-user"></i>
                     <span class="text">Employees</span>
@@ -136,7 +136,7 @@
 
             <li title="Attendance">
 
-                <a href="#">
+                <a href="attendanceReport.php">
 
                     <i class="bx bxs-user-check"></i>
                     <span class="text">Attendance</span>
@@ -158,7 +158,7 @@
 
             <li title="Leave">
 
-                <a href="#">
+                <a href="leaveRequest.php">
 
                     <i class="bx bxs-door-open"></i>
                     <span class="text">Leave</span>
@@ -169,7 +169,7 @@
 
             <li title="Setting">
 
-                <a href="#">
+                <a href="userProfile.php">
 
                     <i class="bx bxs-cog"></i>
                     <span class="text">Setting</span>

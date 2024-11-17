@@ -2788,6 +2788,7 @@ video {
   padding-top: 0.5rem;
 }
 
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -3075,6 +3076,7 @@ video {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
+
 
 .text-gray-400 {
   --tw-text-opacity: 1;
