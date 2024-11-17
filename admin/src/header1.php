@@ -42,12 +42,11 @@
 
         <!-- logo_&_dashboard_name -->
 
-
         <!-- dashboard_sidepanel_button_list -->
 
         <ul class="side-menu top">
 
-            <li class="active">
+            <li class="active" title="Dashboard">
 
                 <a href="dashboard1.php">
 
@@ -58,7 +57,7 @@
 
             </li>
 
-            <li>
+            <li title="Department">
 
                 <a href="admin_department.php">
 
@@ -69,9 +68,9 @@
 
             </li>
 
-            <li>
+            <li title="On Going Project">
 
-                <a href="#">
+                <a href="ongoing_project.php">
 
                     <i class="bx bxs-folder"></i>
                     <span class="text">Ongoing Project</span>
@@ -80,7 +79,7 @@
 
             </li>
 
-            <li>
+            <li title="Analytics">
 
                 <a href="#">
 
@@ -91,7 +90,7 @@
 
             </li>
 
-            <li>
+            <li title="Orders">
 
                 <a href="adminorder.php">
 
@@ -102,7 +101,7 @@
 
             </li>
 
-            <li>
+            <li title="Meeting">
 
                 <a href="adminmeeting.php">
 
@@ -113,7 +112,7 @@
 
             </li>
 
-            <li>
+            <li title="Employees">
 
                 <a href="employee.php">
 
@@ -124,7 +123,7 @@
 
             </li>
 
-            <li>
+            <li title="Salary">
 
                 <a href="#">
 
@@ -135,7 +134,7 @@
 
             </li>
 
-            <li>
+            <li title="Attendance">
 
                 <a href="attendanceReport.php">
 
@@ -146,7 +145,7 @@
 
             </li>
 
-            <li>
+            <li title="Message">
 
                 <a href="#">
 
@@ -157,7 +156,7 @@
 
             </li>
 
-            <li>
+            <li title="Leave">
 
                 <a href="leaveRequest.php">
 
@@ -168,7 +167,7 @@
 
             </li>
 
-            <li>
+            <li title="Setting">
 
                 <a href="userProfile.php">
 
@@ -179,7 +178,7 @@
 
             </li>
 
-            <li class="block text sm:hidden">
+            <li class="block text sm:hidden" title="Log Out">
 
                 <a href="#">
 
@@ -226,11 +225,11 @@
 
                     <!-- profile_icon -->
 
-                    <a href="#" class="profile">
+                    <span class="profile">
 
                         <img src="resources/profile_img/default.png" alt="Profile Image" class="w-10 h-10 rounded-full cursor-pointer" id="profileImage" />
 
-                    </a>
+                    </span>
 
                     <!-- profile_icon -->
 
@@ -254,25 +253,25 @@
 
                 <!-- bell_icon -->
 
-                <a href="#" class="relative notification">
+                <span class="relative notification">
 
-                    <i class="text-base fa-solid fa-bell fa-shake sm:text-xl"></i>
+                    <i class="text-base text-black fa-solid fa-bell fa-shake sm:text-xl"></i>
 
                     <span class="absolute top-0 right-0 flex items-center justify-center w-5 h-5 text-xs text-white bg-red-500 rounded-full num">1</span>
 
-                </a>
+                </span>
 
                 <!-- bell_icon -->
 
                 <!-- message_icon -->
 
-                <a href="#" class="relative notification">
+                <span class="relative notification">
 
-                    <i class="text-sm fa-solid fa-message fa-shake sm:text-xl"></i>
+                    <i class="text-sm text-black fa-solid fa-message fa-shake sm:text-xl"></i>
 
                     <span class="absolute top-0 right-0 flex items-center justify-center w-5 h-5 text-xs text-white bg-red-500 rounded-full num">1</span>
 
-                </a>
+                </span>
 
                 <!-- message_icon -->
 

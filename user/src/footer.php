@@ -127,7 +127,8 @@
 
                         <div class="flex flex-row justify-center gap-8 mt-3">
 
-                            <a href="https://www.facebook.com/profile.php?id=61552215121507" target="_blank">
+                            <a href="https://www.facebook.com/profile.php?id=61552215121507&mibextid=ZbWKwL" target="_blank">
+
 
                                 <i class="text-3xl transition duration-1000 ease-out hover:text-white hover:transition hover:ease-in hover:duration-700 fa-brands fa-square-facebook"></i>
 
